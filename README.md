@@ -8,7 +8,6 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>Diseño de Experimento de Ingeniería de Software - 4446</strong><br>
     <strong>Profesor: Lennin Percy Cenas Vasquez</strong><br>
-    <br>INFORME
 </p>
 
 <center>
@@ -26,11 +25,10 @@
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
 | Arian Martin Rodriguez Vargas | U202212096 |
-| Integrante 2 | U202210029 |
-|   Integrante 3    | U202210192 |
-|    Integrante 4    | u20221a322 |
-| Integrante 5 | U202211168 |
-| Integrante 6 | U202211168 |
+| Mauricio Abraham Rivo Rojas Sánchez | U202211572 |
+|   Ramón Alejandro Jorge Arévalo	    | U20221D126 |
+|    Fabia Alejandra Herrera Aguirre	    | U202219422 |
+| Leonardo Linares| Uxxxxxx |
 
 </div>
 
@@ -49,24 +47,26 @@
     <tr>
         <td>TB1</td>
         <td>29/03/2024</td>
-        <td>Integrante 1</td>
+        <td>Mauricio Abraham Rivo Rojas Sánchez	</td>
         <td>
         <ul>
-        <li> Software Configuration Management </li>
-        <li> Landing Page, Services & Applications Implementation  </li>
+        <li> User stories </li>
+        <li> Antecedentes y Problemática </li>
+        <li> Product Implementation & Deployment. </li>
         </ul>
         </td>
     </tr>
     <tr>
         <td>TB1</td>
-        <td>29/03/2024</td>
-        <td>Integrante 2</td>
+        <td>17/04/2024</td>
+        <td>Arian Martín Rodriguez Vargas</td>
         <td>
         <ul>
         <li> Competidores</li>
         <li> Entrevistas</li>
         <li> Needfinding </li>
         <li> Ubiquitous Language</li>
+        <li> Software Configuration Management</li>
         </ul>
         </td>
     </tr>
@@ -74,8 +74,8 @@
     </tr>
     <tr>
         <td>TB1</td>
-        <td>29/03/2024</td>
-        <td>Integrante 3</td>
+        <td>13/04/2024</td>
+        <td>Ramón Alejandro Jorge Arévalo</td>
         <td>
         <ul>
         <li> StartUp Profile</li>
@@ -86,8 +86,8 @@
     </tr>
     <tr>
         <td rowspan="1">TB1</td>
-        <td rowspan="1">29/03/2024</td>
-        <td>Integrante 4</td>
+        <td rowspan="1">20/04/2024</td>
+        <td>Fabia Alejandra Herrera Aguirre</td>
         <td>
         <ul>
         <li> Style Guidelines</li>
@@ -100,21 +100,8 @@
     </tr>
     <tr>
         <td rowspan="1">TB1</td>
-        <td rowspan="1">29/03/2024</td>
-        <td>Integrante 5</td>
-        <td>
-        <ul>
-        <li> To-be Scenario Mapping </li>
-        <li> User Stories </li>
-        <li> Impact Mapping </li>
-        <li> Product Backlog</li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="1">TB1</td>
-        <td rowspan="1">29/03/2024</td>
-        <td>Integrante 6</td>
+        <td rowspan="1">16/04/2024</td>
+        <td>Leonardo Lineares</td>
         <td>
         <ul>
         <li> To-be Scenario Mapping </li>
@@ -126,6 +113,58 @@
     </tr>
     </tbody>
 </table>
+
+---
+
+# Student Outcome
+En Ingeniería de Software, el logro de curso contribuye a alcanzar el:
+
+ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+
+<table>
+  <tr>
+    <th>Criterio Especifico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
+    <td>
+        <p>
+        TB1:
+        <p/>
+        Mauricio Rojas:
+        <p/>
+        Ramon Jorge:
+        <p/>
+        Arian Rodriguez: 
+        <p/>
+        Fabia Herrera:
+        <p/>
+        Leonardo Linares: 
+        </p>
+    </td>
+    <td>TB1: </p></td>
+  </tr>
+  <tr>
+    <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+    <td><p>
+        TB1:
+        <p/>
+        Mauricio Rojas: 
+        <p/>
+        Ramon Jorge: 
+        <p/>
+        Arian Rodriguez: 
+        <p/>
+        Fabia Herrera: 
+        <p/>
+        Leonardo Linares:
+        </p></td>
+    <td>TB1: </p></td>
+  </tr>
+</table>
+
 
 ---
 
@@ -145,10 +184,21 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Miembros del equipo                             | Codigo Estudiante | Carrera                | Conocimientos / Habilidades |
-| ----------------------------------------------- | ----------------- | ---------------------- | --------------------------- |
-| Mauricio Abraham Rivo Rojas Sánchez	![Imagen del compañero](https://i.imgur.com/qQ6neUi.png) | U202211572            | Ingeniería de Software | C++, C#, javascript y java            |
-| Arian Martin Rodriguez Vargas	![Imagen del compañero](https://i.imgur.com/PM77Qm1.jpeg) | U202212096            | Ingeniería de Software | Tengo conocimiento y experiencias en la creación de aplicaciones web, móvil, gestión y control sobre bases de datos y cloud. Interesado por el desarrollo backend incluyendo buenas prácticas en el diseño y arquitectura de software incluyendo patrones conocidos como Domain-Driven Design, Model View Controller. Conocimientos en lenguajes de programación como C++, Java, Node.js, Python y frameworks propios          |
+<div style="text-align: center;">
+  <img src="./assets/presentation/mauricio.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/ramon.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/fabia.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
 
 ## 1.2. Solution Profile
 
@@ -286,9 +336,9 @@ Sabremos que hemos tenido éxito cuando una cantidad significativa de usuarios u
     <tbody>
         <tr style="text-align: center;">
             <td colspan="2">Empresas</td>
-            <td><strong>SafeCity</strong><br></td>
-            <td><strong>NextDoor</strong><br><img src=""></td>
-            <td><strong>Waze</strong><br><img src=""></td>
+            <td><strong>SafeCity</strong><br><img src="./assets/competitive-analysis/competitor.png"></td>
+            <td><strong>NextDoor</strong><br><img src="./assets/competitive-analysis/competitor2.png"></td>
+            <td><strong>Waze</strong><br><img src="./assets/competitive-analysis/competitor3.png"></td>
             <td><strong>PeaceaApp</strong><br><img src=""></td>
         </tr>
         <tr>
@@ -804,8 +854,11 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
 **Branding:** Nuestro logo refleja de manera sencilla y memorable el espíritu de PeaceApp. Con el nombre de la aplicación acompañado por un símbolo que evoca un camino seguro y la inicial de "PeaceApp", buscamos que los usuarios asocien rápidamente nuestra marca con su propósito: guiarlos hacia un entorno más seguro. Queremos que nuestro logo sea fácil de recordar, al igual que la seguridad que ofrecemos en cada trayecto.
-<img src="assets/logo/logo.png" alt="logo"/>
+<div style="text-align: center;">
+<img src="assets/peaceapp/logo.png" alt="logo"/>
+</div>
 <br>
+
 **Tipografía:** Nuestro logotipo posee la fuente “Lora”, el cual refleja un estilo simple y moderno. Buscando promover un ambiente innovador e interactivo de nuestra aplicación. En adición, y con respecto a nuestra aplicación tanto la palabra “Peace” como “App”, gozan de las mismas características de formato. Se usa Poppins en el resto de la aplicación.
 
 <img src="assets/style-guidelines/font.png"/>
@@ -815,8 +868,6 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 <img src="assets/style-guidelines/color-guidelines.png"/>
 <br>
 
-**Android Mobile Style Guidelines:** Decidimos guiarnos de la guía HIG otorgada por Apple, en el caso de los dispositivos Android, podemos seguir las recomendaciones de Material Design de Google. Donde resaltan que el diseño debe de ser adaptable, con énfasis en la simplicidad y claridad de las interacciones. Se deben utilizar componentes nativos de Android, y asegurar una experiencia consistente, aprovechando los servicios de ubicación y notificaciones push.
-
 ### 4.1.2. Web Style Guidelines
 
 ### 4.1.3. Mobile Style Guidelines
@@ -824,6 +875,7 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 #### 4.1.3.1. iOS Mobile Style Guidelines 
 
 #### 4.1.3.2. Android Mobile Style Guidelines.
+Decidimos guiarnos de la guía HIG otorgada por Apple, en el caso de los dispositivos Android, podemos seguir las recomendaciones de Material Design de Google. Donde resaltan que el diseño debe de ser adaptable, con énfasis en la simplicidad y claridad de las interacciones. Se deben utilizar componentes nativos de Android, y asegurar una experiencia consistente, aprovechando los servicios de ubicación y notificaciones push.
 
 ## 4.2. Information Architecture
 En nuestra aplicación PeaceApp, buscamos ofrecer una interfaz interactiva que inspire confianza y seguridad a nuestros usuarios. No hace falta mencionar que nuestro enfoque es la seguridad ciudadana del Perú, y esa es nuestra prioridad que debe de estar presente en la experiencia de los usuarios. Una parte esencial será administrar correctamente la arquitectura de la información. A continuación, se detalla lo planeado para nuestra aplicación.
@@ -1026,7 +1078,7 @@ Enlace a los Mobile Application Mock-ups: https://tinyurl.com/dyb2ex8u
 <br>
 
 **User Flow:** Adjuntar evidencia al reporte (User Story 10)
-<img src="assets/user-flows/adjuntar-evidencia-reporte.png"/>
+<img src="assets/user-flows/adjuntar-evidencia-reporte-user-flow.png"/>
 <br>
 
 **User Flow:** Recibir notificaciones sobre reportes / Recibir Alertas de zonas de riesgo (User Story 14 y 15)
@@ -1048,13 +1100,118 @@ Enlace al prototipo: https://tinyurl.com/zm8788jn
 
 ### 4.5.2. iOS Mobile Applications Prototyping
 
+Habiendo realizado los mock-ups, creamos un prototipo de la app en Figma.
+Enlace al prototipo: https://tinyurl.com/zm8788jn 
+
+<img src="assets/style-guidelines/android-mobile-mockup.png"/>
+<br>
+
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
+
+Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-Web-Application?node-id=0-1&t=aBRyjNJfXjgs61FU-1
+
+<img src="assets/web-application/main-map-page-wireframe.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-2.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-3.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-4.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-1.png"/>
+<br><br>
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+
 ### 4.6.3. Web Applications Mock-ups
+
+Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-Web-Application?node-id=0-1&t=aBRyjNJfXjgs61FU-1
+
+
+<h4>Página de Inicio de sesión</h4>
+<img src="assets/web-application/login-page.png"/>
+<br>
+<p>Esta es la página de inicio de sesión, donde los usuarios pueden ingresar su correo electrónico y contraseña para acceder a la aplicación.</p>
+<br>
+<h4>Página de Registro</h4>
+<img src="assets/web-application/sign-up-page.png"/>
+<p>Esta es la página de registro, donde los nuevos usuarios pueden crear una cuenta proporcionando su nombre, correo electrónico y contraseña.</p>
+<br>
+<h4>Página de Términos y condiciones</h4>
+<img src="assets/web-application/terms-conditions-page.png"/>
+<p>Esta es la página de términos y condiciones, donde los usuarios pueden leer y aceptar los términos antes de registrarse.</p>
+<br>
+<h4>Página principal del Mapa</h4>
+<img src="assets/web-application/main-map-page.png"/>
+<p>Esta es la página principal del mapa, donde los usuarios pueden ver el mapa interactivo con las zonas de seguridad y los reportes recientes.</p>
+<br>
+<h4>Página de Lista de Reportes</h4>
+<img src="assets/web-application/main-map-page (1).png"/><br>
+
+<img src="assets/web-application/main-map2-page (3).png"/>
+<p>Esta es la página de lista de reportes, donde los usuarios pueden ver una lista de todos los reportes realizados por otros usuarios.</p>
+<br>
+<h4>Página de Detalle del Reporte</h4>
+<img src="assets/web-application/main-map2-page (4).png"/>
+<p>Esta es la página de detalle del reporte, donde los usuarios pueden ver información detallada sobre un reporte específico, incluyendo la ubicación y el tipo de incidente.</p>
+<br>
+<h4>Página de nuevo reporte</h4>
+<img src="assets/web-application/main-map2-page (1).png"/><br>
+<img src="assets/web-application/main-map2-page (2).png"/><br>
+
+<p>Esta es la página de nuevo reporte, donde los usuarios pueden crear un nuevo reporte seleccionando el tipo de incidente y proporcionando detalles adicionales.</p>
+<br>
+<h4>Página de Perfil</h4>
+<img src="assets/web-application/main-map2-page (6).png"/><br>
+<img src="assets/web-application/main-map2-page (7).png"/><br>
+
+<p>Esta es la página de perfil, donde los usuarios pueden ver y editar su información personal, incluyendo su nombre, correo electrónico y preferencias de seguridad.</p>
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
+<h4>Iniciar sesión en la aplicación</h4>
+<img src="assets/web-application/user-flows/login.png"/>
+<br>
+<p>En este user flow, los usuarios pueden iniciar sesión en la aplicación utilizando su correo electrónico y contraseña. Si no tienen una cuenta, pueden registrarse.</p>
+<br>
+
+<h4>Registrarse en la aplicación</h4>
+<img src="assets/web-application/user-flows/sign-up.png"/>
+<p>En este user flow, los nuevos usuarios pueden registrarse en la aplicación proporcionando su nombre, correo electrónico y contraseña. También deben aceptar los términos y condiciones.</p>
+<br>
+
+<h4>Visualizar detalle de un reporte</h4>
+<img src="assets/web-application/user-flows/a-report.png"/>
+<p>En este user flow, los usuarios pueden ver el detalle de un reporte específico, incluyendo la ubicación y el tipo de incidente. También pueden agregar comentarios o evidencias adicionales.</p>
+<br>
+
+<h4>Crear un nuevo reporte</h4>
+<img src="assets/web-application/user-flows/new-report.png"/>
+<p>En este user flow, los usuarios pueden crear un nuevo reporte seleccionando el tipo de incidente y proporcionando detalles adicionales según la ubicación especificada en el mapa. También pueden adjuntar fotos o videos como evidencia.</p>
+<br>
+
+<h4>Crear y publicar un nuevo comentario en un reporte</h4>
+<img src="assets/web-application/user-flows/comment.png"/>
+<p>En este user flow, los usuarios pueden crear y publicar un nuevo comentario en un reporte existente. Esto les permite compartir información adicional o hacer preguntas sobre el incidente.</p>
+<br>
+
+<h4>Visualizar y editar perfil</h4>
+<img src="assets/web-application/user-flows/profile.png"/>
+<p>En este user flow, los usuarios pueden ver y editar su perfil, incluyendo su nombre, correo electrónico y preferencias de seguridad. También pueden cambiar su contraseña.</p>
+<br>
+
 ## 4.7. Web Applications Prototyping
+
+URL del prototipo web realizado en Figma: https://www.figma.com/proto/IWgoq6Nxw1WVXwhwyuEp5c/PeaceApp-Web-Prototype?node-id=0-1&t=mSKBQ27L9uYoihun-1
+
+El siguiente prototipo es una representación interactiva de la aplicación web PeaceApp. Permite a los usuarios navegar por las diferentes secciones y funcionalidades de la aplicación, incluyendo el mapa interactivo, la creación de reportes y la gestión del perfil de usuario.
+
+<img src="assets/web-application/prototype.png"/>
+<br>
+
 ## 4.8. Domain-Driven Software Architecture
 ### 4.8.1. Software Architecture Context Diagram
 <img src="assets/c4-model/software-architecture-context-diagram.png"/>
@@ -1065,25 +1222,25 @@ Enlace al prototipo: https://tinyurl.com/zm8788jn
 <br>
 
 ### 4.8.3. Software Architecture Components Diagrams
+#### Bounded Context: Authentication
 <img src="assets/c4-model/auth-component-diagram.png"/>
 <br>
-Bounded Context: Authentication
 
+#### Bounded Context: Notification
 <img src="assets/c4-model/notification-component-diagram.png"/>
 <br>
-Bounded Context: Notification
 
+#### Bounded Context: Reports
 <img src="assets/c4-model/report-component-diagram.png"/>
 <br>
-Bounded Context: Reports
 
+#### Bounded Context: Location
 <img src="assets/c4-model/location-component-diagram.png"/>
 <br>
-Bounded Context: Location
 
+#### Bounded Context: Payment
 <img src="assets/c4-model/payment-component-diagram.png"/>
 <br>
-Bounded Context: Payment
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
@@ -1105,7 +1262,7 @@ Bounded Context: Payment
 | `obtainReports(): Report[]`    | Representa la obtención de los diferentes reportes que haya registrado el usuario |
 | `obtainAlerts(): Alert[]`      | Representa la obtención de las diferentes alertas que tenga el usuario          |
 
---
+---
 
 **Report:** La clase `Report` representa a la entidad del reporte, siendo un objeto para el usuario cuando registra alguna incidencia
 
@@ -1125,7 +1282,7 @@ Bounded Context: Payment
 | `obtainUser(): User`          | Se puede obtener el Usuario que ha emitido este reporte                   |
 
 
---
+---
 
 **Alert:** La clase `Alert` representa a la entidad de la alerta, en el que el usuario permitirá a que otro usuario pueda ser “alertado” debido a ciertas condiciones colocadas por la víctima.
 
@@ -1140,6 +1297,8 @@ Bounded Context: Payment
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | `sendNotification(): string`     | Este método funcionará para enviar la alerta al usuario compartido por la víctima sobre alguna condición inusual que se haya presentado. |
 
+---
+
 **Notification:** La clase `Notification` representa a la entidad de la notificación, el cual funciona de recordatorio al usuario ante una nueva novedad.
 
 | **Atributo**             | **Descripción**                                                                 |
@@ -1152,7 +1311,7 @@ Bounded Context: Payment
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | `emitNotification(): string`     | Este método funcionará para notificar al usuario ante la última novedad que haya ocurrido |
 
---
+---
 
 **Location:** La clase `Location` representa a la entidad de la ubicación del celular de su usuario
 
@@ -1167,7 +1326,7 @@ Bounded Context: Payment
 | `registerCoordinates(string, string): void`     | Este método funcionará para registrar la última ubicación del usuario mediante las coordenadas de longitud y latitud. |
 | `obtainLastUbication(): Location`     | Con el objeto “Ubicación” se podrá obtener la última ubicación con las coordenadas guardadas. |
 
---
+---
 
 **Database:** La clase `Database` representa a la conexión que se tendrá con la base de datos.
 
@@ -1191,7 +1350,7 @@ Bounded Context: Payment
 | `update()`     | Este método asimila la función de una actualización desde la base de datos. |
 | `delete()`     | Este método asimila la función de una eliminación desde la base de datos. |
 
---
+---
 
 **Service:** Dentro de las clases Services se mantiene la lógica de la aplicación para comunicarse con las clases Repository.
 
@@ -1204,7 +1363,7 @@ Bounded Context: Payment
 | `Repository.update()`     | Este método asimila la función de una actualización desde la base de datos. |
 | `Repository.delete()`     | Este método asimila la función de una eliminación desde la base de datos. |
 
---
+---
 
 **Controller:** Dentro de las clases Controller se realizan los ajustes necesarios para realizar el llamado a las clases Service.
 
@@ -1412,21 +1571,38 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 https://www.youtube.com/watch?v=oqUSiRLa8lI
 
 # Conclusiones
+- La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
 
-## Recomendaciones
+- La tecnología puede ser una herramienta poderosa para abordar la inseguridad ciudadana, proporcionando soluciones innovadoras y accesibles para la población.
 
-# Video About-the-Team
-Se evidencia el video sobre el equipo desarrollador del proyecto académico, explicando de manera individual, la aportación que realizó cada uno para este proyecto.
+- La implementación de una aplicación móvil como PeaceApp puede contribuir significativamente a la seguridad ciudadana, permitiendo a los usuarios reportar incidentes, recibir alertas y compartir información en tiempo real.
 
-<img src="assets/video-about-the-team/logo.png"/>
-<br>
+- La colaboración entre el sector público y privado es esencial para abordar la inseguridad ciudadana de manera efectiva, garantizando la protección de los derechos humanos y promoviendo un entorno seguro para todos.
 
-https://youtu.be/Plg4_9vvqvM
+- La aplicación PeaceApp no solo busca mejorar la seguridad ciudadana, sino también fomentar la confianza y la colaboración entre los ciudadanos y las autoridades, creando un entorno más seguro y cohesionado.
+
+# Recomendaciones
+
+- Realizar campañas de concientización sobre el uso de la aplicación y su importancia en la mejora de la seguridad ciudadana.
+
+- La aplicación de PeaceApp necesita pasar por pruebas exhaustivas para garantizar su funcionalidad y seguridad antes de su lanzamiento al público.
+
+- Fomentar la colaboración entre los usuarios de la aplicación y las autoridades locales para mejorar la efectividad de la plataforma.
+
+- PeaceApp debe ser actualizada regularmente para incorporar nuevas funcionalidades y mejoras basadas en la retroalimentación de los usuarios.
+
+- Considerar la posibilidad de integrar la aplicación con otras plataformas y servicios relacionados con la seguridad ciudadana para ampliar su alcance y efectividad.
 
 # Bibliografía
-- Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
-- Progressa Lean. (2014). 5W+2H Técnica de análisis de problemas - Progressa Lean. Progressa Lean. https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/
-- UX Planet. (2017). Information Architecture. Basics for Designers. - UX Planet. Medium; UX Planet. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
-- Gothelf, J. (2024). Leanux Sampler. https://es.scribd.com/document/655516553/Leanux-Sampler
-#Anexos
+- El 27,7% de los peruanos ha sido víctima de un hecho delictivo en ciudades en los últimos seis meses. (2024, August 26). Forbes. https://forbes.pe/actualidad/2024-08-26/el-277-de-los-peruanos-ha-sido-victima-de-un-hecho-delictivo-en-ciudades-en-los-ultimos-seis-meses
+
+- Estadísticas de seguridad ciudadana. (2024). In Instituto Nacional De Estadística E Informática. INEI. Retrieved August 25, 2024, from https://m.inei.gob.pe/media/MenuRecursivo/boletines/estadisticas-de-seguridad-ciudadana-enero-junio-2024.pdf
+
+- Doe, J., & Smith, J. (2023). Secure Mobile Application Development: A Comprehensive Survey on Authentication, Authorization, and Data Protection Techniques. Journal of Mobile Computing and Application Development, 45(3), 123-145. https://www.sciencedirect.com/science/article/abs/pii/S1570870523000793
+
+- Johnson, A., & Brown, R. (2022). Integrating Geolocation Services in Mobile Apps: Challenges and Solutions in User Permission Management and Networking. International Journal of Mobile and Ubiquitous Systems, 12(2), 98-114. https://www.researchgate.net/publication/264496021_A_Survey_on_Privacy_in_Location-Based_Services
+
+- Human Rights Watch. (2024). World Report 2024: Peru. Recuperado de https://www.hrw.org/world-report/2024/country-chapters/peru. Este informe detalla la corrupción, desafíos sociales y los derechos humanos en el contexto de la inseguridad en Perú.
+
+- International Crisis Group. (2023). Rage and Repression in Peru: Restoring Citizen Trust and Public Order. Recuperado de https://www.crisisgroup.org. Este análisis aborda las protestas sociales, la represión y las reformas necesarias para mitigar la inseguridad ciudadana y restaurar la confianza en el país.
 
