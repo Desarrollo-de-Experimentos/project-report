@@ -1104,12 +1104,72 @@ Habiendo realizado los mock-ups, creamos un prototipo de la app en Figma.
 Enlace al prototipo: https://tinyurl.com/zm8788jn 
 
 <img src="assets/style-guidelines/android-mobile-mockup.png"/>
-<br>h
+<br>
 
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
+
+Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-Web-Application?node-id=0-1&t=aBRyjNJfXjgs61FU-1
+
+<img src="assets/web-application/main-map-page-wireframe.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-2.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-3.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-4.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe.png"/>
+<br><br>
+<img src="assets/web-application/main-map2-page-wireframe-1.png"/>
+<br><br>
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+
 ### 4.6.3. Web Applications Mock-ups
+
+Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-Web-Application?node-id=0-1&t=aBRyjNJfXjgs61FU-1
+
+
+<h4>Página de Inicio de sesión</h4>
+<img src="assets/web-application/login-page.png"/>
+<br>
+<p>Esta es la página de inicio de sesión, donde los usuarios pueden ingresar su correo electrónico y contraseña para acceder a la aplicación.</p>
+<br>
+<h4>Página de Registro</h4>
+<img src="assets/web-application/sign-up-page.png"/>
+<p>Esta es la página de registro, donde los nuevos usuarios pueden crear una cuenta proporcionando su nombre, correo electrónico y contraseña.</p>
+<br>
+<h4>Página de Términos y condiciones</h4>
+<img src="assets/web-application/terms-conditions-page.png"/>
+<p>Esta es la página de términos y condiciones, donde los usuarios pueden leer y aceptar los términos antes de registrarse.</p>
+<br>
+<h4>Página principal del Mapa</h4>
+<img src="assets/web-application/main-map-page.png"/>
+<p>Esta es la página principal del mapa, donde los usuarios pueden ver el mapa interactivo con las zonas de seguridad y los reportes recientes.</p>
+<br>
+<h4>Página de Lista de Reportes</h4>
+<img src="assets/web-application/main-map-page (1).png"/><br>
+
+<img src="assets/web-application/main-map2-page (3).png"/>
+<p>Esta es la página de lista de reportes, donde los usuarios pueden ver una lista de todos los reportes realizados por otros usuarios.</p>
+<br>
+<h4>Página de Detalle del Reporte</h4>
+<img src="assets/web-application/main-map2-page (4).png"/>
+<p>Esta es la página de detalle del reporte, donde los usuarios pueden ver información detallada sobre un reporte específico, incluyendo la ubicación y el tipo de incidente.</p>
+<br>
+<h4>Página de nuevo reporte</h4>
+<img src="assets/web-application/main-map2-page (1).png"/><br>
+<img src="assets/web-application/main-map2-page (2).png"/><br>
+
+<p>Esta es la página de nuevo reporte, donde los usuarios pueden crear un nuevo reporte seleccionando el tipo de incidente y proporcionando detalles adicionales.</p>
+<br>
+<h4>Página de Perfil</h4>
+<img src="assets/web-application/main-map2-page (6).png"/><br>
+<img src="assets/web-application/main-map2-page (7).png"/><br>
+
+<p>Esta es la página de perfil, donde los usuarios pueden ver y editar su información personal, incluyendo su nombre, correo electrónico y preferencias de seguridad.</p>
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
 ## 4.7. Web Applications Prototyping
