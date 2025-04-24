@@ -1172,6 +1172,37 @@ Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-We
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
+<h4>Iniciar sesión en la aplicación</h4>
+<img src="assets/web-application/user-flows/login.png"/>
+<br>
+<p>En este user flow, los usuarios pueden iniciar sesión en la aplicación utilizando su correo electrónico y contraseña. Si no tienen una cuenta, pueden registrarse.</p>
+<br>
+
+<h4>Registrarse en la aplicación</h4>
+<img src="assets/web-application/user-flows/sign-up.png"/>
+<p>En este user flow, los nuevos usuarios pueden registrarse en la aplicación proporcionando su nombre, correo electrónico y contraseña. También deben aceptar los términos y condiciones.</p>
+<br>
+
+<h4>Visualizar detalle de un reporte</h4>
+<img src="assets/web-application/user-flows/a-report.png"/>
+<p>En este user flow, los usuarios pueden ver el detalle de un reporte específico, incluyendo la ubicación y el tipo de incidente. También pueden agregar comentarios o evidencias adicionales.</p>
+<br>
+
+<h4>Crear un nuevo reporte</h4>
+<img src="assets/web-application/user-flows/new-report.png"/>
+<p>En este user flow, los usuarios pueden crear un nuevo reporte seleccionando el tipo de incidente y proporcionando detalles adicionales según la ubicación especificada en el mapa. También pueden adjuntar fotos o videos como evidencia.</p>
+<br>
+
+<h4>Crear y publicar un nuevo comentario en un reporte</h4>
+<img src="assets/web-application/user-flows/comment.png"/>
+<p>En este user flow, los usuarios pueden crear y publicar un nuevo comentario en un reporte existente. Esto les permite compartir información adicional o hacer preguntas sobre el incidente.</p>
+<br>
+
+<h4>Visualizar y editar perfil</h4>
+<img src="assets/web-application/user-flows/profile.png"/>
+<p>En este user flow, los usuarios pueden ver y editar su perfil, incluyendo su nombre, correo electrónico y preferencias de seguridad. También pueden cambiar su contraseña.</p>
+<br>
+
 ## 4.7. Web Applications Prototyping
 
 
