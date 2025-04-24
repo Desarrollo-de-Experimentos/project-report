@@ -1126,6 +1126,26 @@ Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-We
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+<h4>Registro de nuevo usuario</h4>
+<img src="assets/web-application/wireflow-1.png"/>
+<br><br>
+
+<h4>Inicio de sesión</h4>
+<img src="assets/web-application/wireflow-2.png"/>
+<br><br>
+
+<h4>Revisión de alertas</h4>
+<img src="assets/web-application/wireflow-3.png"/>
+<br><br>
+
+<h4>Publicación y visualización de comentarios</h4>
+<img src="assets/web-application/wireflow-4.png"/>
+<br><br>
+
+<h4>Actualizar perfil</h4>
+<img src="assets/web-application/wireflow-5.png"/>
+<br><br>
+
 ### 4.6.3. Web Applications Mock-ups
 
 Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-Web-Application?node-id=0-1&t=aBRyjNJfXjgs61FU-1
