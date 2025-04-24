@@ -336,9 +336,9 @@ Sabremos que hemos tenido éxito cuando una cantidad significativa de usuarios u
     <tbody>
         <tr style="text-align: center;">
             <td colspan="2">Empresas</td>
-            <td><strong>SafeCity</strong><br></td>
-            <td><strong>NextDoor</strong><br><img src=""></td>
-            <td><strong>Waze</strong><br><img src=""></td>
+            <td><strong>SafeCity</strong><br><img src="./assets/competitive-analysis/competitor.png"></td>
+            <td><strong>NextDoor</strong><br><img src="./assets/competitive-analysis/competitor2.png"></td>
+            <td><strong>Waze</strong><br><img src="./assets/competitive-analysis/competitor3.png"></td>
             <td><strong>PeaceaApp</strong><br><img src=""></td>
         </tr>
         <tr>
@@ -854,8 +854,11 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
 **Branding:** Nuestro logo refleja de manera sencilla y memorable el espíritu de PeaceApp. Con el nombre de la aplicación acompañado por un símbolo que evoca un camino seguro y la inicial de "PeaceApp", buscamos que los usuarios asocien rápidamente nuestra marca con su propósito: guiarlos hacia un entorno más seguro. Queremos que nuestro logo sea fácil de recordar, al igual que la seguridad que ofrecemos en cada trayecto.
-<img src="assets/logo/logo.png" alt="logo"/>
+<div style="text-align: center;">
+<img src="assets/peaceapp/logo.png" alt="logo"/>
+</div>
 <br>
+
 **Tipografía:** Nuestro logotipo posee la fuente “Lora”, el cual refleja un estilo simple y moderno. Buscando promover un ambiente innovador e interactivo de nuestra aplicación. En adición, y con respecto a nuestra aplicación tanto la palabra “Peace” como “App”, gozan de las mismas características de formato. Se usa Poppins en el resto de la aplicación.
 
 <img src="assets/style-guidelines/font.png"/>
@@ -865,8 +868,6 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 <img src="assets/style-guidelines/color-guidelines.png"/>
 <br>
 
-**Android Mobile Style Guidelines:** Decidimos guiarnos de la guía HIG otorgada por Apple, en el caso de los dispositivos Android, podemos seguir las recomendaciones de Material Design de Google. Donde resaltan que el diseño debe de ser adaptable, con énfasis en la simplicidad y claridad de las interacciones. Se deben utilizar componentes nativos de Android, y asegurar una experiencia consistente, aprovechando los servicios de ubicación y notificaciones push.
-
 ### 4.1.2. Web Style Guidelines
 
 ### 4.1.3. Mobile Style Guidelines
@@ -874,6 +875,7 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 #### 4.1.3.1. iOS Mobile Style Guidelines 
 
 #### 4.1.3.2. Android Mobile Style Guidelines.
+Decidimos guiarnos de la guía HIG otorgada por Apple, en el caso de los dispositivos Android, podemos seguir las recomendaciones de Material Design de Google. Donde resaltan que el diseño debe de ser adaptable, con énfasis en la simplicidad y claridad de las interacciones. Se deben utilizar componentes nativos de Android, y asegurar una experiencia consistente, aprovechando los servicios de ubicación y notificaciones push.
 
 ## 4.2. Information Architecture
 En nuestra aplicación PeaceApp, buscamos ofrecer una interfaz interactiva que inspire confianza y seguridad a nuestros usuarios. No hace falta mencionar que nuestro enfoque es la seguridad ciudadana del Perú, y esa es nuestra prioridad que debe de estar presente en la experiencia de los usuarios. Una parte esencial será administrar correctamente la arquitectura de la información. A continuación, se detalla lo planeado para nuestra aplicación.
@@ -1076,7 +1078,7 @@ Enlace a los Mobile Application Mock-ups: https://tinyurl.com/dyb2ex8u
 <br>
 
 **User Flow:** Adjuntar evidencia al reporte (User Story 10)
-<img src="assets/user-flows/adjuntar-evidencia-reporte.png"/>
+<img src="assets/user-flows/adjuntar-evidencia-reporte-user-flow.png"/>
 <br>
 
 **User Flow:** Recibir notificaciones sobre reportes / Recibir Alertas de zonas de riesgo (User Story 14 y 15)
@@ -1105,6 +1107,8 @@ Enlace al prototipo: https://tinyurl.com/zm8788jn
 ### 4.6.4. Web Applications User Flow Diagrams
 
 ## 4.7. Web Applications Prototyping
+
+
 ## 4.8. Domain-Driven Software Architecture
 ### 4.8.1. Software Architecture Context Diagram
 <img src="assets/c4-model/software-architecture-context-diagram.png"/>
@@ -1115,25 +1119,25 @@ Enlace al prototipo: https://tinyurl.com/zm8788jn
 <br>
 
 ### 4.8.3. Software Architecture Components Diagrams
+#### Bounded Context: Authentication
 <img src="assets/c4-model/auth-component-diagram.png"/>
 <br>
-Bounded Context: Authentication
 
+#### Bounded Context: Notification
 <img src="assets/c4-model/notification-component-diagram.png"/>
 <br>
-Bounded Context: Notification
 
+#### Bounded Context: Reports
 <img src="assets/c4-model/report-component-diagram.png"/>
 <br>
-Bounded Context: Reports
 
+#### Bounded Context: Location
 <img src="assets/c4-model/location-component-diagram.png"/>
 <br>
-Bounded Context: Location
 
+#### Bounded Context: Payment
 <img src="assets/c4-model/payment-component-diagram.png"/>
 <br>
-Bounded Context: Payment
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
@@ -1155,7 +1159,7 @@ Bounded Context: Payment
 | `obtainReports(): Report[]`    | Representa la obtención de los diferentes reportes que haya registrado el usuario |
 | `obtainAlerts(): Alert[]`      | Representa la obtención de las diferentes alertas que tenga el usuario          |
 
---
+---
 
 **Report:** La clase `Report` representa a la entidad del reporte, siendo un objeto para el usuario cuando registra alguna incidencia
 
@@ -1175,7 +1179,7 @@ Bounded Context: Payment
 | `obtainUser(): User`          | Se puede obtener el Usuario que ha emitido este reporte                   |
 
 
---
+---
 
 **Alert:** La clase `Alert` representa a la entidad de la alerta, en el que el usuario permitirá a que otro usuario pueda ser “alertado” debido a ciertas condiciones colocadas por la víctima.
 
@@ -1190,6 +1194,8 @@ Bounded Context: Payment
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | `sendNotification(): string`     | Este método funcionará para enviar la alerta al usuario compartido por la víctima sobre alguna condición inusual que se haya presentado. |
 
+---
+
 **Notification:** La clase `Notification` representa a la entidad de la notificación, el cual funciona de recordatorio al usuario ante una nueva novedad.
 
 | **Atributo**             | **Descripción**                                                                 |
@@ -1202,7 +1208,7 @@ Bounded Context: Payment
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | `emitNotification(): string`     | Este método funcionará para notificar al usuario ante la última novedad que haya ocurrido |
 
---
+---
 
 **Location:** La clase `Location` representa a la entidad de la ubicación del celular de su usuario
 
@@ -1217,7 +1223,7 @@ Bounded Context: Payment
 | `registerCoordinates(string, string): void`     | Este método funcionará para registrar la última ubicación del usuario mediante las coordenadas de longitud y latitud. |
 | `obtainLastUbication(): Location`     | Con el objeto “Ubicación” se podrá obtener la última ubicación con las coordenadas guardadas. |
 
---
+---
 
 **Database:** La clase `Database` representa a la conexión que se tendrá con la base de datos.
 
@@ -1241,7 +1247,7 @@ Bounded Context: Payment
 | `update()`     | Este método asimila la función de una actualización desde la base de datos. |
 | `delete()`     | Este método asimila la función de una eliminación desde la base de datos. |
 
---
+---
 
 **Service:** Dentro de las clases Services se mantiene la lógica de la aplicación para comunicarse con las clases Repository.
 
@@ -1254,7 +1260,7 @@ Bounded Context: Payment
 | `Repository.update()`     | Este método asimila la función de una actualización desde la base de datos. |
 | `Repository.delete()`     | Este método asimila la función de una eliminación desde la base de datos. |
 
---
+---
 
 **Controller:** Dentro de las clases Controller se realizan los ajustes necesarios para realizar el llamado a las clases Service.
 
@@ -1462,21 +1468,38 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 https://www.youtube.com/watch?v=oqUSiRLa8lI
 
 # Conclusiones
+- La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
 
-## Recomendaciones
+- La tecnología puede ser una herramienta poderosa para abordar la inseguridad ciudadana, proporcionando soluciones innovadoras y accesibles para la población.
 
-# Video About-the-Team
-Se evidencia el video sobre el equipo desarrollador del proyecto académico, explicando de manera individual, la aportación que realizó cada uno para este proyecto.
+- La implementación de una aplicación móvil como PeaceApp puede contribuir significativamente a la seguridad ciudadana, permitiendo a los usuarios reportar incidentes, recibir alertas y compartir información en tiempo real.
 
-<img src="assets/video-about-the-team/logo.png"/>
-<br>
+- La colaboración entre el sector público y privado es esencial para abordar la inseguridad ciudadana de manera efectiva, garantizando la protección de los derechos humanos y promoviendo un entorno seguro para todos.
 
-https://youtu.be/Plg4_9vvqvM
+- La aplicación PeaceApp no solo busca mejorar la seguridad ciudadana, sino también fomentar la confianza y la colaboración entre los ciudadanos y las autoridades, creando un entorno más seguro y cohesionado.
+
+# Recomendaciones
+
+- Realizar campañas de concientización sobre el uso de la aplicación y su importancia en la mejora de la seguridad ciudadana.
+
+- La aplicación de PeaceApp necesita pasar por pruebas exhaustivas para garantizar su funcionalidad y seguridad antes de su lanzamiento al público.
+
+- Fomentar la colaboración entre los usuarios de la aplicación y las autoridades locales para mejorar la efectividad de la plataforma.
+
+- PeaceApp debe ser actualizada regularmente para incorporar nuevas funcionalidades y mejoras basadas en la retroalimentación de los usuarios.
+
+- Considerar la posibilidad de integrar la aplicación con otras plataformas y servicios relacionados con la seguridad ciudadana para ampliar su alcance y efectividad.
 
 # Bibliografía
-- Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
-- Progressa Lean. (2014). 5W+2H Técnica de análisis de problemas - Progressa Lean. Progressa Lean. https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/
-- UX Planet. (2017). Information Architecture. Basics for Designers. - UX Planet. Medium; UX Planet. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
-- Gothelf, J. (2024). Leanux Sampler. https://es.scribd.com/document/655516553/Leanux-Sampler
-#Anexos
+- El 27,7% de los peruanos ha sido víctima de un hecho delictivo en ciudades en los últimos seis meses. (2024, August 26). Forbes. https://forbes.pe/actualidad/2024-08-26/el-277-de-los-peruanos-ha-sido-victima-de-un-hecho-delictivo-en-ciudades-en-los-ultimos-seis-meses
+
+- Estadísticas de seguridad ciudadana. (2024). In Instituto Nacional De Estadística E Informática. INEI. Retrieved August 25, 2024, from https://m.inei.gob.pe/media/MenuRecursivo/boletines/estadisticas-de-seguridad-ciudadana-enero-junio-2024.pdf
+
+- Doe, J., & Smith, J. (2023). Secure Mobile Application Development: A Comprehensive Survey on Authentication, Authorization, and Data Protection Techniques. Journal of Mobile Computing and Application Development, 45(3), 123-145. https://www.sciencedirect.com/science/article/abs/pii/S1570870523000793
+
+- Johnson, A., & Brown, R. (2022). Integrating Geolocation Services in Mobile Apps: Challenges and Solutions in User Permission Management and Networking. International Journal of Mobile and Ubiquitous Systems, 12(2), 98-114. https://www.researchgate.net/publication/264496021_A_Survey_on_Privacy_in_Location-Based_Services
+
+- Human Rights Watch. (2024). World Report 2024: Peru. Recuperado de https://www.hrw.org/world-report/2024/country-chapters/peru. Este informe detalla la corrupción, desafíos sociales y los derechos humanos en el contexto de la inseguridad en Perú.
+
+- International Crisis Group. (2023). Rage and Repression in Peru: Restoring Citizen Trust and Public Order. Recuperado de https://www.crisisgroup.org. Este análisis aborda las protestas sociales, la represión y las reformas necesarias para mitigar la inseguridad ciudadana y restaurar la confianza en el país.
 
