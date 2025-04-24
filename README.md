@@ -8,7 +8,6 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>Diseño de Experimento de Ingeniería de Software - 4446</strong><br>
     <strong>Profesor: Lennin Percy Cenas Vasquez</strong><br>
-    <br>INFORME
 </p>
 
 <center>
@@ -26,11 +25,10 @@
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
 | Arian Martin Rodriguez Vargas | U202212096 |
-| Integrante 2 | U202210029 |
-|   Integrante 3    | U202210192 |
-|    Integrante 4    | u20221a322 |
-| Integrante 5 | U202211168 |
-| Integrante 6 | U202211168 |
+| Mauricio Abraham Rivo Rojas Sánchez | U202211572 |
+|   Ramón Alejandro Jorge Arévalo	    | U20221D126 |
+|    Fabia Alejandra Herrera Aguirre	    | U202219422 |
+| Leonardo Linares| Uxxxxxx |
 
 </div>
 
@@ -49,24 +47,26 @@
     <tr>
         <td>TB1</td>
         <td>29/03/2024</td>
-        <td>Integrante 1</td>
+        <td>Mauricio Abraham Rivo Rojas Sánchez	</td>
         <td>
         <ul>
-        <li> Software Configuration Management </li>
-        <li> Landing Page, Services & Applications Implementation  </li>
+        <li> User stories </li>
+        <li> Antecedentes y Problemática </li>
+        <li> Product Implementation & Deployment. </li>
         </ul>
         </td>
     </tr>
     <tr>
         <td>TB1</td>
-        <td>29/03/2024</td>
-        <td>Integrante 2</td>
+        <td>17/04/2024</td>
+        <td>Arian Martín Rodriguez Vargas</td>
         <td>
         <ul>
         <li> Competidores</li>
         <li> Entrevistas</li>
         <li> Needfinding </li>
         <li> Ubiquitous Language</li>
+        <li> Software Configuration Management</li>
         </ul>
         </td>
     </tr>
@@ -74,8 +74,8 @@
     </tr>
     <tr>
         <td>TB1</td>
-        <td>29/03/2024</td>
-        <td>Integrante 3</td>
+        <td>13/04/2024</td>
+        <td>Ramón Alejandro Jorge Arévalo</td>
         <td>
         <ul>
         <li> StartUp Profile</li>
@@ -86,8 +86,8 @@
     </tr>
     <tr>
         <td rowspan="1">TB1</td>
-        <td rowspan="1">29/03/2024</td>
-        <td>Integrante 4</td>
+        <td rowspan="1">20/04/2024</td>
+        <td>Fabia Alejandra Herrera Aguirre</td>
         <td>
         <ul>
         <li> Style Guidelines</li>
@@ -100,21 +100,8 @@
     </tr>
     <tr>
         <td rowspan="1">TB1</td>
-        <td rowspan="1">29/03/2024</td>
-        <td>Integrante 5</td>
-        <td>
-        <ul>
-        <li> To-be Scenario Mapping </li>
-        <li> User Stories </li>
-        <li> Impact Mapping </li>
-        <li> Product Backlog</li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="1">TB1</td>
-        <td rowspan="1">29/03/2024</td>
-        <td>Integrante 6</td>
+        <td rowspan="1">16/04/2024</td>
+        <td>Leonardo Lineares</td>
         <td>
         <ul>
         <li> To-be Scenario Mapping </li>
@@ -126,6 +113,58 @@
     </tr>
     </tbody>
 </table>
+
+---
+
+# Student Outcome
+En Ingeniería de Software, el logro de curso contribuye a alcanzar el:
+
+ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+
+<table>
+  <tr>
+    <th>Criterio Especifico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
+    <td>
+        <p>
+        TB1:
+        <p/>
+        Mauricio Rojas:
+        <p/>
+        Ramon Jorge:
+        <p/>
+        Arian Rodriguez: 
+        <p/>
+        Fabia Herrera:
+        <p/>
+        Leonardo Linares: 
+        </p>
+    </td>
+    <td>TB1: </p></td>
+  </tr>
+  <tr>
+    <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+    <td><p>
+        TB1:
+        <p/>
+        Mauricio Rojas: 
+        <p/>
+        Ramon Jorge: 
+        <p/>
+        Arian Rodriguez: 
+        <p/>
+        Fabia Herrera: 
+        <p/>
+        Leonardo Linares:
+        </p></td>
+    <td>TB1: </p></td>
+  </tr>
+</table>
+
 
 ---
 
@@ -145,10 +184,21 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Miembros del equipo                             | Codigo Estudiante | Carrera                | Conocimientos / Habilidades |
-| ----------------------------------------------- | ----------------- | ---------------------- | --------------------------- |
-| Mauricio Abraham Rivo Rojas Sánchez	![Imagen del compañero](https://i.imgur.com/qQ6neUi.png) | U202211572            | Ingeniería de Software | C++, C#, javascript y java            |
-| Arian Martin Rodriguez Vargas	![Imagen del compañero](https://i.imgur.com/PM77Qm1.jpeg) | U202212096            | Ingeniería de Software | Tengo conocimiento y experiencias en la creación de aplicaciones web, móvil, gestión y control sobre bases de datos y cloud. Interesado por el desarrollo backend incluyendo buenas prácticas en el diseño y arquitectura de software incluyendo patrones conocidos como Domain-Driven Design, Model View Controller. Conocimientos en lenguajes de programación como C++, Java, Node.js, Python y frameworks propios          |
+<div style="text-align: center;">
+  <img src="./assets/presentation/mauricio.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/ramon.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/fabia.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
 
 ## 1.2. Solution Profile
 
