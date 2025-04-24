@@ -1205,6 +1205,12 @@ Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-We
 
 ## 4.7. Web Applications Prototyping
 
+URL del prototipo web realizado en Figma: https://www.figma.com/proto/IWgoq6Nxw1WVXwhwyuEp5c/PeaceApp-Web-Prototype?node-id=0-1&t=mSKBQ27L9uYoihun-1
+
+El siguiente prototipo es una representación interactiva de la aplicación web PeaceApp. Permite a los usuarios navegar por las diferentes secciones y funcionalidades de la aplicación, incluyendo el mapa interactivo, la creación de reportes y la gestión del perfil de usuario.
+
+<img src="assets/web-application/prototype.png"/>
+<br>
 
 ## 4.8. Domain-Driven Software Architecture
 ### 4.8.1. Software Architecture Context Diagram
