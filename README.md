@@ -28,7 +28,7 @@
 | Mauricio Abraham Rivo Rojas Sánchez | U202211572 |
 |   Ramón Alejandro Jorge Arévalo	    | U20221D126 |
 |    Fabia Alejandra Herrera Aguirre	    | U202219422 |
-| Leonardo Linares| Uxxxxxx |
+| Leonardo Linares| U202211168 |
 
 </div>
 
@@ -198,6 +198,10 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 
 <div style="text-align: center;">
   <img src="./assets/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/leonardo.png" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 ## 1.2. Solution Profile
