@@ -1533,6 +1533,9 @@ Enlace del landing page: https://thepeaceapp.vercel.app/
 </table>
 
 ### 5.2.2. Implemented Landing Page Evidence
+Link de Landing Page: https://peaceapp-landing-page.vercel.app/
+
+A continuación, se muestra la Landing Page exitosamente desplegada.
 
 <img src="assets/landing-page/hero.png"/>
 <br>
@@ -1547,6 +1550,9 @@ Enlace del landing page: https://thepeaceapp.vercel.app/
 <br>
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+Link de la aplicación web: https://peaceapp-web-application.vercel.app/sign-in
+
+A continuación, se observan las capturas de pantalla que muestra el despliegue exitoso del Web Application.
 
 <img src="assets/web-application/execution-evidence/successfully_deployed.jpg">
 <br>
@@ -1557,9 +1563,15 @@ Enlace del landing page: https://thepeaceapp.vercel.app/
 <img src="assets/web-application/execution-evidence/default_non_auth_root.jpg"/>
 <br>
 
+<img src="assets/web-application/execution-evidence/main_page.jpg"/>
+<br>
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+Link del Swagger UI: https://peaceapp-latest.onrender.com/swagger-ui/index.html
+
+A continuación, se muestran algunas capturas de pantalla en secuencia de cómo fue el paso a paso en el despliegue.
 
 <img src="assets/web-services/image_layers.jpg"/>
 <br>
