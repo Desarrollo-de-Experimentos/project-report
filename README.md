@@ -874,9 +874,27 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 
 ### 4.1.2. Web Style Guidelines
 
-### 4.1.3. Mobile Style Guidelines
+Para el diseño web de PeaceApp nos basamos en las pautas de diseño de Google Material Design. Esta guía establece principios y patrones de diseño que ayudan a crear aplicaciones web intuitivas y atractivas. Algunos de los aspectos clave incluyen:
 
+• **Diseño limpio y minimalista:** La interfaz debe ser clara y sencilla, evitando la sobrecarga de información.
+
+• **Uso de tarjetas:** Utilizar tarjetas para mostrar información de manera organizada y fácil de leer.
+
+• **Consistencia:** Mantener una apariencia y comportamiento coherentes en toda la aplicación, utilizando elementos de diseño nativos de Material Design.
+
+• **Accesibilidad:** Asegurarse de que la aplicación sea accesible para todos los usuarios, incluyendo aquellos con discapacidades visuales o auditivas.
+
+### 4.1.3. Mobile Style Guidelines
 #### 4.1.3.1. iOS Mobile Style Guidelines 
+Para el diseño de iOS nos basamos en la guía de interfaz humana (HIG) de Apple. Esta guía establece principios y patrones de diseño que ayudan a crear aplicaciones intuitivas y atractivas. Algunos de los aspectos clave incluyen:
+
+•	**Diseño limpio y minimalista:** La interfaz debe ser clara y sencilla, evitando la sobrecarga de información.
+
+•	**Uso de gestos:** Aprovechar los gestos táctiles para facilitar la navegación y la interacción con la aplicación.
+
+•   **Consistencia:** Mantener una apariencia y comportamiento coherentes en toda la aplicación, utilizando elementos de diseño nativos de iOS.
+
+•   **Accesibilidad:** Asegurarse de que la aplicación sea accesible para todos los usuarios, incluyendo aquellos con discapacidades visuales o auditivas.
 
 #### 4.1.3.2. Android Mobile Style Guidelines.
 Decidimos guiarnos de la guía HIG otorgada por Apple, en el caso de los dispositivos Android, podemos seguir las recomendaciones de Material Design de Google. Donde resaltan que el diseño debe de ser adaptable, con énfasis en la simplicidad y claridad de las interacciones. Se deben utilizar componentes nativos de Android, y asegurar una experiencia consistente, aprovechando los servicios de ubicación y notificaciones push.
