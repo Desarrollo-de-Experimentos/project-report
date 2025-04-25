@@ -28,7 +28,7 @@
 | Mauricio Abraham Rivo Rojas Sánchez | U202211572 |
 |   Ramón Alejandro Jorge Arévalo	    | U20221D126 |
 |    Fabia Alejandra Herrera Aguirre	    | U202219422 |
-| Leonardo Linares| U202211168 |
+| Leonardo Félix Jesús Linares Tejada | U202211168 |
 
 </div>
 
@@ -101,7 +101,7 @@
     <tr>
         <td rowspan="1">TB1</td>
         <td rowspan="1">16/04/2024</td>
-        <td>Leonardo Lineares</td>
+        <td>Leonardo Félix Jesús Lineares Tejada</td>
         <td>
         <ul>
         <li> To-be Scenario Mapping </li>
