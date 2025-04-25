@@ -1547,6 +1547,16 @@ Enlace del landing page: https://thepeaceapp.vercel.app/
 <br>
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
+<img src="assets/web-application/execution-evidence/successfully_deployed.jpg">
+<br>
+
+<img src="assets/web-application/execution-evidence/dashboard_deployed_web_app.jpg"/>
+<br>
+
+<img src="assets/web-application/execution-evidence/default_non_auth_root.jpg"/>
+<br>
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
