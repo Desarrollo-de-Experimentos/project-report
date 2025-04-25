@@ -141,7 +141,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Fabia Herrera:
         <p/>
-        Leonardo Linares: 
+        Leonardo Linares: Reconocí la responsabilidad ética y profesional en el desarrollo del proyecto, mediante la información obtenida para los User Stories, y el To-Be Scenario Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
         </p>
     </td>
     <td>TB1: </p></td>
@@ -159,7 +159,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Fabia Herrera: 
         <p/>
-        Leonardo Linares:
+        Leonardo Linares: Hice decisiones informadas considerando el impacto de las soluciones en el desarrollo del proyecto, mediante la creación de los User Stories, el To-Be Scenario Mapping y el Impact Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
         </p></td>
     <td>TB1: </p></td>
   </tr>
