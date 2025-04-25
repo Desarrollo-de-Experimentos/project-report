@@ -28,7 +28,7 @@
 | Mauricio Abraham Rivo Rojas Sánchez | U202211572 |
 |   Ramón Alejandro Jorge Arévalo	    | U20221D126 |
 |    Fabia Alejandra Herrera Aguirre	    | U202219422 |
-| Leonardo Linares| Uxxxxxx |
+| Leonardo Linares| U202211168 |
 
 </div>
 
@@ -198,6 +198,10 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 
 <div style="text-align: center;">
   <img src="./assets/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/presentation/leonardo.png" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 ## 1.2. Solution Profile
@@ -870,9 +874,27 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 
 ### 4.1.2. Web Style Guidelines
 
-### 4.1.3. Mobile Style Guidelines
+Para el diseño web de PeaceApp nos basamos en las pautas de diseño de Google Material Design. Esta guía establece principios y patrones de diseño que ayudan a crear aplicaciones web intuitivas y atractivas. Algunos de los aspectos clave incluyen:
 
+• **Diseño limpio y minimalista:** La interfaz debe ser clara y sencilla, evitando la sobrecarga de información.
+
+• **Uso de tarjetas:** Utilizar tarjetas para mostrar información de manera organizada y fácil de leer.
+
+• **Consistencia:** Mantener una apariencia y comportamiento coherentes en toda la aplicación, utilizando elementos de diseño nativos de Material Design.
+
+• **Accesibilidad:** Asegurarse de que la aplicación sea accesible para todos los usuarios, incluyendo aquellos con discapacidades visuales o auditivas.
+
+### 4.1.3. Mobile Style Guidelines
 #### 4.1.3.1. iOS Mobile Style Guidelines 
+Para el diseño de iOS nos basamos en la guía de interfaz humana (HIG) de Apple. Esta guía establece principios y patrones de diseño que ayudan a crear aplicaciones intuitivas y atractivas. Algunos de los aspectos clave incluyen:
+
+•	**Diseño limpio y minimalista:** La interfaz debe ser clara y sencilla, evitando la sobrecarga de información.
+
+•	**Uso de gestos:** Aprovechar los gestos táctiles para facilitar la navegación y la interacción con la aplicación.
+
+•   **Consistencia:** Mantener una apariencia y comportamiento coherentes en toda la aplicación, utilizando elementos de diseño nativos de iOS.
+
+•   **Accesibilidad:** Asegurarse de que la aplicación sea accesible para todos los usuarios, incluyendo aquellos con discapacidades visuales o auditivas.
 
 #### 4.1.3.2. Android Mobile Style Guidelines.
 Decidimos guiarnos de la guía HIG otorgada por Apple, en el caso de los dispositivos Android, podemos seguir las recomendaciones de Material Design de Google. Donde resaltan que el diseño debe de ser adaptable, con énfasis en la simplicidad y claridad de las interacciones. Se deben utilizar componentes nativos de Android, y asegurar una experiencia consistente, aprovechando los servicios de ubicación y notificaciones push.
@@ -1449,7 +1471,7 @@ Despliegue:
 •	Vercel se encargará de desplegar automáticamente nuestra landing page.
 •	Accedemos a la URL proporcionada por Vercel para verificar que nuestra landing page se haya desplegado correctamente.
 De este modo, nuestra landing page estará disponible utilizando Vercel y podrá ser visible para cualquier usuario que tenga el enlace.
-Enlace del landing page: https://thepeaceapp.vercel.app/
+Enlace del landing page: https://peaceapp-landing-page.vercel.app/
 
 ## 5.2. Product Implementation & Deployment
 ### 5.2.1. Sprint Backlogs
@@ -1578,6 +1600,10 @@ Enlace del landing page: https://thepeaceapp.vercel.app/
 <br>
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+Para el despliegue de nuestra aplicación móvil, se utilizó Github Releases para crear una versión de la aplicación que se puede instalar en dispositivos Android. Esta versión incluye todas las funcionalidades implementadas hasta el momento, como la creación de reportes, la visualización de alertas y la gestión del perfil de usuario.
+El archivo APK generado se encuentra disponible en el siguiente enlace y se puede descargar de manera directa en un Android Mobile (peaceapp.apk): https://github.com/Desarrollo-de-Experimentos/peaceapp-mobile/releases/tag/1.0.0
+<br>
+<img src="./assets/mobile-deploy/github-release.PNG"    />
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
