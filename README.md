@@ -135,7 +135,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Mauricio Rojas: En este entregable, trabaje responsable con mi equipo y mantuve constante comunicación con el equipo para avanzar de la mejor manera. De esta manera, reconozco responsabilidad ética y profesional en situaciones de ingeniería de software.
         <p/>
-        Ramon Jorge:
+        Ramon Jorge: En esta entrega, me enfoqué en apoyar a mi grupo con los puntos necesarios para la entrega. En específico, ayudé a realizar el StartUp Profile y todos los puntos del Solution Profile, incluyendo el Lean UX Process.
         <p/>
         Arian Rodriguez: En esta entrega, me enfoqué en cumplir con todos los puntos asignados en la entrega, además de realizar un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.
         <p/>
@@ -153,7 +153,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Mauricio Rojas: En este entregable, emití juicios sobre el impacto de nuestra solución de ingeniería de software para formular posibles añadidos al sistema y/o mejorar puntos débiles.
         <p/>
-        Ramon Jorge: 
+        Ramon Jorge: Para esta entrega, identificamos los detalles del problema que estamos abordando y las potenciales mejoras que podría proveer nuestra solución, traduciéndolas en User Stories que luego servirían para identificar funcionalidades. Además de ello, aporté al momento de identificar los segmentos objetivos de la aplicación y, más adelante, al desarrollo de los Wireflow Diagrams.
         <p/>
         Arian Rodriguez: Durante este entregable pude identificar la importancia de la seguridad ciudadana en el Perú y cómo PeaceApp puede contribuir a mejorar la percepción de inseguridad en Lima Metropolitana. Además, se realizó un análisis de los competidores y sus características, lo que permitió identificar oportunidades para diferenciar nuestra aplicación en el mercado. También se definieron los segmentos objetivo y se identificaron las necesidades del usuario, lo que ayudará a enfocar el desarrollo de la aplicación en las características más relevantes para nuestros usuarios.
         <p/>
