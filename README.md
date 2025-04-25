@@ -133,7 +133,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p>
         TB1:
         <p/>
-        Mauricio Rojas:
+        Mauricio Rojas: En este entregable, trabaje responsable con mi equipo y mantuve constante comunicación con el equipo para avanzar de la mejor manera. De esta manera, reconozco responsabilidad ética y profesional en situaciones de ingeniería de software.
         <p/>
         Ramon Jorge:
         <p/>
@@ -151,7 +151,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
     <td><p>
         TB1:
         <p/>
-        Mauricio Rojas: 
+        Mauricio Rojas: En este entregable, emití juicios sobre el impacto de nuestra solución de ingeniería de software para formular posibles añadidos al sistema y/o mejorar puntos débiles.
         <p/>
         Ramon Jorge: 
         <p/>
