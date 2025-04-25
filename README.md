@@ -1551,10 +1551,23 @@ Enlace del landing page: https://thepeaceapp.vercel.app/
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-<img src="assets/web-services/swagger.png"/>
+<img src="assets/web-services/image_layers.jpg"/>
+<br>
+
+<img src="assets/web-services/render_docker.jpg"/>
+<br>
+
+<img src="assets/web-services/console_result.jpg"/>
+<br>
+
+<img src="assets/web-services/request_success.jpg"/>
 <br>
 
 ### 5.2.6. RESTful API documentation
+
+<img src="assets/web-services/swag_docs.jpg"/>
+<br>
+
 ### 5.2.7. Team Collaboration Insights
 
 Se realizaron las funcionalidades correspondientes en cada rama principal del feature. Finalmente fue unido a la rama “development” para realizar las pruebas necesarias y sea enviado a producción en la rama “main”
