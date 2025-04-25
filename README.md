@@ -1148,6 +1148,26 @@ Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-We
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+<h4>Registro de nuevo usuario</h4>
+<img src="assets/web-application/wireflow-1.png"/>
+<br><br>
+
+<h4>Inicio de sesión</h4>
+<img src="assets/web-application/wireflow-2.png"/>
+<br><br>
+
+<h4>Revisión de alertas</h4>
+<img src="assets/web-application/wireflow-3.png"/>
+<br><br>
+
+<h4>Publicación y visualización de comentarios</h4>
+<img src="assets/web-application/wireflow-4.png"/>
+<br><br>
+
+<h4>Actualizar perfil</h4>
+<img src="assets/web-application/wireflow-5.png"/>
+<br><br>
+
 ### 4.6.3. Web Applications Mock-ups
 
 Enlace al Figma: https://www.figma.com/design/8DgmjI75neBW1YtOROURw8/PeaceApp-Web-Application?node-id=0-1&t=aBRyjNJfXjgs61FU-1
@@ -1570,6 +1590,15 @@ Enlace del landing page: https://peaceapp-landing-page.vercel.app/
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+<img src="assets/web-application/execution-evidence/successfully_deployed.jpg">
+<br>
+
+<img src="assets/web-application/execution-evidence/dashboard_deployed_web_app.jpg"/>
+<br>
+
+<img src="assets/web-application/execution-evidence/default_non_auth_root.jpg"/>
+<br>
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 Para el despliegue de nuestra aplicación móvil, se utilizó Github Releases para crear una versión de la aplicación que se puede instalar en dispositivos Android. Esta versión incluye todas las funcionalidades implementadas hasta el momento, como la creación de reportes, la visualización de alertas y la gestión del perfil de usuario.
 El archivo APK generado se encuentra disponible en el siguiente enlace y se puede descargar de manera directa en un Android Mobile (peaceapp.apk): https://github.com/Desarrollo-de-Experimentos/peaceapp-mobile/releases/tag/1.0.0
@@ -1578,10 +1607,23 @@ El archivo APK generado se encuentra disponible en el siguiente enlace y se pued
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-<img src="assets/web-services/swagger.png"/>
+<img src="assets/web-services/image_layers.jpg"/>
+<br>
+
+<img src="assets/web-services/render_docker.jpg"/>
+<br>
+
+<img src="assets/web-services/console_result.jpg"/>
+<br>
+
+<img src="assets/web-services/request_success.jpg"/>
 <br>
 
 ### 5.2.6. RESTful API documentation
+
+<img src="assets/web-services/swag_docs.jpg"/>
+<br>
+
 ### 5.2.7. Team Collaboration Insights
 
 Se realizaron las funcionalidades correspondientes en cada rama principal del feature. Finalmente fue unido a la rama “development” para realizar las pruebas necesarias y sea enviado a producción en la rama “main”
