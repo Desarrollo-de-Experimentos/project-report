@@ -137,7 +137,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Ramon Jorge:
         <p/>
-        Arian Rodriguez: 
+        Arian Rodriguez: En esta entrega, me enfoqué en cumplir con todos los puntos asignados en la entrega, además de realizar un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.
         <p/>
         Fabia Herrera:
         <p/>
@@ -155,7 +155,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Ramon Jorge: 
         <p/>
-        Arian Rodriguez: 
+        Arian Rodriguez: Durante este entregable pude identificar la importancia de la seguridad ciudadana en el Perú y cómo PeaceApp puede contribuir a mejorar la percepción de inseguridad en Lima Metropolitana. Además, se realizó un análisis de los competidores y sus características, lo que permitió identificar oportunidades para diferenciar nuestra aplicación en el mercado. También se definieron los segmentos objetivo y se identificaron las necesidades del usuario, lo que ayudará a enfocar el desarrollo de la aplicación en las características más relevantes para nuestros usuarios.
         <p/>
         Fabia Herrera: 
         <p/>
@@ -1231,7 +1231,7 @@ URL del prototipo web realizado en Figma: https://www.figma.com/proto/IWgoq6Nxw1
 
 El siguiente prototipo es una representación interactiva de la aplicación web PeaceApp. Permite a los usuarios navegar por las diferentes secciones y funcionalidades de la aplicación, incluyendo el mapa interactivo, la creación de reportes y la gestión del perfil de usuario.
 
-<img src="assets/web-application/prototype.png"/>
+<img src="assets/web-application/prototype.PNG"/>
 <br>
 
 ## 4.8. Domain-Driven Software Architecture
