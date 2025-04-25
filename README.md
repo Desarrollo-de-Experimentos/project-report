@@ -1451,7 +1451,7 @@ Despliegue:
 •	Vercel se encargará de desplegar automáticamente nuestra landing page.
 •	Accedemos a la URL proporcionada por Vercel para verificar que nuestra landing page se haya desplegado correctamente.
 De este modo, nuestra landing page estará disponible utilizando Vercel y podrá ser visible para cualquier usuario que tenga el enlace.
-Enlace del landing page: https://thepeaceapp.vercel.app/
+Enlace del landing page: https://peaceapp-landing-page.vercel.app/
 
 ## 5.2. Product Implementation & Deployment
 ### 5.2.1. Sprint Backlogs
@@ -1569,7 +1569,12 @@ Enlace del landing page: https://thepeaceapp.vercel.app/
 <br>
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+Para el despliegue de nuestra aplicación móvil, se utilizó Github Releases para crear una versión de la aplicación que se puede instalar en dispositivos Android. Esta versión incluye todas las funcionalidades implementadas hasta el momento, como la creación de reportes, la visualización de alertas y la gestión del perfil de usuario.
+El archivo APK generado se encuentra disponible en el siguiente enlace y se puede descargar de manera directa en un Android Mobile (peaceapp.apk): https://github.com/Desarrollo-de-Experimentos/peaceapp-mobile/releases/tag/1.0.0
+<br>
+<img src="./assets/mobile-deploy/github-release.PNG"    />
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
