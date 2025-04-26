@@ -144,7 +144,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Leonardo Linares: 
         </p>
     </td>
-    <td>TB1: </p></td>
+    <td>TB1: En este entregable, se realizó un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.</td>
   </tr>
   <tr>
     <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
@@ -161,7 +161,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Leonardo Linares:
         </p></td>
-    <td>TB1: </p></td>
+    <td>TB1: En este entregable se emitió juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. De esta manera, se identificaron los detalles del problema que estamos abordando y las potenciales mejoras que podría proveer nuestra solución, traduciéndolas en User Stories que luego servirían para identificar funcionalidades. Además de ello, se identificó los segmentos objetivos de la aplicación y, más adelante, al desarrollo de los Wireflow Diagrams.</td>
   </tr>
 </table>
 
@@ -208,7 +208,7 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 
 ### 1.2.1. Antecedentes y problemática
 
-**What (Qué)**: PeaceApp es una aplicación móvil diseñada para empoderar a los usuarios en su vida diaria, ayudándolos a navegar de manera más segura por las calles de Lima Metropolitana. Al crear una comunidad entre ciudadanos y autoridades, PeaceApp garantiza el acceso a información detallada y confiable sobre la seguridad en tiempo real, fomentando una red de colaboración que beneficia a todos.
+**What (Qué)**: PeaceApp es un sistema de software diseñada para empoderar a los usuarios en su vida diaria, ayudándolos a navegar de manera más segura por las calles de Lima Metropolitana. Al crear una comunidad entre ciudadanos y autoridades, PeaceApp garantiza el acceso a información detallada y confiable sobre la seguridad en tiempo real, fomentando una red de colaboración que beneficia a todos.
 
 **When (Cuándo):** PeaceApp estará disponible las 24 horas del día, los 7 días de la semana, ofreciendo asistencia continua y actualizada en cualquier momento que los usuarios lo necesiten.
 
@@ -1270,7 +1270,7 @@ El siguiente prototipo es una representación interactiva de la aplicación web 
 
 ### 4.9.2. Class Dictionary
 
-**User:** La clase `User` representa a la entidad del usuario, el cual interactuará con la aplicación móvil
+**User:** La clase `User` representa a la entidad del usuario, el cual interactuará con el sistema
 
 | **Atributo**             | **Descripción**                                                                 |
 |--------------------------|---------------------------------------------------------------------------------|
