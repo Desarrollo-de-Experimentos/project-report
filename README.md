@@ -139,7 +139,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Arian Rodriguez: En esta entrega, me enfoqué en cumplir con todos los puntos asignados en la entrega, además de realizar un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.
         <p/>
-        Fabia Herrera:
+        Fabia Herrera: En esta entrega pude apoyar principalmente con el diseño de la interfaz de usuario de la aplicación, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario. 
         <p/>
         Leonardo Linares: Reconocí la responsabilidad ética y profesional en el desarrollo del proyecto, mediante la información obtenida para los User Stories, y el To-Be Scenario Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
         </p>
@@ -157,7 +157,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Arian Rodriguez: Durante este entregable pude identificar la importancia de la seguridad ciudadana en el Perú y cómo PeaceApp puede contribuir a mejorar la percepción de inseguridad en Lima Metropolitana. Además, se realizó un análisis de los competidores y sus características, lo que permitió identificar oportunidades para diferenciar nuestra aplicación en el mercado. También se definieron los segmentos objetivo y se identificaron las necesidades del usuario, lo que ayudará a enfocar el desarrollo de la aplicación en las características más relevantes para nuestros usuarios.
         <p/>
-        Fabia Herrera: 
+        Fabia Herrera: Al realizar el diseño de la interfaz de usuario, consideré el impacto que tendría en la experiencia del usuario y cómo podría influir en su percepción de seguridad al utilizar la aplicación.
         <p/>
         Leonardo Linares: Hice decisiones informadas considerando el impacto de las soluciones en el desarrollo del proyecto, mediante la creación de los User Stories, el To-Be Scenario Mapping y el Impact Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
         </p></td>
