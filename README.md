@@ -1811,7 +1811,42 @@ El objetivo es el de automatizar la integración y pruebas del código, mantenie
 
 ### 7.2.1. Tools and Practices.
 
+#### Tools:
+
+- **Jenkins**: Es una herramienta popular de automatización que permite orquestar todo el pipeline de CI/CD. En el contexto de Continuous Delivery, Jenkins puede configurarse para detenerse antes del despliegue final, el cual debe ser aprobado manualmente. Esto garantiza que el software esté listo para producción, pero no se despliegue automáticamente, diferenciándose del Continuous Deployment.
+
+- **Trello**: Utilizado para organizar el flujo de aprobación del despliegue. Se puede establecer un proceso donde, tras validar el pipeline, un responsable del proyecto o administrador debe revisar y autorizar el paso a producción.
+
+- **Docker**: Permite empaquetar la aplicación de manera uniforme para todos los entornos. En Continuous Delivery, ayuda a mantener consistencia entre el entorno de desarrollo y producción, facilitando la validación en entornos como *staging*.
+
+#### Practices (Prácticas):
+
+- **Uso de Ramas y Solicitudes de Fusión**: Al igual que en otros enfoques modernos, las nuevas funcionalidades se desarrollan en ramas independientes. En Continuous Delivery, el código se fusiona a una rama principal tras pasar por pruebas automatizadas. Sin embargo, la publicación en producción puede estar sujeta a una revisión adicional.
+
+- **Pruebas en Entornos Intermedios (Staging)**: Antes del despliegue definitivo, los cambios pasan por una etapa de validación en un entorno que simula producción. Esto permite ejecutar pruebas manuales, técnicas y recibir comentarios de usuarios antes del lanzamiento.
+
+- **Preparación para Despliegue Manual**: Aunque el sistema deja todo listo para desplegar, se requiere una intervención manual para autorizar el paso final. Esto brinda un control adicional sobre el impacto del nuevo código.
+
+- **Aprobación previa al despliegue**: Un responsable técnico revisa los resultados de las pruebas antes de permitir que se publique en producción. Esta etapa ayuda a mitigar el riesgo de introducir errores críticos.
+
+- **Reversiones Manuales (Rollback)**: Si bien se pueden automatizar reversiones, en Continuous Delivery estas suelen gestionarse manualmente para asegurar que se mantenga el control ante fallos graves.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+#### Integración Continua (CI):
+Al realizar un *commit* en una rama, el pipeline ejecuta pruebas automatizadas que validan que el software esté en condiciones para ser desplegado. Esto asegura que el código siempre se mantenga en un estado apto para entrega.
+
+#### Validación en Staging:
+Es fundamental probar el sistema en un entorno staging antes del paso a producción. Aquí se simulan condiciones reales y se ejecutan pruebas complementarias, como pruebas funcionales, de seguridad y carga.
+
+#### Despliegue Manual:
+Aunque el código esté listo técnicamente, el despliegue a producción se realiza solo con la aprobación de una persona responsable. Esto permite mayor control y supervisión antes de impactar al usuario final.
+
+#### Monitoreo y Feedback:
+El pipeline integra herramientas de análisis y monitoreo que permiten observar cómo se comporta el sistema con los nuevos cambios. Esto permite anticiparse a posibles fallos antes de hacer el despliegue definitivo.
+
+#### Aprobación del Despliegue:
+Antes de pasar a producción, se requiere una validación manual por parte de un administrador, desarrollador o líder técnico, asegurando que todo esté correcto.
 
 ## 7.3. Continuous Deployment
 
