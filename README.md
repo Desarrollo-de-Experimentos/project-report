@@ -1941,6 +1941,54 @@ A continuación, se hace el guerkin de la HU12, en este caso enfocado
 
 
 ### 6.1.4. Core System Tests
+A continuación, realizamos pruebas a nivel del sistema para comprobar, verificando y validando algunas historias de usuario más importantes en nuestra aplicación web.
+
+La evidencia de las pruebas se realizó utilizando la herramienta Selenium IDE, que permite automatizar la interacción con la interfaz de usuario y verificar el comportamiento esperado de la aplicación.
+
+Asimismo se elaboró un breve video demostrativo de estos test demo: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EXR5zhvbMrpKqUtjWKR_JzQBdXrf0-4RKIEqghxOmArg9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uJfKeY">Video demostrativo</a>
+
+#### US01
+Como visitante de la Landing Page, quiero encontrar un formulario de contacto funcional y accesible, para poder comunicarme con el startup.
+
+<img src="./assets/system-tests/landing-page.PNG" alt="System Test"/>
+<br>
+Durante este test, se verifica que el formulario de contacto en la Landing Page esté presente y funcione correctamente. Se espera que al enviar el formulario, se muestre un mensaje de éxito y que los datos se envíen correctamente al backend.
+
+#### US06
+Como usuario, quiero poder registrarme en la aplicación, para acceder a las funcionalidades de PeaceApp.
+
+<img src="./assets/system-tests/sign-up-test.PNG" alt="System Test"/>
+<br>
+Durante este test, se verifica que el proceso de registro funcione correctamente. Se espera que al completar el formulario de registro y hacer clic en "Registrarse", el usuario sea redirigido a la página de inicio de sesión y reciba un mensaje de éxito.
+
+#### US07
+Como usuario registrado, quiero poder iniciar sesión con mi correo y contraseña, para acceder a mi cuenta.
+
+<img src="./assets/system-tests/sign-in-test.PNG" alt="System Test"/>
+<br>
+Durante este test, se verifica que el proceso de inicio de sesión funcione correctamente. Se espera que al ingresar las credenciales correctas y hacer clic en "Iniciar sesión", el usuario sea redirigido a la página principal de la aplicación.
+
+#### US09
+Como usuario, quiero poder generar reportes de incidentes de seguridad, para contribuir a la actualización del mapa de calor.
+
+<img src="./assets/system-tests/new-report.PNG" alt="System Test"/>
+<br>
+Durante este test, se verifica que el proceso de creación de un nuevo reporte funcione correctamente. Se espera que al completar el formulario de reporte y hacer clic en "Enviar", el usuario reciba un mensaje de éxito y el reporte se guarde en la base de datos.
+
+#### US10
+Como usuario, quiero poder adjuntar fotos o videos al reporte, para dar mayor credibilidad y detalle al incidente reportado.
+
+<img src="./assets/system-tests/evidence-image-report-test.PNG" alt="System Test"/>
+<br>
+Durante este test, se verifica que el proceso de adjuntar evidencia al reporte funcione correctamente. Se espera que al seleccionar una imagen o video y hacer clic en "Adjuntar", el archivo se guarde correctamente y esté disponible en el reporte.
+
+#### US13
+Como ciudadano, quiero poder ver los reportes de otros usuarios sobre incidentes ocurridos en la zona, para estar al tanto de los eventos de seguridad.
+
+<img src="./assets/system-tests/see-reports-test.PNG" alt="System Test"/>
+<br>
+Durante este test, se verifica que la funcionalidad de ver reportes de otros usuarios funcione correctamente. Se espera que al hacer clic en "Reports", el usuario sea redirigido a una nueva vista del sidebar donde pueda ver una lista de reportes recientes y sus detalles.
+
 
 # Capítulo VII: DevOps Practices
 
