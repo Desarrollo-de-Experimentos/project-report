@@ -1795,6 +1795,39 @@ https://www.youtube.com/watch?v=oqUSiRLa8lI
 ### 6.1.2. Core Integration Tests
 
 ### 6.1.3. Core Behavior-Driven Development
+A continuación se muestran los casos de prueba que se podrían realizar utilizando el formato Gherkin para la aplicación PeaceApp. Estos casos de prueba están diseñados para validar las funcionalidades clave de la aplicación, asegurando que cumplan con los requisitos y expectativas del usuario.
+
+#### US13
+En este caso de prueba, se valida la funcionalidad de visualizar los reportes de otros usuarios en la aplicación. Se espera que el usuario pueda acceder a una lista de reportes y ver los detalles de cada uno.
+
+<div style="text-align: center;">
+<img src="./assets/bdd/us13.PNG" alt="US13" width="600"/>
+</div>
+
+#### US14
+En este caso de prueba, se espera poder recibir notificaciones sobre los reportes de otros usuarios. Esto permite al usuario estar al tanto de las alertas y novedades en su área.
+<div style="text-align: center;">
+<img src="./assets/bdd/us14.PNG" alt="US14" width="600"/>
+</div>
+
+#### US15
+En este caso de prueba, se espera poder recibir alertas de zonas de riesgo en la aplicación. Esto permite al usuario estar informado sobre áreas peligrosas y tomar precauciones adecuadas.
+<div style="text-align: center;">
+<img src="./assets/bdd/us15.PNG" alt="US15" width="600"/>
+</div>
+
+#### US16
+En este caso de prueba, se valida y se espera que se comparta la ubicación del usuario con otros usuarios. Esto permite a los usuarios estar al tanto de la ubicación de sus contactos y mejorar la seguridad en situaciones de riesgo.
+<div style="text-align: center;">
+<img src="./assets/bdd/us16.PNG" alt="US16" width="600"/>
+</div>
+
+#### US17
+Durante este caso de prueba, se espera que el usuario pueda acceder al mapa interactivo de la aplicación. Esto permite al usuario visualizar su ubicación y las zonas de riesgo en su área.
+<div style="text-align: center;">
+<img src="./assets/bdd/us17.PNG" alt="US17" width="600"/>
+</div>
+
 
 ### 6.1.4. Core System Tests
 
