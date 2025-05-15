@@ -286,7 +286,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Arian Rodriguez:
         <p/>
-        Fabia Herrera:
+        Fabia Herrera: Para el trabajo parcial pude apoyar en la mejora continua de la interfaz de usuario, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario.
         <p/>
         Leonardo Linares:
         </p>
@@ -316,7 +316,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Arian Rodriguez:
         <p/>
-        Fabia Herrera:
+        Fabia Herrera: Ayudé en la documentación de las pruebas completando la sección correspondiente al Continuous Deployment y asegurando que la aplicación cumpla con los estándares de calidad y usabilidad, considerando el impacto que su uso tendría en la vida diaria de los usuarios.
         <p/>
         Leonardo Linares:
         </p></td>
