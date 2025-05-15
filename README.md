@@ -1966,7 +1966,9 @@ En primer lugar, tenemos el AlertDtoTEst que contiene la prueba testValidationFi
 
 Luego, tenemos el LocationServiceIntegrationTest, el cual ejecuta tres pruebas integrales para asegurar que la ubicación se guarde correctamente, que todas las ubicaciones se obtengan y que se agreguen las ubicaciones peligrosas. Se usó para ello Mockito:
 
-![AlertDtoTest Screenshot](assets/continuous-integration/location-service-integration-test.png)
+![LocationServiceIntegrationTest Screenshot](assets/continuous-integration/location-service-integration-test-1.png)
+
+![LocationServiceIntegrationTest Screenshot](assets/continuous-integration/location-service-integration-test-2.png)
 
 ## 7.2 Continuous Delivery
 El objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario.
