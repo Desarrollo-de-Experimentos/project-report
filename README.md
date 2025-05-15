@@ -151,7 +151,6 @@
         <td>Fabia Alejandra Herrera Aguirre</td>
         <td>
         <ul>
-        <li> Style Guidelines</li>
         <li> DevOps Practices </li>
         <li> Continuous Deployment </li>
         <li> Production Deployment Pipeline Components </li>
