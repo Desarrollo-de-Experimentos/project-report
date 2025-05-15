@@ -1771,6 +1771,18 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 
 https://www.youtube.com/watch?v=oqUSiRLa8lI
 
+# Capítulo VI: Product Verification & Validation
+
+## 6.1. Testing suites & validation
+
+### 6.1.1. Core Entities Unit Tests.
+
+### 6.1.2. Core Integration Tests.
+
+### 6.1.3. Core Behavior-Driven Development
+
+### 6.1.4. Core System Tests.
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
