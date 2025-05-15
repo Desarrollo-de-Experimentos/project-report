@@ -1794,7 +1794,75 @@ https://www.youtube.com/watch?v=oqUSiRLa8lI
 
 ### 6.1.2. Core Integration Tests
 
+Se realizaron 3 pruebas de integración en el Web Services, las cuales todas las pruebas fueron exitosas. Todas las pruebas fueron concentradas en el model `Location`, dicho modelo se relaciona con su servicio y repositorio en las pruebas. Todas las pruebas siguen el patrón AAA.
+
+Las pruebas son:
+- shouldReturnAllLocations
+- shouldSaveLocationCorrectly
+- shouldAggregateDangerousLocations
+**Resultado en conjunto de todas las pruebas**
+<img src="assets/tests/list_tests.png"/>
+<br>
+Se muestran los resultados de todas las pruebas en conjunto.
+<br>
+
+**Prueba N°1: shouldReturnAllLocations**
+El propósito de la prueba es agregar nuevos objetos  de tipo `Location` y luego comparar si contienen los 2 objetos recientemente creados.
+*Código:*
+<img src="assets/tests/shouldReturnAllLocationsIntegrationtest.png"/>
+<br>
+
+*Resultado de la Prueba:*
+<img src="assets/tests/shouldReturnAllLocationsIntegrationtestResult.png" />
+<br>
+
+**Prueba N°2: shouldSaveLocationCorrectly**
+El propósito de la prueba es guardar un nuevo objeto de tipo `Location` y luego acceder a sus campos y comparar si fueron insertados correctamente.
+<img src="assets/tests/shouldSaveLocationCorrectly.png" />
+<br>
+
+*Resultado de la Prueba:*
+<img src="assets/tests/shouldSaveLocationCorrectlyResult.png" />
+<br>
+
+**Prueba N°3: shouldAggregateDangerousLocations**
+El propósito de la prueba es insertar objetos de tipo `Location` y luego obtener los objetos y comparar si todos los objetos fueron insertados correctamente.
+<img src="assets/tests/shouldAggregateDangerousLocations.png"/>
+<br>
+
+*Resultado de la Prueba:*
+<img src="assets/tests/shouldAggregateDangerousLocationsResult.png" />
+<br>
+
 ### 6.1.3. Core Behavior-Driven Development
+
+**US08**
+A continuación, se hace el guerkin de la HU08, en este caso enfocada en la personalización de perfil de usuarios.
+
+<img src="assets/tests/us08_feature.png"/>
+<br>
+
+**US09**
+A continuación, se hace el guerkin de la HU09, en este caso enfocada en la generación de reporte de incidentes. 
+<img src="assets/tests/us09_feature.png"/>
+<br>
+
+**US10**
+A continuación, se hace el guerkin de la HU10, en este caso enfocado en el adjunto de evidencia al reporte.
+<img src="assets/tests/us10_feature.png"/>
+<br>
+
+**US11**
+A continuación, se hace el guerkin de la HU11, en este caso enfocado a la personalización de rutas.
+<img src="assets/tests/us11_feature.png"/>
+<br>
+
+**US12**
+A continuación, se hace el guerkin de la HU12, en este caso enfocado 
+<img src="assets/tests/us12_feature.png"/>
+<br>
+
+
 
 ### 6.1.4. Core System Tests
 
