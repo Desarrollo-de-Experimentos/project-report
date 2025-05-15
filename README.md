@@ -1850,9 +1850,31 @@ Antes de pasar a producción, se requiere una validación manual por parte de un
 
 ## 7.3. Continuous Deployment
 
+Este apartado se centra en la automatización del proceso de despliegue, permitiendo que cada cambio aprobado en el código se implemente automáticamente en producción. Esto reduce el tiempo entre el desarrollo y la entrega al usuario final, mejorando la eficiencia y la capacidad de respuesta ante cambios.
+
 ### 7.3.1. Tools and Practices.
 
+#### Tools:
+
+- **Jenkins**: Herramienta de automatización que permite orquestar el pipeline de CI/CD. En Continuous Deployment, Jenkins se configura para desplegar automáticamente en producción tras pasar las pruebas. Además, permite la integración con herramientas de monitoreo.
+
+- **Docker**: Facilita la creación de imágenes de contenedores que encapsulan la aplicación y sus dependencias. Esto asegura que el entorno de producción sea idéntico al de desarrollo, minimizando problemas de compatibilidad.
+
+- **Render**: Plataforma de despliegue en la nube que permite alojar aplicaciones y servicios. En Continuous Deployment, Render se utiliza para desplegar automáticamente las versiones más recientes del software en producción.
+
+- **Firebase hosting**: Proporciona un entorno de alojamiento para aplicaciones web y móviles. En Continuous Deployment, se utiliza para desplegar automáticamente las versiones más recientes de la aplicación móvil.
+
+#### Practices:
+
+- Feature branching: Cada nueva funcionalidad se desarrolla en una rama separada. Una vez que se completa y pasa las pruebas, se fusiona a la rama principal. Optamos por esta estrategia de ramificación de GIT para mantener un historial claro de cambios y facilitar la colaboración entre el equipo.
+
+- Code reviewing: Antes de fusionar una rama, se realiza una revisión del código por parte de otro miembro del equipo. Esto asegura que el código cumpla con los estándares y no introduzca errores.
+
+- Commit-based deployment: Cada vez que se realiza un *commit* en la rama principal, el pipeline de CI/CD se activa automáticamente. Esto permite que los cambios se desplieguen en producción de manera continua y rápida. De esta manera, nos aseguramos de que el código siempre esté en un estado apto para producción.
+ 
+
 ### 7.3.2. Production Deployment Pipeline Components.
+
 
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
