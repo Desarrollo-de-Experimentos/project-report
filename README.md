@@ -1792,6 +1792,49 @@ https://www.youtube.com/watch?v=oqUSiRLa8lI
 
 ### 6.1.1. Core Entities Unit Tests
 
+Al utilizar Java como lenguaje de programación, se implementaron pruebas unitarias para las entidades principales del sistema. Estas pruebas se realizaron utilizando JUnit, un marco de pruebas ampliamente utilizado en el ecosistema Java. A continuación, se presentan ejemplos de pruebas unitarias para las entidades `User`, `Report`, `Alert`, y `Location`.
+
+Estas pruebas unitarias se centran en verificar el comportamiento esperado de los métodos y atributos de cada entidad. Se utilizan aserciones para validar que los resultados obtenidos coincidan con los resultados esperados. Además, se incluyen pruebas para verificar la correcta inicialización de los atributos y la funcionalidad de los métodos.
+
+<div style="text-align: center;">
+<img src="./assets/unit-test/alert-test.PNG"/>
+</div>
+<br>
+
+Este es un ejemplo de prueba unitaria para la clase `Alert`, que verifica la correcta creación de una alerta y la obtención de su título y detalle.
+
+<div style="text-align: center;">
+<img src="./assets/unit-test/alert-test-error.PNG"/>
+</div>
+<br>
+
+En este caso, se muestra un error en la prueba unitaria, lo que indica que la implementación de la clase `Alert` no cumple con el comportamiento esperado. Esto resalta la importancia de las pruebas unitarias para identificar y corregir errores en el código.
+
+<div style="text-align: center;">
+<img src="./assets/unit-test/location-tests.PNG"/>
+</div>
+<br>
+
+Este es un ejemplo de prueba unitaria para la clase `Location`, que verifica la correcta creación de una ubicación y la obtención de sus coordenadas.   
+
+<div style="text-align: center;">
+<img src="./assets/unit-test/report-tests.PNG"/>
+</div>
+<br>
+
+Este es un ejemplo de prueba unitaria para la clase `Report`, que verifica la correcta creación de un reporte y la obtención de su título y detalle.
+
+<div style="text-align: center;">
+<img src="./assets/unit-test/user-profile-tests.PNG"/>
+</div>
+<br>
+
+Este es un ejemplo de prueba unitaria para la clase `User`, que verifica la correcta creación de un usuario y la obtención de su nombre y correo electrónico.
+
+De esta manera, se asegura que las entidades principales del sistema funcionen correctamente y cumplan con los requisitos establecidos. Las pruebas unitarias son una parte fundamental del proceso de desarrollo, ya que permiten detectar errores tempranamente y garantizar la calidad del software.
+<br>
+
+
 ### 6.1.2. Core Integration Tests
 
 ### 6.1.3. Core Behavior-Driven Development
