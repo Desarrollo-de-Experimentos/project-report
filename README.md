@@ -288,7 +288,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Fabia Herrera: Para el trabajo parcial pude apoyar en la mejora continua de la interfaz de usuario, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario.
         <p/>
-        Leonardo Linares:
+        Leonardo Linares: En esta entrega, ayudé en la información para el capítulo 7: DevOps Practices, asegurandome que la información sea correcta para la integración, entrega y despliegue continua.
         </p>
     </td>
     <td>TB1: En este entregable, se realizó un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.</td>
@@ -318,7 +318,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Fabia Herrera: Ayudé en la documentación de las pruebas completando la sección correspondiente al Continuous Deployment y asegurando que la aplicación cumpla con los estándares de calidad y usabilidad, considerando el impacto que su uso tendría en la vida diaria de los usuarios.
         <p/>
-        Leonardo Linares:
+        Leonardo Linares: Ayudé en el desarrollo específico de continuous delivery, que se hace para automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario. Destacando las herramientas y practicas utilizadas.
         </p></td>
     <td>TB1: En este entregable se emitió juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. De esta manera, se identificaron los detalles del problema que estamos abordando y las potenciales mejoras que podría proveer nuestra solución, traduciéndolas en User Stories que luego servirían para identificar funcionalidades. Además de ello, se identificó los segmentos objetivos de la aplicación y, más adelante, al desarrollo de los Wireflow Diagrams.</td>
   </tr>
