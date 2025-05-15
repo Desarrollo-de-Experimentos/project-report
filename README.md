@@ -46,7 +46,7 @@
     <tbody>
     <tr>
         <td>TB1</td>
-        <td>29/03/2024</td>
+        <td>29/03/2025</td>
         <td>Mauricio Abraham Rivo Rojas Sánchez	</td>
         <td>
         <ul>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
         <td>TB1</td>
-        <td>17/04/2024</td>
+        <td>17/04/2025</td>
         <td>Arian Martín Rodriguez Vargas</td>
         <td>
         <ul>
@@ -70,11 +70,9 @@
         </ul>
         </td>
     </tr>
-    <tr>  
-    </tr>
     <tr>
         <td>TB1</td>
-        <td>13/04/2024</td>
+        <td>13/04/2025</td>
         <td>Ramón Alejandro Jorge Arévalo</td>
         <td>
         <ul>
@@ -86,7 +84,7 @@
     </tr>
     <tr>
         <td rowspan="1">TB1</td>
-        <td rowspan="1">20/04/2024</td>
+        <td rowspan="1">20/04/2025</td>
         <td>Fabia Alejandra Herrera Aguirre</td>
         <td>
         <ul>
@@ -100,7 +98,7 @@
     </tr>
     <tr>
         <td rowspan="1">TB1</td>
-        <td rowspan="1">16/04/2024</td>
+        <td rowspan="1">16/04/2025</td>
         <td>Leonardo Félix Jesús Lineares Tejada</td>
         <td>
         <ul>
@@ -108,6 +106,67 @@
         <li> User Stories </li>
         <li> Impact Mapping </li>
         <li> Product Backlog</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>TP1</td>
+        <td>14/05/2025</td>
+        <td>Mauricio Abraham Rivo Rojas Sánchez	</td>
+        <td>
+        <ul>
+        <li> Testing suites & validation </li>
+        <li> Core Integration Tests </li>
+        <li> Core Behavior-Driven Development </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>TP1</td>
+        <td>14/05/2025</td>
+        <td>Arian Martín Rodriguez Vargas</td>
+        <td>
+        <ul>
+        <li> Testing suites & validation </li>
+        <li> Core Entities Unit Tests </li>
+        <li> Core System Tests </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>TP1</td>
+        <td>14/05/2025</td>
+        <td>Ramón Alejandro Jorge Arévalo</td>
+        <td>
+        <ul>
+        <li> DevOps Practices</li>
+        <li> Continuous Integration </li>
+        <li> Build & Test Suite Pipeline Components </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TP1</td>
+        <td rowspan="1">14/05/2025</td>
+        <td>Fabia Alejandra Herrera Aguirre</td>
+        <td>
+        <ul>
+        <li> Style Guidelines</li>
+        <li> DevOps Practices </li>
+        <li> Continuous Deployment </li>
+        <li> Production Deployment Pipeline Components </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TP1</td>
+        <td rowspan="1">14/05/2025</td>
+        <td>Leonardo Félix Jesús Lineares Tejada</td>
+        <td>
+        <ul>
+        <li> DevOps Practices </li>
+        <li> Continuous Delivery </li>
+        <li> Stages Deployment Pipeline Components </li>
         </ul>
         </td>
     </tr>
