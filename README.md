@@ -278,6 +278,20 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/>
         Leonardo Linares: Reconocí la responsabilidad ética y profesional en el desarrollo del proyecto, mediante la información obtenida para los User Stories, y el To-Be Scenario Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
         </p>
+
+        <p>
+        TP:
+        <p/>
+        Mauricio Rojas:
+        <p/>
+        Ramon Jorge: En esta entrega, ayudé a corregir y mejorar secciones del informe con respecto a la entrega anterior, tales como los Wireframes.
+        <p/>
+        Arian Rodriguez:
+        <p/>
+        Fabia Herrera:
+        <p/>
+        Leonardo Linares:
+        </p>
     </td>
     <td>TB1: En este entregable, se realizó un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.</td>
   </tr>
@@ -295,6 +309,19 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: Al realizar el diseño de la interfaz de usuario, consideré el impacto que tendría en la experiencia del usuario y cómo podría influir en su percepción de seguridad al utilizar la aplicación.
         <p/>
         Leonardo Linares: Hice decisiones informadas considerando el impacto de las soluciones en el desarrollo del proyecto, mediante la creación de los User Stories, el To-Be Scenario Mapping y el Impact Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
+        </p>
+    
+    <p>TP:
+        <p/>
+        Mauricio Rojas:
+        <p/>
+        Ramon Jorge: Para esta entrega, realicé la sección de continuous integration, para la cual tuve que tomar en cuenta lo realizado anteriormente con las pruebas unitarias e integrales.
+        <p/>
+        Arian Rodriguez:
+        <p/>
+        Fabia Herrera:
+        <p/>
+        Leonardo Linares:
         </p></td>
     <td>TB1: En este entregable se emitió juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. De esta manera, se identificaron los detalles del problema que estamos abordando y las potenciales mejoras que podría proveer nuestra solución, traduciéndolas en User Stories que luego servirían para identificar funcionalidades. Además de ello, se identificó los segmentos objetivos de la aplicación y, más adelante, al desarrollo de los Wireflow Diagrams.</td>
   </tr>
