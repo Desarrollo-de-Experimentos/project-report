@@ -1880,6 +1880,32 @@ El propósito de la prueba es insertar objetos de tipo `Location` y luego obtene
 ### 6.1.3. Core Behavior-Driven Development
 A continuación se muestran los casos de prueba que se podrían realizar utilizando el formato Gherkin para la aplicación PeaceApp. Estos casos de prueba están diseñados para validar las funcionalidades clave de la aplicación, asegurando que cumplan con los requisitos y expectativas del usuario.
 
+#### US08
+A continuación, se hace el guerkin de la HU08, en este caso enfocada en la personalización de perfil de usuarios.
+
+<img src="assets/tests/us08_feature.png"/>
+<br>
+
+#### US09
+A continuación, se hace el guerkin de la HU09, en este caso enfocada en la generación de reporte de incidentes. 
+<img src="assets/tests/us09_feature.png"/>
+<br>
+
+#### US10
+A continuación, se hace el guerkin de la HU10, en este caso enfocado en el adjunto de evidencia al reporte.
+<img src="assets/tests/us10_feature.png"/>
+<br>
+
+#### US11
+A continuación, se hace el guerkin de la HU11, en este caso enfocado a la personalización de rutas.
+<img src="assets/tests/us11_feature.png"/>
+<br>
+
+#### US12
+A continuación, se hace el guerkin de la HU12, en este caso enfocado 
+<img src="assets/tests/us12_feature.png"/>
+<br>
+
 #### US13
 En este caso de prueba, se valida la funcionalidad de visualizar los reportes de otros usuarios en la aplicación. Se espera que el usuario pueda acceder a una lista de reportes y ver los detalles de cada uno.
 
@@ -1910,34 +1936,6 @@ Durante este caso de prueba, se espera que el usuario pueda acceder al mapa inte
 <div style="text-align: center;">
 <img src="./assets/bdd/us17.PNG" alt="US17" width="600"/>
 </div>
-
-
-**US08**
-A continuación, se hace el guerkin de la HU08, en este caso enfocada en la personalización de perfil de usuarios.
-
-<img src="assets/tests/us08_feature.png"/>
-<br>
-
-**US09**
-A continuación, se hace el guerkin de la HU09, en este caso enfocada en la generación de reporte de incidentes. 
-<img src="assets/tests/us09_feature.png"/>
-<br>
-
-**US10**
-A continuación, se hace el guerkin de la HU10, en este caso enfocado en el adjunto de evidencia al reporte.
-<img src="assets/tests/us10_feature.png"/>
-<br>
-
-**US11**
-A continuación, se hace el guerkin de la HU11, en este caso enfocado a la personalización de rutas.
-<img src="assets/tests/us11_feature.png"/>
-<br>
-
-**US12**
-A continuación, se hace el guerkin de la HU12, en este caso enfocado 
-<img src="assets/tests/us12_feature.png"/>
-<br>
-
 
 
 ### 6.1.4. Core System Tests
