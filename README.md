@@ -280,7 +280,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/><br><br>
         TP:
         <p/>
-        Mauricio Rojas:
+        Mauricio Rojas: En este entregable, trabaje en conjunto a mi grupo para realizar los testing suites y validación para nuestro proyecto, centrandome en los tests de integración y de behaivor-driven.
         <p/>
         Ramon Jorge: En esta entrega, ayudé a corregir y mejorar secciones del informe con respecto a la entrega anterior, tales como los Wireframes.
         <p/>
@@ -310,7 +310,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         <p/><br><br>
         TP:
         <p/>
-        Mauricio Rojas:
+        Mauricio Rojas: En este entregable, me asegure de que los testing suites y validación esten correctos para nuestro proyecto, haciendo tests de integración en JUnit sobre las clases de User, Report, Alert, y Location. Ademas de tests de behaivor-driven basados en las User Stories ya identificadas.
         <p/>
         Ramon Jorge: Para esta entrega, realicé la sección de continuous integration, para la cual tuve que tomar en cuenta lo realizado anteriormente con las pruebas unitarias e integrales.
         <p/>
