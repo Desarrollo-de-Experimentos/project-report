@@ -1994,9 +1994,60 @@ Antes de pasar a producción, se requiere una validación manual por parte de un
 
 ## 7.3. Continuous Deployment
 
+Este apartado se centra en la automatización del proceso de despliegue, permitiendo que cada cambio aprobado en el código se implemente automáticamente en producción. Esto reduce el tiempo entre el desarrollo y la entrega al usuario final, mejorando la eficiencia y la capacidad de respuesta ante cambios.
+
 ### 7.3.1. Tools and Practices.
 
+#### Tools:
+
+- **Jenkins**: Herramienta de automatización que permite orquestar el pipeline de CI/CD. En Continuous Deployment, Jenkins se configura para desplegar automáticamente en producción tras pasar las pruebas. Además, permite la integración con herramientas de monitoreo.
+
+- **Docker**: Facilita la creación de imágenes de contenedores que encapsulan la aplicación y sus dependencias. Esto asegura que el entorno de producción sea idéntico al de desarrollo, minimizando problemas de compatibilidad.
+
+- **Render**: Plataforma de despliegue en la nube que permite alojar aplicaciones y servicios. En Continuous Deployment, Render se utiliza para desplegar automáticamente las versiones más recientes del software en producción.
+
+- **Firebase hosting**: Proporciona un entorno de alojamiento para aplicaciones web y móviles. En Continuous Deployment, se utiliza para desplegar automáticamente las versiones más recientes de la aplicación móvil.
+
+#### Practices:
+
+- Feature branching: Cada nueva funcionalidad se desarrolla en una rama separada. Una vez que se completa y pasa las pruebas, se fusiona a la rama principal. Optamos por esta estrategia de ramificación de GIT para mantener un historial claro de cambios y facilitar la colaboración entre el equipo.
+
+- Code reviewing: Antes de fusionar una rama, se realiza una revisión del código por parte de otro miembro del equipo. Esto asegura que el código cumpla con los estándares y no introduzca errores.
+
+- Commit-based deployment: Cada vez que se realiza un *commit* en la rama principal, el pipeline de CI/CD se activa automáticamente. Esto permite que los cambios se desplieguen en producción de manera continua y rápida. De esta manera, nos aseguramos de que el código siempre esté en un estado apto para producción.
+ 
+
 ### 7.3.2. Production Deployment Pipeline Components.
+
+En este apartado se describen los componentes del pipeline de despliegue en producción, que permiten la automatización del proceso de entrega continua.
+
+#### Componentes de pipeline del Backend (Render para Java):
+
+- Integración continua: Al hacer un commit en la rama develop, Render toma el código actualizado del backend desarrollado en Java y lo construye utilizando Maven como herramienta de gestión y construcción de proyectos.
+
+- Construcción de la imagen Docker: Render genera una imagen Docker del backend, asegurándose de incluir todas las dependencias necesarias para su correcto funcionamiento en el entorno de producción.
+
+- Despliegue: Render implementa automáticamente la nueva versión del backend en el servidor de producción, lo que permite que los cambios estén disponibles sin intervención manual.
+
+- Monitoreo y alerta: Una vez desplegada la aplicación, Render realiza un monitoreo continuo del sistema. Si se detectan errores o problemas de rendimiento, se envían alertas automáticas al equipo para una respuesta rápida. 
+
+#### Componentes de pipeline de la base de datos (VPS):
+
+- Control de versiones de esquemas: Los cambios en la estructura de la base de datos (migraciones, scripts SQL, cambios de índices o constraints) se gestionaN, y se almacenan en el repositorio junto con el resto del código.
+
+- Ejecución de migraciones: Al hacer un commit en la rama develop (o en una rama dedicada al backend), el pipeline ejecuta automáticamente los scripts de migración contra una base de datos de staging o prueba en el VPS, validando que las modificaciones no generen conflictos ni errores.
+
+- Despliegue en producción: Si las migraciones son exitosas en staging, se aplican los mismos cambios en la base de datos de producción en el VPS, ya sea de forma automatizada o con revisión manual según la criticidad del cambio.
+
+#### Componentes de pipeline del Frontend (Firebase para Kotlin):
+- Compilación de la app móvil: Al detectar un nuevo commit en el repositorio, el pipeline inicia la compilación de la aplicación Android escrita en Kotlin utilizando Gradle, generando el archivo .apk o .aab listo para distribución.
+
+- Ejecución de pruebas automatizadas: Se ejecutan pruebas unitarias y, si están configuradas, pruebas instrumentadas en emuladores o dispositivos físicos, asegurando que tanto la lógica como la interfaz funcionen correctamente.
+
+- Distribución con Firebase App Distribution: Si las pruebas son exitosas, el pipeline sube automáticamente la nueva versión de la app a Firebase App Distribution, permitiendo que los testers accedan fácilmente a la última versión para pruebas internas.
+
+- Monitoreo con Firebase Crashlytics: Tras la distribución, se realiza un seguimiento en tiempo real de la aplicación mediante Firebase Crashlytics, que reporta automáticamente cualquier fallo, excepción o caída que ocurra en los dispositivos de prueba o usuarios finales.
+
 
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
