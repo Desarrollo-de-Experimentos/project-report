@@ -229,7 +229,22 @@ Se redactaron y estructuraron los contenidos asignados a cada miembro utilizando
       + [5.2.6. RESTful API documentation](#526-restful-api-documentation)
       + [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
    * [5.3. Video About-the-Product](#53-video-about-the-product)
-
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+   * [6.1. Testing suites & validation](#61-testing-suites--validation)
+      + [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+      + [6.1.2. Core Integration Tests](#612-core-integration-tests)
+      + [6.1.3. Core Behavior-Driven Development](#613-core-behaivor-driven-development)
+      + [6.1.4. Core System Tests](#614-core-system-tests)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+   * [7.1. Continuous Integration](#71-continuos-integration)
+      + [7.1.1. Tools and Practices](#711-tools-and-practices)
+      + [7.1.2. Build & Test Suite Pipeline Components](#712-build--tests-suite-pipeline-components)
+   * [7.2. Continuous Delivery](#72-continuos-delivery)
+      + [7.2.1. Tools and Practices](#721-tools-and-practices)
+      + [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+   * [7.3. Continuous Deployment](#73-continuos-deployment)
+      + [7.3.1. Tools and Practices](#731-tools-and-practices)
+      + [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
 - [Conclusiones](#conclusiones)
    * [Recomendaciones](#recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
@@ -1775,13 +1790,13 @@ https://www.youtube.com/watch?v=oqUSiRLa8lI
 
 ## 6.1. Testing suites & validation
 
-### 6.1.1. Core Entities Unit Tests.
+### 6.1.1. Core Entities Unit Tests
 
-### 6.1.2. Core Integration Tests.
+### 6.1.2. Core Integration Tests
 
 ### 6.1.3. Core Behavior-Driven Development
 
-### 6.1.4. Core System Tests.
+### 6.1.4. Core System Tests
 
 # Capítulo VII: DevOps Practices
 
@@ -1791,7 +1806,7 @@ https://www.youtube.com/watch?v=oqUSiRLa8lI
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
-## 7.1 Continuous Delivery
+## 7.2 Continuous Delivery
 El objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario.
 
 ### 7.2.1. Tools and Practices.
