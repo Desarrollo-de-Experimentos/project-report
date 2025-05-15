@@ -277,9 +277,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: En esta entrega pude apoyar principalmente con el diseño de la interfaz de usuario de la aplicación, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario. 
         <p/>
         Leonardo Linares: Reconocí la responsabilidad ética y profesional en el desarrollo del proyecto, mediante la información obtenida para los User Stories, y el To-Be Scenario Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
-        </p>
-
-        <p>
+        <p/>
         TP:
         <p/>
         Mauricio Rojas:
@@ -309,9 +307,8 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: Al realizar el diseño de la interfaz de usuario, consideré el impacto que tendría en la experiencia del usuario y cómo podría influir en su percepción de seguridad al utilizar la aplicación.
         <p/>
         Leonardo Linares: Hice decisiones informadas considerando el impacto de las soluciones en el desarrollo del proyecto, mediante la creación de los User Stories, el To-Be Scenario Mapping y el Impact Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
-        </p>
-    
-    <p>TP:
+        <p/>
+        TP:
         <p/>
         Mauricio Rojas:
         <p/>
