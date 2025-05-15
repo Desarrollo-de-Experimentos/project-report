@@ -1796,6 +1796,8 @@ Al utilizar Java como lenguaje de programación, se implementaron pruebas unitar
 
 Estas pruebas unitarias se centran en verificar el comportamiento esperado de los métodos y atributos de cada entidad. Se utilizan aserciones para validar que los resultados obtenidos coincidan con los resultados esperados. Además, se incluyen pruebas para verificar la correcta inicialización de los atributos y la funcionalidad de los métodos.
 
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EXPkQ_Qk3QBBmsMH-P6DhloBiwOVZLMCIL84tMcEGHzQYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J53NMp" target="_blank">Video de pruebas unitarias</a>
+
 <div style="text-align: center;">
 <img src="./assets/unit-test/alert-test.PNG"/>
 </div>
@@ -1838,6 +1840,8 @@ De esta manera, se asegura que las entidades principales del sistema funcionen c
 ### 6.1.2. Core Integration Tests
 
 Se realizaron 3 pruebas de integración en el Web Services, las cuales todas las pruebas fueron exitosas. Todas las pruebas fueron concentradas en el model `Location`, dicho modelo se relaciona con su servicio y repositorio en las pruebas. Todas las pruebas siguen el patrón AAA.
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ES-Q9wS5dkhLmNmIUTe9RNgBO-uRoBLGPP8qkvLVbmAmTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sQEUed">Video de pruebas de integración</a>
 
 Las pruebas son:
 - shouldReturnAllLocations
