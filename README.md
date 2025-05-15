@@ -1771,6 +1771,27 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 
 https://www.youtube.com/watch?v=oqUSiRLa8lI
 
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1. Tools and Practices
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+## 7.1 Continuous Delivery
+El objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario.
+
+### 7.2.1. Tools and Practices.
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+## 7.3. Continuous Deployment
+
+### 7.3.1. Tools and Practices.
+
+### 7.3.2. Production Deployment Pipeline Components.
+
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
 
