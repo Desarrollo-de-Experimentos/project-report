@@ -1948,7 +1948,25 @@ A continuación, se hace el guerkin de la HU12, en este caso enfocado
 
 ### 7.1.1. Tools and Practices
 
+En el contexto del desarrollo y la prueba de software, resulta fundamental disponer de métodos y herramientas que garanticen tanto la calidad del código como la eficiencia del equipo. Dentro de nuestro flujo de trabajo, utilizamos diversas herramientas que nos permiten optimizar la construcción y validación de las funcionalidades esperadas de las aplicaciones. Estas herramientas se aplican a distintas etapas del ciclo de vida del software, desde la programación hasta la ejecución de pruebas y la automatización de procesos.
+
+Nos apoyamos en la metodología de Test-Driven Design (TDD), lo que nos permite asegurar que nuestras soluciones no solo satisfagan los requisitos del cliente, sino que también mantengan una alta calidad técnica. Entre las herramientas clave que empleamos se encuentran:
+
+| Herramienta | Tipo                             | Descripción                                                                                  | Propósito                                                                                                                                       |
+|-------------|----------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| J Unit      | Herramienta para realizar pruebas unitarias   | Es un programa que permite realizar Tests de métodos pequeños e independientes en Java.         | Ayudar a crear y ejecutar pruebas para asegurarse de que los componentes de la aplicación funcionen como deben.         |
+| Mockito     | Herramienta para realizar pruebas integrales | Ayuda a realizar pruebas integrales creando simulaciones de otros componentes necesarias en un flujo de la aplicación. | Imitar cEl comportamiento de componentes externos necesarios para la prueba de un flujo entero de la aplicación.            |
+| Spring Boot Test    | Herramienta para pruebas unitarias e integrales    | Ayuda a gestionar el entorno de pruebas para los tests en Spring Boot. | Crea y maneja el entorno de pruebas en la aplicación. |
+
 ### 7.1.2. Build & Test Suite Pipeline Components
+
+En primer lugar, tenemos el AlertDtoTEst que contiene la prueba testValidationFields, la cual se asegura que los campos sean los correctos usando JUnit para realizar pruebas funcionales:
+
+![AlertDtoTest Screenshot](assets/continuous-integration/alert-dto-test.png)
+
+Luego, tenemos el LocationServiceIntegrationTest, el cual ejecuta tres pruebas integrales para asegurar que la ubicación se guarde correctamente, que todas las ubicaciones se obtengan y que se agreguen las ubicaciones peligrosas. Se usó para ello Mockito:
+
+![AlertDtoTest Screenshot](assets/continuous-integration/location-service-integration-test.png)
 
 ## 7.2 Continuous Delivery
 El objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario.
