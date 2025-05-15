@@ -277,14 +277,14 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: En esta entrega pude apoyar principalmente con el diseño de la interfaz de usuario de la aplicación, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario. 
         <p/>
         Leonardo Linares: Reconocí la responsabilidad ética y profesional en el desarrollo del proyecto, mediante la información obtenida para los User Stories, y el To-Be Scenario Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
-        <p/>
+        <p/><br><br>
         TP:
         <p/>
         Mauricio Rojas:
         <p/>
         Ramon Jorge: En esta entrega, ayudé a corregir y mejorar secciones del informe con respecto a la entrega anterior, tales como los Wireframes.
         <p/>
-        Arian Rodriguez:
+        Arian Rodriguez: Durante esta entrega, me encargué en realizar las pruebas unitarias con JUnit a través de diferentes investigaciones y comprensiones realizadas para el fin del trabajo.
         <p/>
         Fabia Herrera:
         <p/>
@@ -307,14 +307,14 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: Al realizar el diseño de la interfaz de usuario, consideré el impacto que tendría en la experiencia del usuario y cómo podría influir en su percepción de seguridad al utilizar la aplicación.
         <p/>
         Leonardo Linares: Hice decisiones informadas considerando el impacto de las soluciones en el desarrollo del proyecto, mediante la creación de los User Stories, el To-Be Scenario Mapping y el Impact Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
-        <p/>
+        <p/><br><br>
         TP:
         <p/>
         Mauricio Rojas:
         <p/>
         Ramon Jorge: Para esta entrega, realicé la sección de continuous integration, para la cual tuve que tomar en cuenta lo realizado anteriormente con las pruebas unitarias e integrales.
         <p/>
-        Arian Rodriguez:
+        Arian Rodriguez: Durante este trabajo parcial, estuve enfocado en integrar las pruebas del sistema mediante la herramienta de Selenium IDE, de esta manera pude emitir juicio sobre el verdadero y posibles comportamientos del usuario.
         <p/>
         Fabia Herrera:
         <p/>
