@@ -2263,7 +2263,7 @@ En este apartado se describen los componentes del pipeline de despliegue en prod
 
 | Contenido | URL del Vídeo |
 |--------------|--------------|
-| Vídeo de Exposición TB1      | Link del Vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETUMRGYtjwtInt06AL23wZ8B0NK4fyZR3reWyP6ycf26GQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poVQHe|  
-| VÍdeo de Exposición TP1      | Link del Vídeo: - |
+| Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETUMRGYtjwtInt06AL23wZ8B0NK4fyZR3reWyP6ycf26GQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poVQHe>|  
+| VÍdeo de Exposición TP1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERcX1X9pC-VGkHHG4d9PjFkBgkB7ZyCY4I5_zbYgK6xL-A?e=MqeOH0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>|
 | Vídeo de Exposición TB2    | Link del Vídeo: - | 
 | Vídeo de Exposición TF1    | Link del Vídeo: - | 
