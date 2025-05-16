@@ -175,7 +175,8 @@
 # Project Report Collaboration Insights
 En esta sección, registraremos los cambios y logros que se completaron en cada entrega del reporte.
 
-TB1 La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/Desarrollo-de-Experimentos/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+## TB1
+La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/Desarrollo-de-Experimentos/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
 
 Se redactaron y estructuraron los contenidos asignados a cada miembro utilizando el formato Markdown. Luego, se realizaron commits para garantizar el avance en el repositorio. Se completaron los siguientes puntos: capitulos I-IV, conclusiones y video exposición, en colaboración del equipo. Se llevaron a cabo reuniones semanales para hacer una revisión de lo elaborado por el grupo.
 
@@ -191,6 +192,22 @@ Se redactaron y estructuraron los contenidos asignados a cada miembro utilizando
   <img src="./assets/collaboration-insights/network-graph.png" alt="Network Graph" width="90%" />
 </div><br>
 
+## TP1
+La entrega TP1 finalizó con éxito y los avances están documentados. Adicionalmente, se realizaron pruebas unitarias, integración, sistema y de comportamiento, además, se incluye el propósito, criterio y descripción de cada prueba.
+
+<div style="text-align: center;">
+  <img src="./assets/collaboration-insights/general_insights_tp1.png" alt="General Collaboration Insights" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/collaboration-insights/contributors_tp1.png" alt="Contributors" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/collaboration-insights/network-graph-tp1.png" alt="Network Graph" width="90%" />
+</div><br>
+
+Todos hemos trabajado bajo GitFlow, en base a features y conventional commits para las colaboraciones en los repositorios.
 
 # Contenido
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
