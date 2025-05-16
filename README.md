@@ -367,6 +367,10 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         </p>
     </td>
     <td>TB1: En este entregable, se realizó un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.</td>
+    <br>
+    <td>
+        TP1: En este entregable, se realizaron los diferentes tipos de prueba solicitados como: Unitarias, Integración, Sistema y Comportamiento. Adicionalmente, hemos seguido las buenas prácticas y patrones mencionados en el material del curso. Además, se documentó las herramientas que utilizamos en el proceso de despliegue, integración continua y testing.
+    </td>
   </tr>
   <tr>
     <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
@@ -396,6 +400,7 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Leonardo Linares: Ayudé en el desarrollo específico de continuous delivery, que se hace para automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario. Destacando las herramientas y practicas utilizadas.
         </p></td>
     <td>TB1: En este entregable se emitió juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. De esta manera, se identificaron los detalles del problema que estamos abordando y las potenciales mejoras que podría proveer nuestra solución, traduciéndolas en User Stories que luego servirían para identificar funcionalidades. Además de ello, se identificó los segmentos objetivos de la aplicación y, más adelante, al desarrollo de los Wireflow Diagrams.</td>
+    <td>TP1: En este entregable se emitieron juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. A partir de este diseño, se planificaron y ejecutaron pruebas orientadas a validar que las funcionalidades desarrolladas cumplieran con los requerimientos definidos, asegurando así la coherencia entre lo diseñado y lo implementado. Las pruebas también permitieron detectar posibles mejoras antes del despliegue, contribuyendo a una entrega más estable y alineada con las necesidades del usuario final.</td>
   </tr>
 </table>
 
@@ -2262,7 +2267,7 @@ En este apartado se describen los componentes del pipeline de despliegue en prod
 
 | Contenido | URL del Vídeo |
 |--------------|--------------|
-| Vídeo de Exposición TB1      | Link del Vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETUMRGYtjwtInt06AL23wZ8B0NK4fyZR3reWyP6ycf26GQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poVQHe|  
-| VÍdeo de Exposición TP1      | Link del Vídeo: - |
+| Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETUMRGYtjwtInt06AL23wZ8B0NK4fyZR3reWyP6ycf26GQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poVQHe>|  
+| VÍdeo de Exposición TP1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERcX1X9pC-VGkHHG4d9PjFkBgkB7ZyCY4I5_zbYgK6xL-A?e=MqeOH0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>|
 | Vídeo de Exposición TB2    | Link del Vídeo: - | 
 | Vídeo de Exposición TF1    | Link del Vídeo: - | 
