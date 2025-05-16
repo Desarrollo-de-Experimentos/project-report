@@ -335,6 +335,18 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: En esta entrega pude apoyar principalmente con el diseño de la interfaz de usuario de la aplicación, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario. 
         <p/>
         Leonardo Linares: Reconocí la responsabilidad ética y profesional en el desarrollo del proyecto, mediante la información obtenida para los User Stories, y el To-Be Scenario Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
+        <p/><br><br>
+        TP:
+        <p/>
+        Mauricio Rojas: En este entregable, trabaje en conjunto a mi grupo para realizar los testing suites y validación para nuestro proyecto, centrandome en los tests de integración y de behaivor-driven.
+        <p/>
+        Ramon Jorge: En esta entrega, ayudé a corregir y mejorar secciones del informe con respecto a la entrega anterior, tales como los Wireframes.
+        <p/>
+        Arian Rodriguez: Durante esta entrega, me encargué en realizar las pruebas unitarias con JUnit a través de diferentes investigaciones y comprensiones realizadas para el fin del trabajo.
+        <p/>
+        Fabia Herrera: Para el trabajo parcial pude apoyar en la mejora continua de la interfaz de usuario, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario.
+        <p/>
+        Leonardo Linares: En esta entrega, ayudé en la información para el capítulo 7: DevOps Practices, asegurandome que la información sea correcta para la integración, entrega y despliegue continua.
         </p>
     </td>
     <td>TB1: En este entregable, se realizó un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.</td>
@@ -353,6 +365,18 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: Al realizar el diseño de la interfaz de usuario, consideré el impacto que tendría en la experiencia del usuario y cómo podría influir en su percepción de seguridad al utilizar la aplicación.
         <p/>
         Leonardo Linares: Hice decisiones informadas considerando el impacto de las soluciones en el desarrollo del proyecto, mediante la creación de los User Stories, el To-Be Scenario Mapping y el Impact Mapping. Además, ayude en el desarrollo de los wireframes de la aplicación.
+        <p/><br><br>
+        TP:
+        <p/>
+        Mauricio Rojas: En este entregable, me asegure de que los testing suites y validación esten correctos para nuestro proyecto, haciendo tests de integración en JUnit sobre las clases de User, Report, Alert, y Location. Ademas de tests de behaivor-driven basados en las User Stories ya identificadas.
+        <p/>
+        Ramon Jorge: Para esta entrega, realicé la sección de continuous integration, para la cual tuve que tomar en cuenta lo realizado anteriormente con las pruebas unitarias e integrales.
+        <p/>
+        Arian Rodriguez: Durante este trabajo parcial, estuve enfocado en integrar las pruebas del sistema mediante la herramienta de Selenium IDE, de esta manera pude emitir juicio sobre el verdadero y posibles comportamientos del usuario.
+        <p/>
+        Fabia Herrera: Ayudé en la documentación de las pruebas completando la sección correspondiente al Continuous Deployment y asegurando que la aplicación cumpla con los estándares de calidad y usabilidad, considerando el impacto que su uso tendría en la vida diaria de los usuarios.
+        <p/>
+        Leonardo Linares: Ayudé en el desarrollo específico de continuous delivery, que se hace para automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario. Destacando las herramientas y practicas utilizadas.
         </p></td>
     <td>TB1: En este entregable se emitió juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. De esta manera, se identificaron los detalles del problema que estamos abordando y las potenciales mejoras que podría proveer nuestra solución, traduciéndolas en User Stories que luego servirían para identificar funcionalidades. Además de ello, se identificó los segmentos objetivos de la aplicación y, más adelante, al desarrollo de los Wireflow Diagrams.</td>
   </tr>
