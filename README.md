@@ -2224,6 +2224,25 @@ En este apartado se describen los componentes del pipeline de despliegue en prod
 
 - Monitoreo con Firebase Crashlytics: Tras la distribución, se realiza un seguimiento en tiempo real de la aplicación mediante Firebase Crashlytics, que reporta automáticamente cualquier fallo, excepción o caída que ocurra en los dispositivos de prueba o usuarios finales.
 
+## 7.4 Continuous monitoring
+
+Esta sección se encarga de explicar las herramientas y prácticas utilizadas para conseguir un monitoreo continuo de nuestro producto. Logrando hacer pruebas que nos dan distintas ideas de como mejorarlo.
+
+### 7.4.1. Tools and Practices
+
+Algunas herramientas y prácticas que se emplearán para llevar a cabo un monitoreo continuo y eficaz en nuestra aplicación, son las siguientes:
+
+- **Monitoreo de Experiencia del Usuario:** Para entender la interacción y experiencia del usuario, herramientas como Google Analytics recopilan datos sobre el uso y navegabilidad. Esto ayuda a los equipos a mejorar la usabilidad y rendimiento de la interfaz. Ofreciendo a los equipos una perspectiva sobre cómo el rendimiento impacta directamente la experiencia del usuario, facilitando la identificación y resolución de problemas de rendimiento en el momento que ocurren.
+
+![Google Analytics](https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Google_Analytics.svg)
+
+- **Supervisión de APIs:** Se deben monitorear la disponibilidad y tiempo de respuesta de APIs externas o internas para el funcionamiento correcto del producto, por lo que herramientas como Postman y Pingdom ofrecen métricas en tiempo real para verificar esto mismo.
+
+![Postman](https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png)
+
+- **Auditorías de Calidad Web:** Google Lighthouse y Catchpoint permiten auditar la calidad y elrendimiento de las aplicaciones web. Lighthouse analiza accesibilidad, SEO y rendimiento para mejorar la experiencia del usuario, mientras que Catchpoint realiza pruebas de rendimiento desde diversas ubicaciones y dispositivos para asegurar una experiencia de usuario uniforme en diferentes entornos.
+
+![Google Lighthouse](https://avanza.justia.com/wp-content/uploads/2021/08/Onward-Cover-copy_SVG.svg)
 
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
