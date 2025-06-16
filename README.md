@@ -2224,7 +2224,7 @@ En este apartado se describen los componentes del pipeline de despliegue en prod
 
 - Monitoreo con Firebase Crashlytics: Tras la distribución, se realiza un seguimiento en tiempo real de la aplicación mediante Firebase Crashlytics, que reporta automáticamente cualquier fallo, excepción o caída que ocurra en los dispositivos de prueba o usuarios finales.
 
-## 7.4 Continuous monitoring
+## 7.4. Continuous monitoring
 
 Esta sección se encarga de explicar las herramientas y prácticas utilizadas para conseguir un monitoreo continuo de nuestro producto. Logrando hacer pruebas que nos dan distintas ideas de como mejorarlo.
 
@@ -2243,6 +2243,26 @@ Algunas herramientas y prácticas que se emplearán para llevar a cabo un monito
 - **Auditorías de Calidad Web:** Google Lighthouse y Catchpoint permiten auditar la calidad y elrendimiento de las aplicaciones web. Lighthouse analiza accesibilidad, SEO y rendimiento para mejorar la experiencia del usuario, mientras que Catchpoint realiza pruebas de rendimiento desde diversas ubicaciones y dispositivos para asegurar una experiencia de usuario uniforme en diferentes entornos.
 
 ![Google Lighthouse](https://avanza.justia.com/wp-content/uploads/2021/08/Onward-Cover-copy_SVG.svg)
+
+### 7.4.2. Monitoring Pipeline Components
+
+Un pipeline de monitoreo constante integra diversas etapas que ayudan a mantener la calidad y el rendimiento de una aplicación. Estas etapas comprenden la recopilación de datos, su almacenamiento, análisis y posterior visualización. En este proceso, Google Lighthouse desempeña un papel clave al permitir la evaluación automatizada de sitios web, proporcionando auditorías detalladas en aspectos como rendimiento, accesibilidad, buenas prácticas y SEO. Esta herramienta facilita a los equipos de desarrollo la identificación de problemas que afectan directamente la experiencia del usuario, como los tiempos de carga elevados, el uso inadecuado de recursos o cambios bruscos en el diseño.
+
+![Google Lighthouse 2](https://www.escueladeinternet.com/wp-content/uploads/2022/09/Google-lighthouse.png)
+
+Gracias a sus métricas claras y recomendaciones prácticas, Lighthouse permite una mejora continua de la calidad del producto desde una perspectiva centrada en el usuario.
+
+### 7.4.3. Alerting Pipeline Components
+
+El componente de alertas en un pipeline de monitoreo es fundamental para asegurar una respuesta rápida ante problemas de rendimiento o disponibilidad del sistema. Para esto, la herramienta clave que se usa es **Grafana**, por su capacidad para visualizar métricas en tiempo real y configurar notificaciones automáticas en función de condiciones críticas. **Grafana** permite definir umbrales personalizados sobre métricas como uso de CPU, latencia, carga de página, entre otros. Cuando se detectan anomalías o valores fuera de los rangos esperados, la herramienta puede generar alertas que se envían directamente a canales como correo electrónico, Slack o Microsoft Teams. Esta flexibilidad permite una detección proactiva de incidentes, reduciendo el tiempo de respuesta y evitando que los problemas escalen hasta impactar al usuario final.
+
+![Grafana](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/512px-Grafana_logo.svg.png)
+
+### 7.4.4. Notification Pipeline Components
+
+Se debe tener un pipeline de monitoreo y calidad, ya que nos da un sistema de notificaciones automatizado que permite al equipo mantenerse informado sobre el estado de cada etapa del proceso, facilitando la toma de decisiones rápidas y fundamentadas. Para realizarlo, se usara **Jenkins** cumple un rol esencial en esta área al ofrecer mecanismos de notificación configurables para cada fase del pipeline. Al finalizar cada "build" o conjunto de pruebas, Jenkins puede enviar alertas automáticas que informan sobre el resultado (éxito o fallo), el tiempo de ejecución y posibles errores detectados. Esto permite actuar de manera inmediata ante cualquier incidente técnico. Además, Jenkins permite generar reportes detallados y automatizar el envío de resúmenes periódicos a los canales designados. Así, el equipo obtiene una visión clara y actualizada del estado del software, fomentando la mejora continua y la transparencia durante todo el ciclo de desarrollo.
+
+![Jenkins](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/512px-Jenkins_logo.svg.png)
 
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
