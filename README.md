@@ -2140,6 +2140,96 @@ Como ciudadano, quiero poder ver los reportes de otros usuarios sobre incidentes
 Durante este test, se verifica que la funcionalidad de ver reportes de otros usuarios funcione correctamente. Se espera que al hacer clic en "Reports", el usuario sea redirigido a una nueva vista del sidebar donde pueda ver una lista de reportes recientes y sus detalles.
 
 
+## 6.2. Static testing & Verification
+### 6.2.1. Static Code Analysis
+Para garantizar la calidad del código y detectar posibles errores antes de la ejecución, se implementó un análisis estático del código utilizando SonarQube. Esta herramienta permite identificar problemas de calidad, vulnerabilidades y malas prácticas en el código fuente.
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+#### 6.2.1.2. Code Quality & Code Security
+
+### 6.2.2. Reviews
+
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+Para validar las funcionalidades y la experiencia de usuario de la aplicación PeaceApp, se diseñaron entrevistas con usuarios potenciales. Estas entrevistas se centraron en comprender las necesidades y expectativas de los usuarios, así como en obtener retroalimentación sobre el diseño y la usabilidad de la aplicación.
+
+Nuestros entrevistados serán demostrados mediante PeaceApp, una aplicación móvil y web que busca mejorar la seguridad personal y comunitaria. La aplicación permite a los usuarios crear reportes de incidentes, enviar alertas de emergencia y compartir su ubicación con otros usuarios.
+
+Preguntas hacia nuestro segmento de usuarios: 
+Ciudadanos que buscan mejorar su seguridad personal y la de su comunidad.
+
+1. ¿Qué funcionalidades consideras más importantes en la aplicación?
+2. ¿Qué te pareció el diseño y la usabilidad de la aplicación?
+3. ¿Qué mejoras sugerirías para hacer la aplicación más útil y fácil de usar?
+4. ¿Cómo te gustaría recibir notificaciones sobre incidentes de seguridad?
+5. ¿Qué tan importante es para ti poder compartir tu ubicación con otros usuarios?
+6. ¿Te gustaría ver a la aplicación como publicidad en redes sociales, como Instagram o Facebook, para que de esta manera puedas conocer más sobre la aplicación?
+7. ¿Cómo te sentirías atraido hacia la aplicación si se hiciera publicidad en redes sociales?
+8. ¿Crees que esta aplicación ayudará a mejorar la seguridad en tu comunidad?
+9. ¿Recomendarías esta aplicación a tus amigos y familiares? ¿Por qué?
+10. ¿Qué otras funcionalidades te gustaría ver en futuras versiones de la aplicación?
+
+### 6.3.2. Registro de Entrevistas.
+#### Entrevista N° X: xx xxx
+<img src="./assets/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
+Enlace de la entrevista: (video en MS stream, colocar link directo)
+<br><br>
+
+**Nombre:** xxx xx xx
+**Edad:** 22 años
+**Pasatiempos:** Programar, aprender nuevas tecnologías de código.
+**Ocupación:** Estudiante universitario (Ingeniería de Software)
+Paolo es un estudiante universitario de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, reside en el distrito de Surco y nos comenta su angustia con la inseguridad que vive día a día. Cada día que ha salido, ha sido testigo de un robo, nos ofrece el ejemplo reciente de un acto delictivo en la zona de "La bolichera de Surco" donde presenció este hurto, sin embargo, no pudo realizar algo más que este a su alcance. Al proponerle esta propuesta de solución le pareció una idea interesante y que fácilmente, él podría ser un usuario de esta aplicación. Nos comenta que la interacción pensada para este aplicativo brindará una experiencia al usuario única al reportar incidencias en tiempo real.
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+UX Heuristics & Principles Evaluation
+Usability – Inclusive Design – Information Architecture
+
+AUDITOR : PeaceApp Team
+CLIENTE(S) : ENTREVISTADOS
+
+Site a evaluar: PeaceApp Web Application
+
+##### Tareas a evaluar:
+1. **Registro de usuario**: Evaluar la facilidad de registro y la claridad de los mensajes de error.
+2. **Creación de reporte**: Evaluar la usabilidad del formulario de creación de reportes y la claridad de los campos requeridos.
+3. **Visualización de reportes**: Evaluar la facilidad para navegar y encontrar reportes específicos.
+4. **Envío de alerta de emergencia**: Evaluar la facilidad para enviar una alerta de emergencia y la claridad de los mensajes de confirmación.
+5. **Acceso al mapa interactivo**: Evaluar la facilidad para acceder al mapa interactivo y la claridad de la información presentada.
+6. **Notificaciones**: Evaluar la claridad de las notificaciones recibidas y la facilidad para gestionarlas.
+
+###### No están incluidas en esta versión de la evaluación de las siguientes tareas:
+- **Visualización de alertas**: Evaluar la facilidad para visualizar las alertas enviadas por otros usuarios.
+- **Configuración de notificaciones**: Evaluar la facilidad para configurar las preferencias de notificación.
+- **Acceso a la sección de ayuda**: Evaluar la facilidad para acceder a la sección de ayuda y la claridad de la información proporcionada.
+- **Compartir ubicación**: Evaluar la facilidad para compartir la ubicación con otros usuarios y la claridad de los mensajes de confirmación.
+- **Configuración de perfil**: Evaluar la facilidad para editar el perfil y la claridad de los mensajes de éxito.
+
+#### Tabla Resumen
+| Problema | Escala de severidad | Heurística / Principio violado |
+| --- | --- | --- |
+| Registro de usuario confuso | 3 | Visibilidad del estado del sistema |
+| Mensajes de error poco claros | 2 | Prevención de errores |
+| Formulario de creación de reportes complicado | 4 | Consistencia y estándares |
+| Campos requeridos no claros | 3 | Prevención de errores |
+| Navegación difícil para encontrar reportes | 4 | Visibilidad del estado del sistema |
+| Mensajes de confirmación poco claros | 2 | Visibilidad del estado del sistema |
+
+## 6.4. Auditoría de Experiencias de Usuario.
+### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado.
+#### 6.4.1.2. Cronograma de auditoría realizada.
+#### 6.4.1.3. Contenido de auditoría realizada.
+
+### 6.4.2. Auditoría recibida.
+#### 6.4.2.1. Información del grupo auditor.
+#### 6.4.2.2. Cronograma de auditoría recibida.
+#### 6.4.2.3. Contenido de auditoría recibida.
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -2340,7 +2430,7 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 - La seguridad ciudadana no solo depende de la policía, sino de una red informada y conectada de ciudadanos.
 - La tecnología móvil puede reducir la sensación de inseguridad si se orienta correctamente al contexto urbano.
 
-### 8.1.3 Experiment-Ready Questions
+### 8.1.3. Experiment-Ready Questions
 
 - Registro e inicio de sesión: ¿El sistema permite autenticación con múltiples métodos (correo, Google, redes sociales)?
 - Reporte de incidencias: ¿Los reportes enviados aparecen inmediatamente en el mapa u otro feed visible?
@@ -2350,7 +2440,7 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 - Historial de usuario: ¿Existe un historial visible de reportes hechos por un usuario?
 - Priorización de incidencias: ¿El sistema prioriza la visibilidad de alertas urgentes por encima de otras incidencias?
 
-### 8.1.4 Question Backlog
+### 8.1.4. Question Backlog
 
 - Confiabilidad de reportes: ¿Cómo podemos asegurar la veracidad y utilidad de los reportes ciudadanos para que los usuarios confíen en la información mostrada en el mapa?
 - Facilidad y rapidez de uso: ¿Qué tan dispuestos están los usuarios a reportar incidencias si esto les toma más de 30 segundos?
@@ -2359,7 +2449,7 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 - Forma de uso: ¿Usarán PeaceApp de manera proactiva (para explorar zonas) o reactiva (solo cuando algo pasa)?
 - Notificaciones de la aplicación: ¿Qué tipo de notificaciones son consideradas útiles y cuáles resultarían molestas o invasivas?
 
-### 8.1.5 Experiment Cards
+### 8.1.5. Experiment Cards
 
 ## Tables
 
@@ -2386,6 +2476,19 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 | Hypothesis     | Si implementamos un sistema de reputación y recompensas visibles por reportes útiles, entonces los usuarios aumentarán su frecuencia de reportes en al menos un 25% y la calidad percibida mejorará según encuestas en un 15%. |
 | Métricas      | Número promedio de reportes por usuario activo. Porcentaje de reportes validados como útiles. Participación en votación/valoración de reportes. Resultado de encuesta: percepción de utilidad de la comunidad.  |
 | Metas     | Aumentar los reportes por usuario en un 25%. Obtener al menos un 15% de mejora en percepción de calidad de la comunidad. Lograr que el 50% de usuarios participen en votaciones sobre reportes. |
+
+## 8.2. Experiment Design
+### 8.2.1. Hypotheses
+### 8.2.2. Measures
+### 8.2.3. Conditions
+### 8.2.4. Scale Calculations and Decisions
+### 8.2.5. Methods Selection
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+### 8.2.7. Web and Mobile Tracking Plan
+
+## 8.3. Experimentation
+### 8.3.1. To-Be User Stories
+### 8.3.2. To-Be Product Backlog
 
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
