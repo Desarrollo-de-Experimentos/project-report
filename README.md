@@ -2306,6 +2306,87 @@ Se debe tener un pipeline de monitoreo y calidad, ya que nos da un sistema de no
 
 ![Jenkins](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/512px-Jenkins_logo.svg.png)
 
+# Capítulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+
+### 8.1.1. As-Is Summary
+
+En el contexto actual, las personas buscan sentirse seguras al transitar por calles y espacios públicos, así como mantenerse informadas sobre incidentes, delitos cercanos y la seguridad general de las zonas que frecuentan. Actualmente, hay métodos poco eficaces o integrados para que puedan conseguir esto, pues pueden valerse de herramientas como Waze o Google Maps, y mantenerse atentos a las noticias por redes sociales, pero es una estrategia que resulta incómoda, fragmentada y, en muchos casos, poco confiable o inefectiva.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+#### Assumptions:
+- Los usuarios están dispuestos a reportar incidencias si tienen una app fácil de usar.
+- Las personas confían más en reportes ciudadanos cercanos que en fuentes oficiales centralizadas.
+- Los usuarios consideran valiosa la visualización en tiempo real de incidencias geolocalizadas.
+- Existe una demanda insatisfecha por una plataforma enfocada exclusivamente en seguridad ciudadana.
+
+#### Knowledge Gaps:
+- ¿Qué tipo de incidentes consideran los usuarios más relevantes para reportar? (robos, acoso, vandalismo, etc.)
+- ¿Qué grado de detalle están dispuestos a compartir al reportar un incidente? (foto, descripción, ubicación precisa, etc.)
+- ¿Qué incentivos podrían aumentar la participación activa de los usuarios en la app?
+- Qué relación existe entre el número de reportes en una zona y la percepción real de seguridad?
+
+#### Ideas:
+- Sistema de reputación del reportante: que los usuarios frecuentes y confiables tengan mejor reputación dentro de la aplicación.
+- Dashboard ciudadano: estadísticas personales y recompensas dentro de la aplicación (Por ejemplo: "Contribuiste a 12 reportes este mes").
+- Botón de pánico: para emitir una alerta inmediata en situaciones de emergencia real.
+- Verificación comunitaria: otros usuarios pueden validar si un reporte fue real o no, estilo sistema colaborativo.
+
+#### Claims:
+- La participación activa y voluntaria de los usuarios es clave para la efectividad de PeaceApp.
+- La integración de reportes ciudadanos con visualización geográfica puede mejorar la percepción y respuesta ante riesgos urbanos.
+- La seguridad ciudadana no solo depende de la policía, sino de una red informada y conectada de ciudadanos.
+- La tecnología móvil puede reducir la sensación de inseguridad si se orienta correctamente al contexto urbano.
+
+### 8.1.3 Experiment-Ready Questions
+
+- Registro e inicio de sesión: ¿El sistema permite autenticación con múltiples métodos (correo, Google, redes sociales)?
+- Reporte de incidencias: ¿Los reportes enviados aparecen inmediatamente en el mapa u otro feed visible?
+- Validación de reporte: ¿El sistema valida que los datos del reporte estén completos antes de permitir su envío?
+- Mapa interactivo: ¿El mapa funciona correctamente en dispositivos móviles y diferentes tamaños de pantalla?
+- Alertas de incidentes: ¿Las alertas se pueden configurar por tipo de incidente y distancia?
+- Historial de usuario: ¿Existe un historial visible de reportes hechos por un usuario?
+- Priorización de incidencias: ¿El sistema prioriza la visibilidad de alertas urgentes por encima de otras incidencias?
+
+### 8.1.4 Question Backlog
+
+- Confiabilidad de reportes: ¿Cómo podemos asegurar la veracidad y utilidad de los reportes ciudadanos para que los usuarios confíen en la información mostrada en el mapa?
+- Facilidad y rapidez de uso: ¿Qué tan dispuestos están los usuarios a reportar incidencias si esto les toma más de 30 segundos?
+- Sentimiento de importancia: ¿Los usuarios sienten que sus reportes realmente generan un impacto o cambio en su entorno?
+- Practicidad: ¿Qué tan frecuentemente las personas están dispuestas a abrir una app para revisar si hay incidentes cerca?
+- Forma de uso: ¿Usarán PeaceApp de manera proactiva (para explorar zonas) o reactiva (solo cuando algo pasa)?
+- Notificaciones de la aplicación: ¿Qué tipo de notificaciones son consideradas útiles y cuáles resultarían molestas o invasivas?
+
+### 8.1.5 Experiment Cards
+
+## Tables
+
+| ¿La verificación automática mediante IA de imágenes y patrones de texto mejora la confianza y uso continuo de PeaceApp?  | Los usuarios ciudadanos confian en nuestro método de reconocer reportes reales y no colocar en duda su análisis de criterio, conociendo si es real o falso. |
+|:-------------:|:-------------:|
+| Why  | Si reducimos la cantidad de reportes falsos, los usuarios confiarán más en la plataforma, lo que aumentará el número de reportes válidos, el uso activo y la retención de usuarios. Esto nos posiciona como una fuente confiable para la comunidad y potencialmente para alianzas con gobiernos o entidades de seguridad.     |
+| What      | Se implementará un modelo básico de IA que detecte imágenes repetidas o sospechosas (por ejemplo, sacadas de internet) y analice descripciones con lenguaje ofensivo o incoherente. Durante un mes, se activará esta funcionalidad para el 50% de los nuevos usuarios (grupo A) y no se activará para el otro 50% (grupo B). Se comparará la cantidad de reportes validados y la tasa de retención en ambos grupos.     |
+| Hypothesis     | Si integramos un sistema de validación automática con IA para reportes ciudadanos, entonces se reducirá en al menos un 30% la cantidad de reportes maliciosos o erróneos y se incrementará la confianza de los usuarios en un 10%, medida por el uso recurrente de la app.    |
+| Métricas      | Porcentaje de reportes marcados como maliciosos o rechazados por moderación. Número de reportes por usuario (frecuencia). Retención de usuarios después de 7 días. Calificación de confianza en encuesta opcional post-uso.  |
+| Metas     | Disminuir los reportes inválidos en al menos un 30%. Incrementar la retención de usuarios en al menos un 10%. Obtener una puntuación promedio de 4/5 en la percepción de confianza. |
+
+| ¿Recibir alertas personalizadas sobre incidentes cercanos incentiva el uso diario de PeaceApp? | Los usuarios ciudadanos utilizan y aportan diariamente a la aplicación, permitiendo que siempre muestre información verídica lo más rápido posible. |
+|:-------------:|:-------------:|
+| Why  | El negocio gana si los usuarios usan la app de forma recurrente. Al recibir alertas relevantes y oportunas, los usuarios verán utilidad práctica en la app, aumentando el engagement y disminuyendo la tasa de abandono.     |
+| What      | Se habilitará una funcionalidad de notificación basada en geolocalización (con consentimiento), enviando alertas solo cuando un incidente ocurra dentro de un radio configurable. Se medirá la diferencia de uso entre usuarios que activan las alertas y los que no.     |
+| Hypothesis     | Si los usuarios reciben notificaciones personalizadas sobre incidentes cercanos, entonces el porcentaje de uso diario de la app aumentará en un 20% y la retención semanal crecerá un 15%. |
+| Métricas      | Porcentaje de usuarios que habilitan notificaciones. Número promedio de sesiones diarias por usuario. Retención a los 7 y 14 días. Porcentaje de usuarios que revisan el mapa tras recibir una alerta.  |
+| Metas     | Aumentar el uso diario en un 20%. Incrementar la retención semanal en un 15%. Lograr que al menos el 60% de usuarios que reciben notificación abran la app. |
+
+| ¿Mostrar la reputación de los usuarios que reportan con frecuencia y precisión motiva a otros a contribuir más activamente?  | Los usuarios ciudadanos contribuyen más frecuentemente y con aportaciones de mayor calidad para mejorar su reputación en la app. |
+|:-------------:|:-------------:|
+| Why  | Si logramos que más usuarios participen y se esfuercen por realizar reportes útiles y verificados, incrementará la calidad de la información y la percepción de comunidad, mejorando el valor de la app y atrayendo nuevos usuarios.    |
+| What      | Se mostrará un pequeño indicador de "reputación del reportero" (por número de reportes verificados o marcados como útiles por otros). También se ofrecerán badges y reconocimientos visibles. Se comparará con usuarios sin esta funcionalidad.    |
+| Hypothesis     | Si implementamos un sistema de reputación y recompensas visibles por reportes útiles, entonces los usuarios aumentarán su frecuencia de reportes en al menos un 25% y la calidad percibida mejorará según encuestas en un 15%. |
+| Métricas      | Número promedio de reportes por usuario activo. Porcentaje de reportes validados como útiles. Participación en votación/valoración de reportes. Resultado de encuesta: percepción de utilidad de la comunidad.  |
+| Metas     | Aumentar los reportes por usuario en un 25%. Obtener al menos un 15% de mejora en percepción de calidad de la comunidad. Lograr que el 50% de usuarios participen en votaciones sobre reportes. |
+
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
 
