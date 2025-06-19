@@ -2482,7 +2482,87 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 ### 8.2.2. Measures
 ### 8.2.3. Conditions
 ### 8.2.4. Scale Calculations and Decisions
+
+
 ### 8.2.5. Methods Selection
+
+##### 1. Objetivo de la Evaluación
+
+El propósito de esta evaluación es medir el impacto de **PeaceApp**, una aplicación web y móvil que permite a los ciudadanos reportar incidencias a través de un mapa interactivo, en la mejora de la **seguridad ciudadana**. Particularmente, se busca evaluar:
+
+- La reducción en el tiempo de respuesta de las autoridades ante incidentes.
+- El aumento en la participación ciudadana mediante reportes digitales.
+
+---
+
+##### 2. Selección de Métodos Estadísticos
+
+###### 2.1 Nivel de significancia (α)
+
+Se establece un nivel de significancia de **α = 0.05 (5%)**, lo cual implica que se aceptará un máximo del 5% de probabilidad de cometer un **error tipo I** (falsos positivos), es decir, concluir que PeaceApp tiene un efecto cuando no lo tiene.
+
+---
+
+##### 2.2 Potencia estadística (1 - β)
+
+Se ha definido una **potencia estadística de 80% (0.80)** para esta evaluación. Esto significa que, si PeaceApp tiene un efecto real, existe un 80% de probabilidad de detectarlo mediante este diseño, reduciendo así la probabilidad de cometer un **error tipo II**.
+
+---
+
+##### 2.3 Efecto Mínimo Detectable (MDE)
+
+Se considera un **efecto mínimo detectable (MDE)** del **10% en la reducción del tiempo de respuesta**. Si actualmente el tiempo promedio de atención es de 20 minutos, el sistema deberá poder detectar una reducción mínima de 2 minutos como evidencia de impacto.
+
+Este valor se determinó con base en criterios prácticos y técnicos, y representa una mejora que tanto autoridades como ciudadanos consideran relevante.
+
+---
+
+##### 2.4 Cálculo del Tamaño de Muestra
+
+Para obtener resultados estadísticamente confiables, se ha calculado el tamaño de muestra necesario con base en los siguientes parámetros:
+
+- Nivel de significancia (α): 0.05
+- Potencia estadística (1 - β): 0.80
+- Efecto mínimo detectable (MDE): 10% (2 minutos)
+- Desviación estándar estimada (σ): 4 minutos
+
+#### Fórmula:
+n = ((Z_(1 - α/2) + Z_(1 - β)) * σ / MDE)^2
+
+Sustituyendo valores:
+n = ((1.96 + 0.84) * 4 / 2)^2 ≈ 62
+
+
+Por tanto, se requieren al menos **62 observaciones antes y 62 después** de implementar PeaceApp para detectar un efecto con estas condiciones estadísticas.
+
+---
+
+##### 2.5 Representatividad de los Datos
+
+Para asegurar la **validez externa** de los hallazgos, se seleccionarán zonas geográficas con diversidad en:
+
+- Nivel de criminalidad
+- Acceso a tecnología (internet y dispositivos móviles)
+- Participación ciudadana previa
+
+Se aplicará un **muestreo estratificado** por distrito y nivel socioeconómico para capturar una muestra representativa del grupo objetivo.
+
+---
+
+##### 2.6 Instrumentos y Procedimiento
+
+- **Antes de la implementación:** Recolección de datos históricos sobre tiempos de respuesta y cantidad de reportes vía métodos tradicionales (llamadas telefónicas, presencia física).
+- **Después de la implementación:** Monitoreo de reportes digitales generados mediante PeaceApp y tiempos de respuesta asociados.
+
+
+##### Conclusión
+
+Este conjunto de métodos estadísticos permite evaluar el impacto de PeaceApp con un diseño experimental sólido y confiable. Con ello se asegura que los resultados sean estadísticamente válidos, relevantes en la práctica y generalizables a contextos similares, aportando evidencia para futuras decisiones de escalamiento o políticas públicas.
+
+---
+
+
+
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 ### 8.2.7. Web and Mobile Tracking Plan
 
