@@ -2493,7 +2493,7 @@ El propósito de esta evaluación es medir el impacto de **PeaceApp**, una aplic
 - La reducción en el tiempo de respuesta de las autoridades ante incidentes.
 - El aumento en la participación ciudadana mediante reportes digitales.
 
----
+
 
 ##### 2. Selección de Métodos Estadísticos
 
@@ -2501,13 +2501,13 @@ El propósito de esta evaluación es medir el impacto de **PeaceApp**, una aplic
 
 Se establece un nivel de significancia de **α = 0.05 (5%)**, lo cual implica que se aceptará un máximo del 5% de probabilidad de cometer un **error tipo I** (falsos positivos), es decir, concluir que PeaceApp tiene un efecto cuando no lo tiene.
 
----
+
 
 ##### 2.2 Potencia estadística (1 - β)
 
 Se ha definido una **potencia estadística de 80% (0.80)** para esta evaluación. Esto significa que, si PeaceApp tiene un efecto real, existe un 80% de probabilidad de detectarlo mediante este diseño, reduciendo así la probabilidad de cometer un **error tipo II**.
 
----
+
 
 ##### 2.3 Efecto Mínimo Detectable (MDE)
 
@@ -2515,7 +2515,7 @@ Se considera un **efecto mínimo detectable (MDE)** del **10% en la reducción d
 
 Este valor se determinó con base en criterios prácticos y técnicos, y representa una mejora que tanto autoridades como ciudadanos consideran relevante.
 
----
+
 
 ##### 2.4 Cálculo del Tamaño de Muestra
 
@@ -2535,7 +2535,7 @@ n = ((1.96 + 0.84) * 4 / 2)^2 ≈ 62
 
 Por tanto, se requieren al menos **62 observaciones antes y 62 después** de implementar PeaceApp para detectar un efecto con estas condiciones estadísticas.
 
----
+
 
 ##### 2.5 Representatividad de los Datos
 
@@ -2547,7 +2547,7 @@ Para asegurar la **validez externa** de los hallazgos, se seleccionarán zonas g
 
 Se aplicará un **muestreo estratificado** por distrito y nivel socioeconómico para capturar una muestra representativa del grupo objetivo.
 
----
+
 
 ##### 2.6 Instrumentos y Procedimiento
 
@@ -2713,8 +2713,39 @@ Evidencia de la configuración de la propiedad de Google Analytics 4 para PeaceA
 
 
 ## 8.3. Experimentation
+
+Durante esta fase se define el estado futuro del producto (To-Be) a través de historias de usuario y un backlog priorizado, con el fin de planificar y ejecutar pruebas experimentales orientadas a la mejora de funcionalidades clave en PeaceApp.
+
+---
+
 ### 8.3.1. To-Be User Stories
+
+| ID | Historia de Usuario | Rol | Necesidad | Beneficio |
+|----|----------------------|-----|-----------|-----------|
+| US01 | Como ciudadano, quiero reportar una incidencia desde el mapa interactivo para alertar a las autoridades. | Ciudadano | Reportar hechos de inseguridad | Mejorar la respuesta institucional |
+| US02 | Como autoridad local, quiero recibir alertas geolocalizadas en tiempo real para actuar de forma rápida y focalizada. | Autoridad | Monitorear incidentes ciudadanos | Aumentar la eficiencia operativa |
+| US03 | Como ciudadano, quiero ver estadísticas de reportes en mi zona para conocer los niveles de seguridad. | Ciudadano | Acceder a información pública | Sentirme más informado y seguro |
+| US04 | Como administrador del sistema, quiero tener métricas de uso de la app para analizar el comportamiento de los usuarios. | Admin | Ver actividad y uso | Tomar decisiones basadas en datos |
+| US05 | Como usuario nuevo, quiero un tutorial al iniciar la app para aprender cómo usar sus funcionalidades. | Ciudadano | Entender la app fácilmente | Usar la app sin dificultad |
+
+---
+
 ### 8.3.2. To-Be Product Backlog
+
+| ID | Épica / Funcionalidad | Historia relacionada | Prioridad | Estimación (pts) | Sprint sugerido |
+|----|------------------------|----------------------|-----------|------------------|------------------|
+| PB01 | Reporte de incidentes vía mapa | US01 | Alta | 8 | Sprint 1 |
+| PB02 | Notificación automática a autoridades | US02 | Alta | 13 | Sprint 2 |
+| PB03 | Dashboard de estadísticas ciudadanas | US03 | Media | 8 | Sprint 3 |
+| PB04 | Panel de administración con métricas de uso | US04 | Media | 5 | Sprint 2 |
+| PB05 | Tutorial interactivo para nuevos usuarios | US05 | Alta | 3 | Sprint 1 |
+| PB06 | Validación de formularios de reporte | US01 | Alta | 3 | Sprint 1 |
+| PB07 | Filtro de reportes por tipo e impacto | US03 | Media | 5 | Sprint 3 |
+
+---
+
+> **Nota:** Estas historias y backlog están diseñadas para ser iteradas dentro de un proceso ágil (Scrum o Kanban), y pueden adaptarse conforme avancen los experimentos y se obtenga retroalimentación de los usuarios.
+
 
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
