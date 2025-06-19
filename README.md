@@ -2555,15 +2555,88 @@ Se aplicará un **muestreo estratificado** por distrito y nivel socioeconómico 
 - **Después de la implementación:** Monitoreo de reportes digitales generados mediante PeaceApp y tiempos de respuesta asociados.
 
 
-##### Conclusión
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
-Este conjunto de métodos estadísticos permite evaluar el impacto de PeaceApp con un diseño experimental sólido y confiable. Con ello se asegura que los resultados sean estadísticamente válidos, relevantes en la práctica y generalizables a contextos similares, aportando evidencia para futuras decisiones de escalamiento o políticas públicas.
+PeaceApp es una aplicación web y móvil que permite a los ciudadanos reportar incidencias mediante un mapa interactivo. Para garantizar una mejora continua basada en datos, se ha definido una estrategia analítica clara con objetivos, KPIs y herramientas específicas.
 
 ---
 
+##### Objetivos del Producto (Goals)
+
+| Objetivo Clave | Descripción |
+|----------------|-------------|
+| 📍 Aumentar la participación ciudadana | Incrementar el número de reportes enviados por usuarios en un 30% durante los primeros 3 meses. |
+| 🛡️ Mejorar la percepción de seguridad | Evaluar si PeaceApp genera una sensación de mayor seguridad en zonas donde se reportan incidencias. |
+| 🕒 Reducir el tiempo de respuesta | Determinar si las autoridades locales responden más rápido tras implementar PeaceApp. |
+
+##### KPIs Seleccionados
+
+| KPI | Métrica | Herramienta | Frecuencia |
+|-----|---------|-------------|------------|
+| 🧍‍♂️ Usuarios activos diarios (DAU) | Usuarios únicos que abren la app | Firebase / GA4 | Diario |
+| 📝 Reportes enviados | Cantidad de reportes por día | Firebase Events | Diario |
+| ⏱️ Tiempo promedio de respuesta | Desde reporte hasta acción | Backend + Autoridades | Semanal |
+| 🌍 Reportes geolocalizados | Incidencias por distrito | GA4 + Map SDK | Mensual |
+| 📈 Tasa de conversión | % de usuarios que reportan | GA4 Events | Diario |
+
+---
+
+##### Métricas de Comportamiento Adicionales
+
+| Métrica | Descripción |
+|--------|-------------|
+| Tiempo promedio en la app | Tiempo que el usuario permanece interactuando |
+| Vistas por sesión | Páginas o pantallas visitadas por sesión |
+| Tipo de dispositivo | Para decisiones de diseño responsive |
+| Tasa de rebote | Usuarios que entran y no interactúan |
+| Embudo de conversión | Inicio → clic en mapa → reporte completado |
 
 
-### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+---
+
+##### Herramienta de Analítica: Google Analytics 4 (GA4)
+
+Se utilizará **Google Analytics 4 (GA4)**, integrado mediante **Firebase SDK** para Android/iOS y tag manager para la web.
+
+##### Eventos Personalizados a Implementar
+
+```javascript
+gtag('event', 'incident_reported', {
+  method: 'map_click',
+  location: 'district_name',
+  urgency: 'high'
+});
+gtag('event', 'user_engagement', {
+  screen: 'home',
+  action: 'viewed_map'
+});
+```
+
+##### Visualización de Datos
+Los datos se visualizarán en **Google Data Studio**, permitiendo crear dashboards interactivos que muestren:
+- Reportes diarios y semanales
+- Tiempos de respuesta por distrito
+- Comparativas de uso entre zonas con y sin PeaceApp
+##### Análisis de Datos
+Se realizarán análisis mensuales para identificar tendencias, correlaciones y áreas de mejora. Se utilizará **Python** con bibliotecas como **Pandas** y **Matplotlib** para análisis estadístico y visualización avanzada.
+##### Ejemplo de Análisis
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+# Cargar datos de reportes
+data = pd.read_csv('incidents.csv')
+# Agrupar por distrito y calcular promedio de reportes
+district_summary = data.groupby('district').agg({'report_id': 'count', 'response_time': 'mean'}).reset_index()
+# Visualizar reportes por distrito
+plt.bar(district_summary['district'], district_summary['report_id'])
+plt.xlabel('Distrito')
+plt.ylabel('Número de Reportes')
+plt.title('Reportes por Distrito')
+plt.xticks(rotation=45)
+plt.show()
+```
+
+
 ### 8.2.7. Web and Mobile Tracking Plan
 
 ## 8.3. Experimentation
