@@ -2559,8 +2559,6 @@ Se aplicará un **muestreo estratificado** por distrito y nivel socioeconómico 
 
 PeaceApp es una aplicación web y móvil que permite a los ciudadanos reportar incidencias mediante un mapa interactivo. Para garantizar una mejora continua basada en datos, se ha definido una estrategia analítica clara con objetivos, KPIs y herramientas específicas.
 
----
-
 ##### Objetivos del Producto (Goals)
 
 | Objetivo Clave | Descripción |
@@ -2579,7 +2577,6 @@ PeaceApp es una aplicación web y móvil que permite a los ciudadanos reportar i
 | 🌍 Reportes geolocalizados | Incidencias por distrito | GA4 + Map SDK | Mensual |
 | 📈 Tasa de conversión | % de usuarios que reportan | GA4 Events | Diario |
 
----
 
 ##### Métricas de Comportamiento Adicionales
 
@@ -2591,8 +2588,6 @@ PeaceApp es una aplicación web y móvil que permite a los ciudadanos reportar i
 | Tasa de rebote | Usuarios que entran y no interactúan |
 | Embudo de conversión | Inicio → clic en mapa → reporte completado |
 
-
----
 
 ##### Herramienta de Analítica: Google Analytics 4 (GA4)
 
@@ -2638,6 +2633,84 @@ plt.show()
 
 
 ### 8.2.7. Web and Mobile Tracking Plan
+
+Se definen los eventos que serán rastreados en las versiones web y móvil de la aplicación PeaceApp, con el fin de medir el comportamiento de los usuarios y dar soporte a la toma de decisiones basada en datos.
+
+##### Objetivo del Tracking Plan
+
+Garantizar una implementación de analítica consistente, precisa y útil en todas las plataformas (web y móvil), para poder monitorear eventos clave como reportes ciudadanos, navegación en el mapa y uso general de la aplicación.
+
+##### Herramientas Utilizadas
+
+- Firebase Analytics (móvil - Android/iOS)
+- Google Analytics 4 (web)
+- Google Tag Manager (web)
+- BigQuery (para análisis avanzado de eventos)
+
+
+##### Esquema de Eventos
+
+| Evento | Plataforma | Descripción | Parámetros | Categoría |
+|--------|------------|-------------|-------------|------------|
+| `app_open` | Web y móvil | App abierta por el usuario | `platform`, `timestamp` | Sesión |
+| `map_view` | Web y móvil | Usuario visualiza el mapa | `zoom_level`, `district`, `session_id` | Navegación |
+| `map_click` | Web y móvil | Clic en el mapa para reportar | `lat`, `lng`, `incident_type` | Interacción |
+| `form_started` | Web y móvil | Usuario inicia el formulario de reporte | `incident_type`, `urgency` | Conversión |
+| `form_completed` | Web y móvil | Usuario envía un reporte completo | `incident_type`, `urgency`, `location` | Conversión |
+| `report_cancelled` | Web y móvil | Usuario abandonó el reporte | `step`, `reason`, `session_id` | Abandono |
+| `session_duration` | Web y móvil | Duración total de la sesión | `duration_seconds`, `user_type` | Sesión |
+
+##### Convención de Nombres
+
+- Todos los eventos estarán en **snake_case**.
+- Los nombres deben ser **claros y descriptivos** (no usar `ev_1`, `eventA`, etc.).
+- Los parámetros deben seguir la misma convención y tener valores controlados (por ejemplo, `incident_type`: "robo", "vandalismo", "emergencia").
+
+
+##### Reglas de Calidad y Validación
+
+- Cada evento será **probado en staging** antes de llegar a producción.
+- Se usarán herramientas como **Firebase DebugView** o **GA4 Debugger** para verificar el envío correcto.
+- Se establecerán **auditorías mensuales** para verificar consistencia de datos.
+
+---
+
+##### Mapeo a KPIs
+
+| Evento | KPI asociado |
+|--------|--------------|
+| `form_completed` | Tasa de conversión, cantidad de reportes enviados |
+| `session_duration` | Tiempo promedio en la app |
+| `map_click` | Interacciones ciudadanas por zona |
+| `report_cancelled` | Fricción en el proceso de reporte |
+| `app_open` | Usuarios activos diarios (DAU) |
+
+
+##### Anexo: Script para instalación de GA4 en nuestro proyecto de PeaceApp
+
+```javascript
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R2TZDZLJHV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R2TZDZLJHV');
+</script>
+```
+<br>
+Evidencia de la implementación de Google Analytics 4 en PeaceApp, panel de administración de la aplicación, con la URL y el ID de seguimiento correspondiente
+<img src="./assets/analytics/peaceap-ga4.PNG" alt="PeaceApp GA4" width="600">
+
+<br><br>
+Evidencia de la implementación de eventos en Google Analytics 4, mostrando los eventos que se han configurado para rastrear las interacciones de los usuarios con la aplicación PeaceApp.
+<img src="./assets/analytics/peaceapp-ga4-eventos.PNG" alt="PeaceApp GA4 2" width="600">
+
+<br><br>
+Evidencia de la configuración de la propiedad de Google Analytics 4 para PeaceApp, mostrando los detalles de la propiedad y su configuración inicial.
+<img src="./assets/analytics/peaceapp-ga4-instalacion.PNG" alt="PeaceApp GA4 3" width="600">
+
 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
