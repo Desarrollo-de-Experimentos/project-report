@@ -2252,6 +2252,7 @@ Ciudadanos que buscan mejorar su seguridad personal y la de su comunidad.
 <img src="./assets/img/interviews/leoMari.png" alt="Entrevista2" width="100%" /> 
 <a href="https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FExperimentos%2Fvalidation%2Dinterviews%2FEntrevista%20Leonardo%2DMaricarmen%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed235f4f9%2D3970%2D422e%2D80cd%2D336f58c85948" target="_blank">Enlace a la entrevista de validación - Leonardo Linares</a>
 </br>
+Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESRO-Ectm51Boy1NZ_SDZdYBtEWvVVQlFdHmVxFGKBTzEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zwt7Rc<br><br>
 Nombre: Maricarmen Tejada
 Edad: 59 años
 Pasatiempos: Cocinar, cuidar de sus hijos y conversar con sus vecinas.
@@ -2674,9 +2675,290 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses
+
+<table>
+  <tr>
+    <th colspan="2">Confiabilidad de los reportes ciudadanos</th>
+  </tr>
+  <tr>
+    <th>Question</th>
+    <th>¿Cómo podemos asegurar la veracidad y utilidad de los reportes ciudadanos para que los usuarios confíen en la información mostrada en el mapa?</th>
+  </tr>
+  <tr>
+    <td>Belief</td>
+    <td>Creemos que al verificar automáticamente los reportes mediante validación cruzada y fuentes confiables, los usuarios confiarán más en la información presentada.</td>
+  </tr>
+  <tr>
+    <td>Hypothesis</td>
+    <td>Si mostramos indicadores de confiabilidad en los reportes (por ejemplo, número de votos o validación institucional), aumentará la confianza del usuario en al menos un 30%.</td>
+  </tr>
+  <tr>
+    <td>Null Hypothesis</td>
+    <td>Mostrar indicadores de confiabilidad no tendrá un efecto significativo en la percepción de confianza del usuario sobre los reportes.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2">Facilidad y rapidez de uso</th>
+  </tr>
+  <tr>
+    <th>Question</th>
+    <th>¿Qué tan dispuestos están los usuarios a reportar incidencias si esto les toma más de 30 segundos?</th>
+  </tr>
+  <tr>
+    <td>Belief</td>
+    <td>Si el proceso de reporte es rápido y sencillo (menos de 30 segundos), los usuarios estarán más dispuestos a participar activamente.</td>
+  </tr>
+  <tr>
+    <td>Hypothesis</td>
+    <td>Reducir el tiempo promedio de reporte a menos de 30 segundos aumentará el número de reportes por usuario en al menos un 25%.</td>
+  </tr>
+  <tr>
+    <td>Null Hypothesis</td>
+    <td>Reducir el tiempo de reporte no influirá significativamente en la cantidad de incidencias reportadas por los usuarios.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2">Sentimiento de impacto</th>
+  </tr>
+  <tr>
+    <th>Question</th>
+    <th>¿Los usuarios sienten que sus reportes realmente generan un impacto o cambio en su entorno?</th>
+  </tr>
+  <tr>
+    <td>Belief</td>
+    <td>Cuando los usuarios reciben retroalimentación sobre sus reportes, sienten que su participación tiene un propósito y valor.</td>
+  </tr>
+  <tr>
+    <td>Hypothesis</td>
+    <td>Proveer actualizaciones del estado de sus reportes aumentará la percepción de impacto en al menos un 40% de los usuarios activos.</td>
+  </tr>
+  <tr>
+    <td>Null Hypothesis</td>
+    <td>Brindar retroalimentación sobre los reportes no tendrá efecto sobre la percepción de impacto por parte del usuario.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2">Forma de uso de la aplicación</th>
+  </tr>
+  <tr>
+    <th>Question</th>
+    <th>¿Usarán PeaceApp de manera proactiva (para explorar zonas) o reactiva (solo cuando algo pasa)?</th>
+  </tr>
+  <tr>
+    <td>Belief</td>
+    <td>Si la interfaz ofrece información valiosa y en tiempo real, los usuarios comenzarán a utilizar la app también de forma proactiva para planear rutas o evitar zonas peligrosas.</td>
+  </tr>
+  <tr>
+    <td>Hypothesis</td>
+    <td>Agregar funciones como alertas por zona y exploración del entorno incrementará en un 35% el uso proactivo de la aplicación.</td>
+  </tr>
+  <tr>
+    <td>Null Hypothesis</td>
+    <td>Las funciones de exploración o alertas no modificarán el patrón de uso reactivo de los usuarios.</td>
+  </tr>
+</table>
+
+
 ### 8.2.2. Measures
+
+**Medida para Confiabilidad de los reportes ciudadanos**
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#dff6f5;">
+    <th style="width:20%;">Question</th>
+    <td>¿Cómo podemos asegurar la veracidad y utilidad de los reportes ciudadanos para que los usuarios confíen en la información mostrada en el mapa?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>Analizar el nivel de confianza expresado por los usuarios a través de encuestas de percepción antes y después de mostrar indicadores de confiabilidad (como votos, validaciones, y fuentes oficiales). Se usará una escala de Likert y tasas de interacción con reportes validados.</td>
+  </tr>
+</table>
+
+**Medida para Facilidad y rapidez de uso**
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#dff6f5;">
+    <th style="width:20%;">Question</th>
+    <td>¿Qué tan dispuestos están los usuarios a reportar incidencias si esto les toma más de 30 segundos?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>Registrar el tiempo promedio de envío de reportes y comparar con la tasa de finalización. Aplicar una prueba A/B entre flujos rápidos y lentos, midiendo también la cantidad de reportes enviados por usuario en cada caso.</td>
+  </tr>
+</table>
+
+**Medida para Sentimiento de importancia**
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#dff6f5;">
+    <th style="width:20%;">Question</th>
+    <td>¿Los usuarios sienten que sus reportes realmente generan un impacto o cambio en su entorno?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>Aplicar encuestas de percepción y motivación tras enviar reportes, especialmente si reciben actualizaciones o respuestas. Medir el retorno de usuarios que recibieron feedback frente a los que no.</td>
+  </tr>
+</table>
+
+
+**Medida para Forma de uso (proactivo vs reactivo)**
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#dff6f5;">
+    <th style="width:20%;">Question</th>
+    <td>¿Usarán PeaceApp de manera proactiva (para explorar zonas) o reactiva (solo cuando algo pasa)?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>Registrar el tipo de acceso a la app (exploración por mapa vs. ingreso tras recibir alerta). Clasificar sesiones por intencionalidad y comparar los porcentajes de uso proactivo y reactivo con y sin funcionalidades como alertas o filtros por zona.</td>
+  </tr>
+</table>
+
 ### 8.2.3. Conditions
+
+**Condiciones para la hipotésis: Confiabilidad de reportes ciudadanos**
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#e0e0e0;">
+    <th style="width:20%;">Question</th>
+    <td>¿Cómo podemos asegurar la veracidad y utilidad de los reportes ciudadanos para que los usuarios confíen en la información mostrada en el mapa?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La percepción de confiabilidad aumentará cuando se integren mecanismos de validación como votos, reportes verificados y etiquetas oficiales, medido por encuestas posteriores y tasa de interacción con reportes.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>No se observará un cambio significativo en la percepción de confiabilidad al no mostrar mecanismos de validación visibles en los reportes.</td>
+  </tr>
+</table>
+
+**Condiciones para la hipótesis: Facilidad y rapidez de uso**
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#e0e0e0;">
+    <th style="width:20%;">Question</th>
+    <td>¿Qué tan dispuestos están los usuarios a reportar incidencias si esto les toma más de 30 segundos?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Los usuarios enviarán más reportes cuando el formulario de reporte sea optimizado para completarse en menos de 30 segundos.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Los usuarios enviarán una cantidad igual o menor de reportes cuando el formulario no esté optimizado y tome más de 30 segundos.</td>
+  </tr>
+</table>
+
+**Condiciones para la hipótesis: Sentimiento de importancia**
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#e0e0e0;">
+    <th style="width:20%;">Question</th>
+    <td>¿Los usuarios sienten que sus reportes realmente generan un impacto o cambio en su entorno?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Los usuarios que reciben retroalimentación o actualizaciones sobre sus reportes percibirán un mayor impacto en su entorno.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Los usuarios que no reciben retroalimentación no mostrarán una diferencia significativa en su percepción de impacto.</td>
+  </tr>
+</table>
+
+**Condiciones para la hipótesis: Forma de uso (proactivo vs reactivo)**
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr style="background-color:#e0e0e0;">
+    <th style="width:20%;">Question</th>
+    <td>¿Usarán PeaceApp de manera proactiva (para explorar zonas) o reactiva (solo cuando algo pasa)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Los usuarios utilizarán la app de forma más proactiva si se incluyen funciones de exploración y visualización anticipada de incidentes.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Los usuarios usarán la app principalmente de forma reactiva si no se incluyen funciones de visualización anticipada.</td>
+  </tr>
+</table>
+
 ### 8.2.4. Scale Calculations and Decisions
+
+Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en un proyecto. Cada
+hipótesis se asocia con un indicador de éxito: se considera ideal cuando la métrica alcanza plenamente
+el objetivo, aceptable cuando está entre el mínimo y el ideal, y desfavorable si queda por debajo del
+mínimo, requiriendo así una revisión. Un nivel excelente se define como cuando el valor supera el
+ideal en un 25% o más, indicando un éxito significativo. Este enfoque permite tomar decisiones
+fundamentadas en métricas para validar o ajustar las hipótesis del proyecto.
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center; width: 100%;">
+  <thead>
+    <tr>
+      <th rowspan="2" style="width: 30%;">Scale Calculation</th>
+      <th rowspan="2" style="width: 30%;">Decision</th>
+      <th colspan="4">Factor</th>
+    </tr>
+    <tr>
+      <th style="width: 10%;">Desfavorable</th>
+      <th style="width: 10%;">Aceptable</th>
+      <th style="width: 10%;">Ideal</th>
+      <th style="width: 10%;">Excelente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">
+        Si los usuarios perciben que los reportes ciudadanos en el mapa son confiables y útiles, confiarán más en la plataforma. Esto se sabrá mediante encuestas de percepción y tasas de interacción con el mapa.
+      </td>
+      <td style="text-align: left;">
+        Mejorar la validación de reportes e incluir indicadores de confiabilidad para aumentar la confianza del usuario.
+      </td>
+      <td></td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">
+        Si reportar una incidencia toma menos de 30 segundos, más usuarios estarán dispuestos a hacerlo. Esto se validará con pruebas de usabilidad cronometradas y encuestas.
+      </td>
+      <td style="text-align: left;">
+        Optimizar el flujo de reporte para que se pueda completar en menos de 30 segundos.
+      </td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">
+        Si los usuarios sienten que sus reportes generan impacto, aumentará su compromiso con la app. Esto se sabrá si mencionan haber visto cambios o respuestas después de reportar.
+      </td>
+      <td style="text-align: left;">
+        Visibilizar el impacto de los reportes, por ejemplo, con respuestas o estadísticas de solución visibles para el usuario.
+      </td>
+      <td></td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">
+        Si se detecta que la mayoría de usuarios usan PeaceApp de forma reactiva (después de un evento), se debería priorizar esa experiencia. Esto se medirá con métricas de uso.
+      </td>
+      <td style="text-align: left;">
+        Enfocar el diseño en un acceso rápido a la función de reportar y recibir alertas, priorizando la usabilidad reactiva.
+      </td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### 8.2.5. Methods Selection
