@@ -2247,19 +2247,11 @@ Ciudadanos que buscan mejorar su seguridad personal y la de su comunidad.
 10. ¿Qué otras funcionalidades te gustaría ver en futuras versiones de la aplicación?
 
 ### 6.3.2. Registro de Entrevistas.
-#### Entrevista N° X: xx xxx
-<img src="./assets/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
-Enlace de la entrevista: (video en MS stream, colocar link directo)
-<br><br>
 
-**Nombre:** xxx xx xx
-**Edad:** 22 años
-**Pasatiempos:** Programar, aprender nuevas tecnologías de código.
-**Ocupación:** Estudiante universitario (Ingeniería de Software)
-Paolo es un estudiante universitario de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, reside en el distrito de Surco y nos comenta su angustia con la inseguridad que vive día a día. Cada día que ha salido, ha sido testigo de un robo, nos ofrece el ejemplo reciente de un acto delictivo en la zona de "La bolichera de Surco" donde presenció este hurto, sin embargo, no pudo realizar algo más que este a su alcance. Al proponerle esta propuesta de solución le pareció una idea interesante y que fácilmente, él podría ser un usuario de esta aplicación. Nos comenta que la interacción pensada para este aplicativo brindará una experiencia al usuario única al reportar incidencias en tiempo real.
-
-#### Entrevista N° 2: Maricarmen Tejada
+#### Entrevista N° 1: Maricarmen Tejada
 <img src="./assets/img/interviews/leoMari.png" alt="Entrevista2" width="100%" /> 
+<a href="https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FExperimentos%2Fvalidation%2Dinterviews%2FEntrevista%20Leonardo%2DMaricarmen%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed235f4f9%2D3970%2D422e%2D80cd%2D336f58c85948" target="_blank">Enlace a la entrevista de validación - Leonardo Linares</a>
+</br>
 Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESRO-Ectm51Boy1NZ_SDZdYBtEWvVVQlFdHmVxFGKBTzEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zwt7Rc<br><br>
 Nombre: Maricarmen Tejada
 Edad: 59 años
@@ -2269,7 +2261,8 @@ Ocupación: Ama de casa
 Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se siente insegura al salir a hacer compras, sobre todo al anochecer. Ha sido testigo de robos en su zona y le preocupa la seguridad de sus hijos. Le pareció muy útil la idea de PeaceApp, especialmente por el mapa de zonas peligrosas y la opción de compartir su ubicación en tiempo real. Comentó que la aplicación es fácil de usar y que recibir alertas le daría más tranquilidad. También dijo que sí la recomendaría a otras madres de familia en su barrio, ya que la seguridad es una preocupación diaria.
 
 </br></br>
-#### Entrevista N° 3: Jose Gutierrez
+
+#### Entrevista N° 2: Jose Gutierrez
 <img src="./assets/img/interviews/jose-gutierrez.png" alt="Entrevista" width="100%" /> 
 
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219422_upc_edu_pe/ET2oNX5k7qtLvtyInegnIZIBKWscwPTl1nPI--SSoz8AiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QwfLlU" target="_blank">Enlace a la entrevista de validación - Fabia Herrera</a>
@@ -2283,8 +2276,8 @@ Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se
 En general, Jose nos comenta que le agradó bastante el diseño de nuestra landing page, le inspira confianza que exista una sección que liste las organizaciones con las que trabajamos. Mencionó como aspecto de mejora el agregado de más imágenes que describan las funciones de PeaceApp. Con respecto a la aplicación móvil, le encantó el contraste entre los colores que componen nuestra paleta de colores; asimismo, consideró que los elementos en el bottom navigation bar son pertinentes ya que le ayuda a ubicar los features más característicos de forma rápida. Como única sugerencia, nos recomendó aumentar el tamaño de la tipografía en la pantalla del mapa, o que intentemos colocando las letras de un color más oscuro para que este sea más legible. Con respecto a la aplicación web, Jose comentó que le gustaría que la sección de reportes tuviera un filtro para buscar reportes específicos por ubicación o tipo de incidente. También sugirió que se agregue una sección de preguntas frecuentes para ayudar a los usuarios a resolver dudas comunes.
 
 </br></br>
-#### Entrevista N° 4: Paolo Cisneros
-<img src="./assets/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
+#### Entrevista N° 3: Paolo Cisneros
+<img src="./assets/img/interviews/paolo-validation.png" alt="Entrevista" width="100%" /> 
 
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERjDR0CCepdOix_m7APjpGIB24W3CurS6cvCjClveYKWsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8mxEGd" target="_blank">Enlace a la entrevista de validación - Arian Rodriguez</a>
 
