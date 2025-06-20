@@ -207,7 +207,27 @@ La entrega TP1 finalizó con éxito y los avances están documentados. Adicional
   <img src="./assets/collaboration-insights/network-graph-tp1.png" alt="Network Graph" width="90%" />
 </div><br>
 
+
+
 Todos hemos trabajado bajo GitFlow, en base a features y conventional commits para las colaboraciones en los repositorios.
+
+## TB2
+La entrega TB2 finalizó con éxito y los avances están documentados. Adicionalmente, se realizaron pruebas unitarias, integración, sistema y de comportamiento, además, se incluye el propósito, criterio y descripción de cada prueba. Además, se realizó y recibió auditorias con otros grupos, y hemos diseñado experimentos.
+
+<div style="text-align: center;">
+  <img src="./assets/collaboration-insights/contributors_tb2.png" alt="Network Graph" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/collaboration-insights/contributors_tb2.png" alt="Network Graph" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/collaboration-insights/network_graph_tb2.png" alt="Network Graph" width="90%" />
+</div><br>
+
+Todos hemos trabajado bajo GitFlow, en base a features y 
+conventional commits para las colaboraciones en los repositorios, al igual que las entregas pasadas.
 
 # Contenido
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
