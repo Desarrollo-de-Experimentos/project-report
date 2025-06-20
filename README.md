@@ -224,7 +224,7 @@ Todos hemos trabajado bajo GitFlow, en base a features y conventional commits pa
          - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
          - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
    * [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
    * [2.1. Competidores](#21-competidores)
       + [2.1.1. Análisis competitivo](#211-análisis-competitivo)
       + [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -238,9 +238,9 @@ Todos hemos trabajado bajo GitFlow, en base a features y conventional commits pa
       + [2.3.3. User Journey Mapping](#233-user-journey-mapping)
       + [2.3.4. Empathy Mapping](#234-empathy-mapping)
       + [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-         - [As-is Scenario Mapping Huésped:](#as-is-scenario-mapping-huésped)
-         - [As-is Scenario Mapping Administrador:](#as-is-scenario-mapping-administrador)
-         - [As-is Scenario Mapping Dueño:](#as-is-scenario-mapping-dueño)
+         - [As-is Scenario Mapping Huésped:](#as-is-scenario-mapping-huésped:)
+         - [As-is Scenario Mapping Administrador:](#as-is-scenario-mapping-administrador:)
+         - [As-is Scenario Mapping Dueño:](#as-is-scenario-mapping-dueño:)
    * [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
    * [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -406,6 +406,18 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: Para el trabajo parcial pude apoyar en la mejora continua de la interfaz de usuario, asegurando que fuera intuitiva y fácil de usar. También ayudé a definir la arquitectura de la información y el diseño de la página de inicio, lo que contribuyó a una mejor experiencia del usuario.
         <p/>
         Leonardo Linares: En esta entrega, ayudé en la información para el capítulo 7: DevOps Practices, asegurandome que la información sea correcta para la integración, entrega y despliegue continua.
+        </p><br><br>
+        TB2:
+        <p/>
+        Mauricio Rojas: 
+        <p/>
+        Ramon Jorge: 
+        <p/>
+        Arian Rodriguez: 
+        <p/>
+        Fabia Herrera: 
+        <p/>
+        Leonardo Linares: En esta entrega, ayudé en la información para el capitulo 7, específicamente, con el Continuous Monitoring, redactando las herramientas y prácticas utilizadas para el monitoreo correcto del proyecto.
         </p>
     </td>
     <td>TB1: En este entregable, se realizó un análisis de los competidores y sus características. También se realizó un análisis de la competencia, donde se identificaron las fortalezas y debilidades de cada competidor. Se realizó una investigación sobre el mercado objetivo y se definieron los segmentos a los que se dirige la aplicación. Se realizó un análisis de las necesidades del usuario y se definieron las historias de usuario.</td>
@@ -440,6 +452,18 @@ ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades é
         Fabia Herrera: Ayudé en la documentación de las pruebas completando la sección correspondiente al Continuous Deployment y asegurando que la aplicación cumpla con los estándares de calidad y usabilidad, considerando el impacto que su uso tendría en la vida diaria de los usuarios.
         <p/>
         Leonardo Linares: Ayudé en el desarrollo específico de continuous delivery, que se hace para automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue, cuando sea necesario. Destacando las herramientas y practicas utilizadas.
+        </p><br><br>
+        TB2:
+        <p/>
+        Mauricio Rojas: 
+        <p/>
+        Ramon Jorge: 
+        <p/>
+        Arian Rodriguez: 
+        <p/>
+        Fabia Herrera: 
+        <p/>
+        Leonardo Linares: Ayudé en la información para el monitoreo continuo, redactando las herramientas y prácticas utilizadas para su funcionamiento correcto. Además de ayudar en las entrevistas.
         </p></td>
     <td>TB1: En este entregable se emitió juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. De esta manera, se identificaron los detalles del problema que estamos abordando y las potenciales mejoras que podría proveer nuestra solución, traduciéndolas en User Stories que luego servirían para identificar funcionalidades. Además de ello, se identificó los segmentos objetivos de la aplicación y, más adelante, al desarrollo de los Wireflow Diagrams.</td>
     <td>TP1: En este entregable se emitieron juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. A partir de este diseño, se planificaron y ejecutaron pruebas orientadas a validar que las funcionalidades desarrolladas cumplieran con los requerimientos definidos, asegurando así la coherencia entre lo diseñado y lo implementado. Las pruebas también permitieron detectar posibles mejoras antes del despliegue, contribuyendo a una entrega más estable y alineada con las necesidades del usuario final.</td>
@@ -2372,7 +2396,7 @@ Algunas herramientas y prácticas que se emplearán para llevar a cabo un monito
 
 ![Postman](https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png)
 
-- **Auditorías de Calidad Web:** Google Lighthouse y Catchpoint permiten auditar la calidad y elrendimiento de las aplicaciones web. Lighthouse analiza accesibilidad, SEO y rendimiento para mejorar la experiencia del usuario, mientras que Catchpoint realiza pruebas de rendimiento desde diversas ubicaciones y dispositivos para asegurar una experiencia de usuario uniforme en diferentes entornos.
+- **Auditorías de Calidad Web:** Google Lighthouse y Catchpoint permiten auditar la calidad y el rendimiento de las aplicaciones web. Lighthouse analiza accesibilidad, SEO y rendimiento para mejorar la experiencia del usuario, mientras que Catchpoint realiza pruebas de rendimiento desde diversas ubicaciones y dispositivos para asegurar una experiencia de usuario uniforme en diferentes entornos.
 
 ![Google Lighthouse](https://avanza.justia.com/wp-content/uploads/2021/08/Onward-Cover-copy_SVG.svg)
 
