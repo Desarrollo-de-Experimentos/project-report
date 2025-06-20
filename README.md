@@ -2282,6 +2282,22 @@ Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se
 
 En general, Jose nos comenta que le agradó bastante el diseño de nuestra landing page, le inspira confianza que exista una sección que liste las organizaciones con las que trabajamos. Mencionó como aspecto de mejora el agregado de más imágenes que describan las funciones de PeaceApp. Con respecto a la aplicación móvil, le encantó el contraste entre los colores que componen nuestra paleta de colores; asimismo, consideró que los elementos en el bottom navigation bar son pertinentes ya que le ayuda a ubicar los features más característicos de forma rápida. Como única sugerencia, nos recomendó aumentar el tamaño de la tipografía en la pantalla del mapa, o que intentemos colocando las letras de un color más oscuro para que este sea más legible. Con respecto a la aplicación web, Jose comentó que le gustaría que la sección de reportes tuviera un filtro para buscar reportes específicos por ubicación o tipo de incidente. También sugirió que se agregue una sección de preguntas frecuentes para ayudar a los usuarios a resolver dudas comunes.
 
+</br></br>
+#### Entrevista N° 4: Paolo Cisneros
+<img src="./assets/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERjDR0CCepdOix_m7APjpGIB24W3CurS6cvCjClveYKWsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8mxEGd" target="_blank">Enlace a la entrevista de validación - Arian Rodriguez</a>
+
+
+**Nombre:** Paolo Cisneros
+**Edad:** 22 años
+**Pasatiempos:** Programar, aprender nuevas tecnologías de código.
+**Ocupación:** Estudiante universitario (Ingeniería de Software)
+
+Paolo nos comenta que encuentra la landing page muy sencilla de utilizar y adaptable para cualquier usuario que ingrese y no conozca el contenido que se ofrece en la aplicación, además que, las secciones agregadas en especial la de los testimonios, le aseguran la confianza necesaria para probar el aplicativos. Con respecto a la aplicación móvil, le pareció muy interesante toda la información que este contenía, como por ejemplo el mapa principal en el que podía observar los reportes, le parece fácil el registro de una nueva cuenta, como a su vez el inicio de sesión. Indicó que los reportes están fáciles de realizar sin embargo, resultaría mejor que los íconos de estos reportes sean un poco más grandes ya que se pueden llegar a confundir con los otros íconos por defecto del mapa. De la misma manera, indicó que sería bueno que se pueda conocer el nombre de los usuarios que han reportado, junto con algunos comentarios que sean posible redactar a cada uno.
+
+</br>
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
