@@ -2482,13 +2482,270 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 ### 8.2.2. Measures
 ### 8.2.3. Conditions
 ### 8.2.4. Scale Calculations and Decisions
+
+
 ### 8.2.5. Methods Selection
+
+##### 1. Objetivo de la Evaluación
+
+El propósito de esta evaluación es medir el impacto de **PeaceApp**, una aplicación web y móvil que permite a los ciudadanos reportar incidencias a través de un mapa interactivo, en la mejora de la **seguridad ciudadana**. Particularmente, se busca evaluar:
+
+- La reducción en el tiempo de respuesta de las autoridades ante incidentes.
+- El aumento en la participación ciudadana mediante reportes digitales.
+
+
+
+##### 2. Selección de Métodos Estadísticos
+
+###### 2.1 Nivel de significancia (α)
+
+Se establece un nivel de significancia de **α = 0.05 (5%)**, lo cual implica que se aceptará un máximo del 5% de probabilidad de cometer un **error tipo I** (falsos positivos), es decir, concluir que PeaceApp tiene un efecto cuando no lo tiene.
+
+
+
+##### 2.2 Potencia estadística (1 - β)
+
+Se ha definido una **potencia estadística de 80% (0.80)** para esta evaluación. Esto significa que, si PeaceApp tiene un efecto real, existe un 80% de probabilidad de detectarlo mediante este diseño, reduciendo así la probabilidad de cometer un **error tipo II**.
+
+
+
+##### 2.3 Efecto Mínimo Detectable (MDE)
+
+Se considera un **efecto mínimo detectable (MDE)** del **10% en la reducción del tiempo de respuesta**. Si actualmente el tiempo promedio de atención es de 20 minutos, el sistema deberá poder detectar una reducción mínima de 2 minutos como evidencia de impacto.
+
+Este valor se determinó con base en criterios prácticos y técnicos, y representa una mejora que tanto autoridades como ciudadanos consideran relevante.
+
+
+
+##### 2.4 Cálculo del Tamaño de Muestra
+
+Para obtener resultados estadísticamente confiables, se ha calculado el tamaño de muestra necesario con base en los siguientes parámetros:
+
+- Nivel de significancia (α): 0.05
+- Potencia estadística (1 - β): 0.80
+- Efecto mínimo detectable (MDE): 10% (2 minutos)
+- Desviación estándar estimada (σ): 4 minutos
+
+#### Fórmula:
+n = ((Z_(1 - α/2) + Z_(1 - β)) * σ / MDE)^2
+
+Sustituyendo valores:
+n = ((1.96 + 0.84) * 4 / 2)^2 ≈ 62
+
+
+Por tanto, se requieren al menos **62 observaciones antes y 62 después** de implementar PeaceApp para detectar un efecto con estas condiciones estadísticas.
+
+
+
+##### 2.5 Representatividad de los Datos
+
+Para asegurar la **validez externa** de los hallazgos, se seleccionarán zonas geográficas con diversidad en:
+
+- Nivel de criminalidad
+- Acceso a tecnología (internet y dispositivos móviles)
+- Participación ciudadana previa
+
+Se aplicará un **muestreo estratificado** por distrito y nivel socioeconómico para capturar una muestra representativa del grupo objetivo.
+
+
+
+##### 2.6 Instrumentos y Procedimiento
+
+- **Antes de la implementación:** Recolección de datos históricos sobre tiempos de respuesta y cantidad de reportes vía métodos tradicionales (llamadas telefónicas, presencia física).
+- **Después de la implementación:** Monitoreo de reportes digitales generados mediante PeaceApp y tiempos de respuesta asociados.
+
+
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+PeaceApp es una aplicación web y móvil que permite a los ciudadanos reportar incidencias mediante un mapa interactivo. Para garantizar una mejora continua basada en datos, se ha definido una estrategia analítica clara con objetivos, KPIs y herramientas específicas.
+
+##### Objetivos del Producto (Goals)
+
+| Objetivo Clave | Descripción |
+|----------------|-------------|
+| 📍 Aumentar la participación ciudadana | Incrementar el número de reportes enviados por usuarios en un 30% durante los primeros 3 meses. |
+| 🛡️ Mejorar la percepción de seguridad | Evaluar si PeaceApp genera una sensación de mayor seguridad en zonas donde se reportan incidencias. |
+| 🕒 Reducir el tiempo de respuesta | Determinar si las autoridades locales responden más rápido tras implementar PeaceApp. |
+
+##### KPIs Seleccionados
+
+| KPI | Métrica | Herramienta | Frecuencia |
+|-----|---------|-------------|------------|
+| 🧍‍♂️ Usuarios activos diarios (DAU) | Usuarios únicos que abren la app | Firebase / GA4 | Diario |
+| 📝 Reportes enviados | Cantidad de reportes por día | Firebase Events | Diario |
+| ⏱️ Tiempo promedio de respuesta | Desde reporte hasta acción | Backend + Autoridades | Semanal |
+| 🌍 Reportes geolocalizados | Incidencias por distrito | GA4 + Map SDK | Mensual |
+| 📈 Tasa de conversión | % de usuarios que reportan | GA4 Events | Diario |
+
+
+##### Métricas de Comportamiento Adicionales
+
+| Métrica | Descripción |
+|--------|-------------|
+| Tiempo promedio en la app | Tiempo que el usuario permanece interactuando |
+| Vistas por sesión | Páginas o pantallas visitadas por sesión |
+| Tipo de dispositivo | Para decisiones de diseño responsive |
+| Tasa de rebote | Usuarios que entran y no interactúan |
+| Embudo de conversión | Inicio → clic en mapa → reporte completado |
+
+
+##### Herramienta de Analítica: Google Analytics 4 (GA4)
+
+Se utilizará **Google Analytics 4 (GA4)**, integrado mediante **Firebase SDK** para Android/iOS y tag manager para la web.
+
+##### Eventos Personalizados a Implementar
+
+```javascript
+gtag('event', 'incident_reported', {
+  method: 'map_click',
+  location: 'district_name',
+  urgency: 'high'
+});
+gtag('event', 'user_engagement', {
+  screen: 'home',
+  action: 'viewed_map'
+});
+```
+
+##### Visualización de Datos
+Los datos se visualizarán en **Google Data Studio**, permitiendo crear dashboards interactivos que muestren:
+- Reportes diarios y semanales
+- Tiempos de respuesta por distrito
+- Comparativas de uso entre zonas con y sin PeaceApp
+##### Análisis de Datos
+Se realizarán análisis mensuales para identificar tendencias, correlaciones y áreas de mejora. Se utilizará **Python** con bibliotecas como **Pandas** y **Matplotlib** para análisis estadístico y visualización avanzada.
+##### Ejemplo de Análisis
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+# Cargar datos de reportes
+data = pd.read_csv('incidents.csv')
+# Agrupar por distrito y calcular promedio de reportes
+district_summary = data.groupby('district').agg({'report_id': 'count', 'response_time': 'mean'}).reset_index()
+# Visualizar reportes por distrito
+plt.bar(district_summary['district'], district_summary['report_id'])
+plt.xlabel('Distrito')
+plt.ylabel('Número de Reportes')
+plt.title('Reportes por Distrito')
+plt.xticks(rotation=45)
+plt.show()
+```
+
+
 ### 8.2.7. Web and Mobile Tracking Plan
 
+Se definen los eventos que serán rastreados en las versiones web y móvil de la aplicación PeaceApp, con el fin de medir el comportamiento de los usuarios y dar soporte a la toma de decisiones basada en datos.
+
+##### Objetivo del Tracking Plan
+
+Garantizar una implementación de analítica consistente, precisa y útil en todas las plataformas (web y móvil), para poder monitorear eventos clave como reportes ciudadanos, navegación en el mapa y uso general de la aplicación.
+
+##### Herramientas Utilizadas
+
+- Firebase Analytics (móvil - Android/iOS)
+- Google Analytics 4 (web)
+- Google Tag Manager (web)
+- BigQuery (para análisis avanzado de eventos)
+
+
+##### Esquema de Eventos
+
+| Evento | Plataforma | Descripción | Parámetros | Categoría |
+|--------|------------|-------------|-------------|------------|
+| `app_open` | Web y móvil | App abierta por el usuario | `platform`, `timestamp` | Sesión |
+| `map_view` | Web y móvil | Usuario visualiza el mapa | `zoom_level`, `district`, `session_id` | Navegación |
+| `map_click` | Web y móvil | Clic en el mapa para reportar | `lat`, `lng`, `incident_type` | Interacción |
+| `form_started` | Web y móvil | Usuario inicia el formulario de reporte | `incident_type`, `urgency` | Conversión |
+| `form_completed` | Web y móvil | Usuario envía un reporte completo | `incident_type`, `urgency`, `location` | Conversión |
+| `report_cancelled` | Web y móvil | Usuario abandonó el reporte | `step`, `reason`, `session_id` | Abandono |
+| `session_duration` | Web y móvil | Duración total de la sesión | `duration_seconds`, `user_type` | Sesión |
+
+##### Convención de Nombres
+
+- Todos los eventos estarán en **snake_case**.
+- Los nombres deben ser **claros y descriptivos** (no usar `ev_1`, `eventA`, etc.).
+- Los parámetros deben seguir la misma convención y tener valores controlados (por ejemplo, `incident_type`: "robo", "vandalismo", "emergencia").
+
+
+##### Reglas de Calidad y Validación
+
+- Cada evento será **probado en staging** antes de llegar a producción.
+- Se usarán herramientas como **Firebase DebugView** o **GA4 Debugger** para verificar el envío correcto.
+- Se establecerán **auditorías mensuales** para verificar consistencia de datos.
+
+---
+
+##### Mapeo a KPIs
+
+| Evento | KPI asociado |
+|--------|--------------|
+| `form_completed` | Tasa de conversión, cantidad de reportes enviados |
+| `session_duration` | Tiempo promedio en la app |
+| `map_click` | Interacciones ciudadanas por zona |
+| `report_cancelled` | Fricción en el proceso de reporte |
+| `app_open` | Usuarios activos diarios (DAU) |
+
+
+##### Anexo: Script para instalación de GA4 en nuestro proyecto de PeaceApp
+
+```javascript
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R2TZDZLJHV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R2TZDZLJHV');
+</script>
+```
+<br>
+Evidencia de la implementación de Google Analytics 4 en PeaceApp, panel de administración de la aplicación, con la URL y el ID de seguimiento correspondiente
+<img src="./assets/analytics/peaceap-ga4.PNG" alt="PeaceApp GA4" width="600">
+
+<br><br>
+Evidencia de la implementación de eventos en Google Analytics 4, mostrando los eventos que se han configurado para rastrear las interacciones de los usuarios con la aplicación PeaceApp.
+<img src="./assets/analytics/peaceapp-ga4-eventos.PNG" alt="PeaceApp GA4 2" width="600">
+
+<br><br>
+Evidencia de la configuración de la propiedad de Google Analytics 4 para PeaceApp, mostrando los detalles de la propiedad y su configuración inicial.
+<img src="./assets/analytics/peaceapp-ga4-instalacion.PNG" alt="PeaceApp GA4 3" width="600">
+
+
 ## 8.3. Experimentation
+
+Durante esta fase se define el estado futuro del producto (To-Be) a través de historias de usuario y un backlog priorizado, con el fin de planificar y ejecutar pruebas experimentales orientadas a la mejora de funcionalidades clave en PeaceApp.
+
+---
+
 ### 8.3.1. To-Be User Stories
+
+| ID | Historia de Usuario | Rol | Necesidad | Beneficio |
+|----|----------------------|-----|-----------|-----------|
+| US01 | Como ciudadano, quiero reportar una incidencia desde el mapa interactivo para alertar a las autoridades. | Ciudadano | Reportar hechos de inseguridad | Mejorar la respuesta institucional |
+| US02 | Como autoridad local, quiero recibir alertas geolocalizadas en tiempo real para actuar de forma rápida y focalizada. | Autoridad | Monitorear incidentes ciudadanos | Aumentar la eficiencia operativa |
+| US03 | Como ciudadano, quiero ver estadísticas de reportes en mi zona para conocer los niveles de seguridad. | Ciudadano | Acceder a información pública | Sentirme más informado y seguro |
+| US04 | Como administrador del sistema, quiero tener métricas de uso de la app para analizar el comportamiento de los usuarios. | Admin | Ver actividad y uso | Tomar decisiones basadas en datos |
+| US05 | Como usuario nuevo, quiero un tutorial al iniciar la app para aprender cómo usar sus funcionalidades. | Ciudadano | Entender la app fácilmente | Usar la app sin dificultad |
+
+---
+
 ### 8.3.2. To-Be Product Backlog
+
+| ID | Épica / Funcionalidad | Historia relacionada | Prioridad | Estimación (pts) | Sprint sugerido |
+|----|------------------------|----------------------|-----------|------------------|------------------|
+| PB01 | Reporte de incidentes vía mapa | US01 | Alta | 8 | Sprint 1 |
+| PB02 | Notificación automática a autoridades | US02 | Alta | 13 | Sprint 2 |
+| PB03 | Dashboard de estadísticas ciudadanas | US03 | Media | 8 | Sprint 3 |
+| PB04 | Panel de administración con métricas de uso | US04 | Media | 5 | Sprint 2 |
+| PB05 | Tutorial interactivo para nuevos usuarios | US05 | Alta | 3 | Sprint 1 |
+| PB06 | Validación de formularios de reporte | US01 | Alta | 3 | Sprint 1 |
+| PB07 | Filtro de reportes por tipo e impacto | US03 | Media | 5 | Sprint 3 |
+
+---
+
+> **Nota:** Estas historias y backlog están diseñadas para ser iteradas dentro de un proceso ágil (Scrum o Kanban), y pueden adaptarse conforme avancen los experimentos y se obtenga retroalimentación de los usuarios.
+
 
 # Conclusiones
 - La inseguridad ciudadana es un problema creciente en Perú, afectando a una gran parte de la población y generando un clima de miedo y desconfianza.
