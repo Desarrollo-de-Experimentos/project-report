@@ -2263,6 +2263,9 @@ El grupo auditado corresponde al Grupo 1, conformado por los siguientes integran
 
 La aplicación desarrollada por este grupo se enfoca en el proceso de compra, venta e inspección de vehículos, y contempla tres roles principales: Comprador, Vendedor y Mecánico.
 
+![alt text](assets/auditoria/image-7.png)
+Captura de pantalla de la reunión con el Team Leader del Grupo 1.
+
 #### 6.4.1.2. Cronograma de auditoría realizada.
 La auditoría se llevó a cabo el día 20 de junio de 2025. Durante esta sesión, se evaluó la funcionalidad completa de la aplicación, incluyendo su navegación y usabilidad para cada uno de los roles definidos. La reunión se desarrolló a través de la plataforma Discord y tuvo una duración aproximada de una hora.
 Todos los hallazgos fueron discutidos en conjunto con el equipo auditado antes de ser documentados formalmente.
@@ -2304,6 +2307,9 @@ El grupo auditor también corresponde al Grupo 1, compuesto por:
 - Jean Franco Barrionuevo
 
 Este grupo evaluó nuestra aplicación PeaceApp, centrada en la gestión de reportes, notificaciones y funcionalidades colaborativas para usuarios en distintas ubicaciones.
+
+![alt text](assets/auditoria/image-7.png)
+Captura de pantalla de la reunión con el Team Leader del Grupo 1.
 
 #### 6.4.2.2. Cronograma de auditoría recibida.
 La auditoría se realizó el 12 de Junio del 2025, la auditoría abarcó inspecciones en todas las pantallas de la aplicación PeaceApp, donde se incluye una navegación completa de la misma. Para ello, nos reunimos por medio de Discord durante un aproximado de 1 hora de reunión. Los detalles encontrados en la auditoría, fueron dialogados antes de pasarlo a registrarlo.
