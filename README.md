@@ -2272,7 +2272,7 @@ Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se
 #### Entrevista N° 3: Jose Gutierrez
 <img src="./assets/img/interviews/jose-gutierrez.png" alt="Entrevista" width="100%" /> 
 
-<a href="https://upcedupe-my.sharepoint.com/personal/u202219422_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219422_upc_edu_pe%2FDocuments%2FEntrevista%20de%20validaci%C3%B3n%20PeaceApp%20-%20Fabia%20Herrera%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee8edbf2d-625b-4640-aae1-cc60b" target="_blank">Enlace a la entrevista de validación - Fabia Herrera</a>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219422_upc_edu_pe/ET2oNX5k7qtLvtyInegnIZIBKWscwPTl1nPI--SSoz8AiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QwfLlU" target="_blank">Enlace a la entrevista de validación - Fabia Herrera</a>
 
 
 **Nombre:** Jose Gutierrez
