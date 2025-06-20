@@ -2244,14 +2244,94 @@ Site a evaluar: PeaceApp Web Application
 ## 6.4. Auditoría de Experiencias de Usuario.
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
+El grupo auditado corresponde al Grupo 1, conformado por los siguientes integrantes:
+- Mathias Kunimoto
+- Italo Luna
+- Rodrigo Aguilar
+- Augusto Pin
+- Jean Franco Barrionuevo
+
+La aplicación desarrollada por este grupo se enfoca en el proceso de compra, venta e inspección de vehículos, y contempla tres roles principales: Comprador, Vendedor y Mecánico.
+
 #### 6.4.1.2. Cronograma de auditoría realizada.
+La auditoría se llevó a cabo el día 20 de junio de 2025. Durante esta sesión, se evaluó la funcionalidad completa de la aplicación, incluyendo su navegación y usabilidad para cada uno de los roles definidos. La reunión se desarrolló a través de la plataforma Discord y tuvo una duración aproximada de una hora.
+Todos los hallazgos fueron discutidos en conjunto con el equipo auditado antes de ser documentados formalmente.
+
 #### 6.4.1.3. Contenido de auditoría realizada.
+A continuación se muestran las capturas de los puntos encontrados en la auditoría realizada al Grupo 1.
+
+**Hallazgo 1**
+
+![Captura de Contenido de Auditoria Realizada 1](assets/auditoria/image.png)
+<br>
+Sugerencia: Agregar un botón de ícono flecha para retroceder de página.
+
+**Hallazgo 2**
+
+![Captura de Contenido de Auditoria Realizada 2](assets/auditoria/image-1.png)
+<br>
+Al finalizar la oferta, debe redireccionar a la página de inicio.
+
+**Hallazgo 3**
+
+![Captura de Contenido de Auditoria Realizada 3](assets/auditoria/image-2.png)
+<br>
+No valida vendedor y auto cuando registra una nueva oferta, se puede enviar una oferta reiteradas veces a pesar de ya tener registrada una oferta al mismo vendedor y auto.
+
+**Hallazgo 4**
+
+![Captura de Contenido de Auditoria Realizada 4](assets/auditoria/image-3.png)
+<br>
+No carga los vehiculos revisados dado un específico mecánico.
 
 ### 6.4.2. Auditoría recibida.
 #### 6.4.2.1. Información del grupo auditor.
+El grupo auditor también corresponde al Grupo 1, compuesto por:
+- Mathias Kunimoto
+- Italo Luna
+- Rodrigo Aguilar
+- Augusto Pin
+- Jean Franco Barrionuevo
+
+Este grupo evaluó nuestra aplicación PeaceApp, centrada en la gestión de reportes, notificaciones y funcionalidades colaborativas para usuarios en distintas ubicaciones.
+
 #### 6.4.2.2. Cronograma de auditoría recibida.
+La auditoría se realizó el 12 de Junio del 2025, la auditoría abarcó inspecciones en todas las pantallas de la aplicación PeaceApp, donde se incluye una navegación completa de la misma. Para ello, nos reunimos por medio de Discord durante un aproximado de 1 hora de reunión. Los detalles encontrados en la auditoría, fueron dialogados antes de pasarlo a registrarlo.
+
 #### 6.4.2.3. Contenido de auditoría recibida.
+
+**Hallazgo 1**
+
+![alt text](assets/auditoria/image-4.png)
+Al hacer un reporte el boton de publish, invade el espacio de el boton de la parte inferior de la pantalla "logout".
+<br>
+
+**Hallazgo 2**
+
+![alt text](assets/auditoria/image-5.png)
+Al presionar clic sobre el ícono de alertas en el menú de la parte izquierda de la pantalla, este muestra su contenido, sin embargo se queda cargando la sección y ninguna información, ni mensajes en pantalla.
+<br>
+
+**Hallazgo 3**
+
+![alt text](assets/auditoria/image-6.png)
+Al presionar clic sobre el ícono de Share en el menú de la parte izquierda de la pantalla, este muestra su contenido, sin embargo, se queda cargando la sección y sin mostrar ningun contenido o mensaje en pantalla.
+
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+Con base en los comentarios obtenidos durante la auditoría, se han definido las siguientes acciones correctivas para mejorar la calidad y experiencia de usuario de PeaceApp:
+
+1. Corrección de solapamiento de botones: se ajustó la posición del botón "Publish" en el módulo de reportes para evitar interferencia con el botón "Logout", garantizando accesibilidad en todas las resoluciones de pantalla.
+
+2. Manejo de carga de componentes: se implementaron indicadores de carga y mensajes de error personalizados en los módulos de Alertas y Share, permitiendo al usuario comprender mejor el estado del sistema en caso de errores o demoras.
+
+3. Pruebas de interfaz adaptativa: se realizaron pruebas adicionales en múltiples dispositivos y navegadores para asegurar que los componentes visuales no presenten conflictos de espacio ni superposición.
+
+4. Optimización del backend en endpoints críticos: se revisaron los servicios asociados a las secciones de alertas y compartidos, corrigiendo tiempos de respuesta y mejorando la robustez ante posibles fallos de red.
+
+
+Estas mejoras fueron registradas en el backlog de desarrollo y abordadas en el siguiente sprint, asegurando la evolución continua del producto.
 
 
 # Capítulo VII: DevOps Practices
