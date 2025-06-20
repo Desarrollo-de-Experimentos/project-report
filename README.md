@@ -2284,7 +2284,7 @@ En general, Jose nos comenta que le agradó bastante el diseño de nuestra landi
 
 </br></br>
 #### Entrevista N° 4: Paolo Cisneros
-<img src="./assets/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
+<img src="./assets/img/interviews/paolo-validation.png" alt="Entrevista" width="100%" /> 
 
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERjDR0CCepdOix_m7APjpGIB24W3CurS6cvCjClveYKWsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8mxEGd" target="_blank">Enlace a la entrevista de validación - Arian Rodriguez</a>
 
