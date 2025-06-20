@@ -2166,13 +2166,65 @@ Durante este test, se verifica que la funcionalidad de ver reportes de otros usu
 
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
-Para garantizar la calidad del código y detectar posibles errores antes de la ejecución, se implementó un análisis estático del código utilizando SonarQube. Esta herramienta permite identificar problemas de calidad, vulnerabilidades y malas prácticas en el código fuente.
+En PeaceApp, garantizar la calidad, seguridad y mantenibilidad del código es una prioridad, especialmente al tratarse de una aplicación crítica para la seguridad ciudadana. Por ello, se ha implementado un proceso de análisis de código utilizando herramientas como SonarQube.
+
+Este análisis permite identificar defectos, vulnerabilidades y malas prácticas en fases tempranas del desarrollo, sin necesidad de ejecutar el código. Se realiza de forma continua durante el desarrollo para asegurar que el producto cumpla con los estándares de calidad establecidos.
+
 
 #### 6.2.1.1. Coding standard & Code conventions
 
+Para mantener un código limpio, legible y coherente entre todos los miembros del equipo, se siguen las siguientes buenas prácticas:
+
+- <b>Clean Code:</b> Se emplean nombres significativos para variables, funciones y clases. Se evita el código redundante y se prioriza que cada función tenga una única responsabilidad.
+
+- <b>Modularidad y Reutilización:</b> Se organiza el código en componentes reutilizables para facilitar su mantenimiento y escalabilidad.
+
+- <b>Documentación básica en el código:</b> Aunque se busca que el código se explique por sí mismo, se incluyen comentarios breves cuando es necesario clarificar lógica compleja.
+
+- <b>Consistencia visual:</b> Se siguen estilos de identación y formato definidos por el equipo (prettier, ESLint en entornos JavaScript/TypeScript, por ejemplo).
+
+
+
 #### 6.2.1.2. Code Quality & Code Security
 
+- <b>Calidad del Código:</b> Se realiza un seguimiento continuo de métricas como la complejidad ciclomática, duplicación de código y cobertura de pruebas. Para ello, SonarQube analiza automáticamente cada nueva entrega y genera reportes que guían a los desarrolladores en mejoras puntuales.
+
+- <b>Seguridad del Código:</b> Dado que los usuarios pueden ingresar datos (reportes, comentarios, formularios), se presta especial atención a la validación de entradas, la prevención de inyecciones SQL, y ataques comunes como XSS o CSRF. Las prácticas de codificación segura se integran desde el inicio del desarrollo.
+
+- <b>Herramientas Complementarias:</b> Se emplea SonarLint durante la programación para detectar errores y vulnerabilidades en tiempo real, directamente desde el entorno de desarrollo (IDE). Esto permite corregir fallos antes de que lleguen a revisión.
+
+
 ### 6.2.2. Reviews
+
+Además del análisis automático, PeaceApp implementa un proceso riguroso de revisiones de código, tanto manuales como estructuradas:
+
+##### Tipos de Revisión:
+- Revisión entre pares: Todo cambio debe ser revisado por al menos otro desarrollador del equipo antes de ser aprobado.
+
+- Revisión formal: En funcionalidades críticas (como el sistema de reportes o la geolocalización), se realiza una revisión estructurada con checklist.
+
+- Revisión automática: Uso de herramientas como SonarQube para identificar problemas de calidad y seguridad antes del despliegue.
+
+##### Proceso de Revisión:
+- Pull Requests (PR): Cada desarrollador debe abrir un PR con una descripción clara del cambio y pruebas asociadas.
+
+- Checklist de revisión: Incluye aspectos como claridad del código, legibilidad, cobertura de pruebas, manejo de errores, validación de datos, y cumplimiento de estándares.
+
+- Comentarios y feedback constructivo: Se fomenta una cultura de mejora continua basada en el aprendizaje colectivo.
+
+- Aprobación de PR: Ningún código se fusiona a la rama principal sin al menos una aprobación externa.
+
+##### Criterios de Aceptación:
+- Cumplimiento de los estándares de calidad y seguridad establecidos.
+
+- Cobertura mínima de pruebas (idealmente superior al 80%) para garantizar confiabilidad.
+
+- Ausencia de errores críticos en el análisis estático.
+
+##### Frecuencia:
+Las revisiones de código se realizan de forma continua y se integran en el flujo de trabajo diario, especialmente al cierre de cada sprint.
+
+
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
@@ -2215,6 +2267,21 @@ Pasatiempos: Cocinar, cuidar de sus hijos y conversar con sus vecinas.
 Ocupación: Ama de casa
 
 Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se siente insegura al salir a hacer compras, sobre todo al anochecer. Ha sido testigo de robos en su zona y le preocupa la seguridad de sus hijos. Le pareció muy útil la idea de PeaceApp, especialmente por el mapa de zonas peligrosas y la opción de compartir su ubicación en tiempo real. Comentó que la aplicación es fácil de usar y que recibir alertas le daría más tranquilidad. También dijo que sí la recomendaría a otras madres de familia en su barrio, ya que la seguridad es una preocupación diaria.
+
+</br></br>
+#### Entrevista N° 3: Jose Gutierrez
+<img src="./assets/img/interviews/jose-gutierrez.png" alt="Entrevista" width="100%" /> 
+
+<a href="https://upcedupe-my.sharepoint.com/personal/u202219422_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219422_upc_edu_pe%2FDocuments%2FEntrevista%20de%20validaci%C3%B3n%20PeaceApp%20-%20Fabia%20Herrera%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee8edbf2d-625b-4640-aae1-cc60b" target="_blank">Enlace a la entrevista de validación - Fabia Herrera</a>
+
+
+**Nombre:** Jose Gutierrez
+**Edad:** 25 años
+**Pasatiempos:** Leer, ver películas, escribir
+**Ocupación:** Estudiante universitario
+
+En general, Jose nos comenta que le agradó bastante el diseño de nuestra landing page, le inspira confianza que exista una sección que liste las organizaciones con las que trabajamos. Mencionó como aspecto de mejora el agregado de más imágenes que describan las funciones de PeaceApp. Con respecto a la aplicación móvil, le encantó el contraste entre los colores que componen nuestra paleta de colores; asimismo, consideró que los elementos en el bottom navigation bar son pertinentes ya que le ayuda a ubicar los features más característicos de forma rápida. Como única sugerencia, nos recomendó aumentar el tamaño de la tipografía en la pantalla del mapa, o que intentemos colocando las letras de un color más oscuro para que este sea más legible. Con respecto a la aplicación web, Jose comentó que le gustaría que la sección de reportes tuviera un filtro para buscar reportes específicos por ubicación o tipo de incidente. También sugirió que se agregue una sección de preguntas frecuentes para ayudar a los usuarios a resolver dudas comunes.
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
