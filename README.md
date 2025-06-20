@@ -2206,6 +2206,16 @@ Enlace de la entrevista: (video en MS stream, colocar link directo)
 **Ocupación:** Estudiante universitario (Ingeniería de Software)
 Paolo es un estudiante universitario de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, reside en el distrito de Surco y nos comenta su angustia con la inseguridad que vive día a día. Cada día que ha salido, ha sido testigo de un robo, nos ofrece el ejemplo reciente de un acto delictivo en la zona de "La bolichera de Surco" donde presenció este hurto, sin embargo, no pudo realizar algo más que este a su alcance. Al proponerle esta propuesta de solución le pareció una idea interesante y que fácilmente, él podría ser un usuario de esta aplicación. Nos comenta que la interacción pensada para este aplicativo brindará una experiencia al usuario única al reportar incidencias en tiempo real.
 
+#### Entrevista N° 2: Maricarmen Tejada
+<img src="./assets/img/interviews/leoMari.png" alt="Entrevista2" width="100%" /> 
+Enlace de la entrevista: (insertar link del MS)<br><br>
+Nombre: Maricarmen Tejada
+Edad: 59 años
+Pasatiempos: Cocinar, cuidar de sus hijos y conversar con sus vecinas.
+Ocupación: Ama de casa
+
+Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se siente insegura al salir a hacer compras, sobre todo al anochecer. Ha sido testigo de robos en su zona y le preocupa la seguridad de sus hijos. Le pareció muy útil la idea de PeaceApp, especialmente por el mapa de zonas peligrosas y la opción de compartir su ubicación en tiempo real. Comentó que la aplicación es fácil de usar y que recibir alertas le daría más tranquilidad. También dijo que sí la recomendaría a otras madres de familia en su barrio, ya que la seguridad es una preocupación diaria.
+
 ### 6.3.3. Evaluaciones según heurísticas.
 
 UX Heuristics & Principles Evaluation
