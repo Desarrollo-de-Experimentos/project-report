@@ -258,9 +258,6 @@ conventional commits para las colaboraciones en los repositorios, al igual que l
       + [2.3.3. User Journey Mapping](#233-user-journey-mapping)
       + [2.3.4. Empathy Mapping](#234-empathy-mapping)
       + [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-         - [As-is Scenario Mapping Huésped:](#as-is-scenario-mapping-huésped:)
-         - [As-is Scenario Mapping Administrador:](#as-is-scenario-mapping-administrador:)
-         - [As-is Scenario Mapping Dueño:](#as-is-scenario-mapping-dueño:)
    * [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
    * [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -3208,5 +3205,5 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 |--------------|--------------|
 | Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETUMRGYtjwtInt06AL23wZ8B0NK4fyZR3reWyP6ycf26GQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=poVQHe>|  
 | VÍdeo de Exposición TP1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERcX1X9pC-VGkHHG4d9PjFkBgkB7ZyCY4I5_zbYgK6xL-A?e=MqeOH0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>|
-| Vídeo de Exposición TB2    | Link del Vídeo: | 
+| Vídeo de Exposición TB2    | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/EYDEOMlRBSpCuQE8QHfSKH0BIy5D-Ni1dL3DkkUcb1mCRA?e=fewqvQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>| 
 | Vídeo de Exposición TF1    | Link del Vídeo: - | 
