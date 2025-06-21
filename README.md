@@ -2326,6 +2326,20 @@ Anatoly señala que la landing page le resulta muy intuitiva y accesible, inclus
 
 </br>
 
+#### Entrevista N° 5: Romina Fernandez
+<img src="./assets/interviews/romina-fernandez.png" alt="Entrevista 5" width="100%" /> 
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/Ec8Tg9xWY71ClI5NqCvRvsAB2tf9xGDUZ28moIW3hmfd4Q?e=6xPOjm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Enlace a la entrevista - Ramón Jorge</a>
+
+**Nombre:** Romina Fernandez
+**Edad:** 27 años
+**Pasatiempos:** Leer, jugar con sus gatos, ver series
+**Ocupación:** Veterinaria
+
+Romina señala que la Aplicación Web le resulta agradable e intuitiva, pero explica que le gustaría que los botones sean un poco más grandes y tengan un color que haga un poco más de contraste, pues no los pudo ver con claridad al inicio. Le parecieron muy interesantes las funcionalidades de visualizar los reportes realizados en el mapa, y la facilidad con la cual generar y subir un reporte. Destacó que era muy sencillo y esto definitivamente influiría positivamente en su disposición a utilizar activamente la aplicación. En cuanto a sugerencias de mejora, cree que sería útil poder compartir tu ubicación con contactos a su elección dentro de la aplicación, y también sugirió una funcionalidad para registrar varios dispositivos, de forma que pueden rastrear su ubicación en caso de robo y también podrían reportar el delito desde cualquier plataforma.
+
+</br>
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
@@ -2681,8 +2695,6 @@ En el contexto actual, las personas buscan sentirse seguras al transitar por cal
 - Notificaciones de la aplicación: ¿Qué tipo de notificaciones son consideradas útiles y cuáles resultarían molestas o invasivas?
 
 ### 8.1.5. Experiment Cards
-
-## Tables
 
 | ¿La verificación automática mediante IA de imágenes y patrones de texto mejora la confianza y uso continuo de PeaceApp?  | Los usuarios ciudadanos confian en nuestro método de reconocer reportes reales y no colocar en duda su análisis de criterio, conociendo si es real o falso. |
 |:-------------:|:-------------:|
