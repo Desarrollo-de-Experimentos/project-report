@@ -2315,7 +2315,7 @@ Paolo nos comenta que encuentra la landing page muy sencilla de utilizar y adapt
 #### Entrevista N° 4: Anatoly Noriega
 <img src="./assets/auditoria/entrevista_jesus.png" alt="Entrevista" width="100%" /> 
 
-<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERjDR0CCepdOix_m7APjpGIB24W3CurS6cvCjClveYKWsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8mxEGd>
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/EXR-Xp1lIHRAuDUl53YLeWgBloiu6jCu0kPgvSWdmxsjFg?e=ygGGky&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 **Nombre:** Anatoly Noriega
 **Edad:** 25 años
