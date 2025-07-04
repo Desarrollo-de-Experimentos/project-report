@@ -3148,29 +3148,132 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 
 | ID | Historia de Usuario | Rol | Necesidad | Beneficio |
 |----|----------------------|-----|-----------|-----------|
-| US01 | Como ciudadano, quiero reportar una incidencia desde el mapa interactivo para alertar a las autoridades. | Ciudadano | Reportar hechos de inseguridad | Mejorar la respuesta institucional |
-| US02 | Como autoridad local, quiero recibir alertas geolocalizadas en tiempo real para actuar de forma rápida y focalizada. | Autoridad | Monitorear incidentes ciudadanos | Aumentar la eficiencia operativa |
-| US03 | Como ciudadano, quiero ver estadísticas de reportes en mi zona para conocer los niveles de seguridad. | Ciudadano | Acceder a información pública | Sentirme más informado y seguro |
-| US04 | Como administrador del sistema, quiero tener métricas de uso de la app para analizar el comportamiento de los usuarios. | Admin | Ver actividad y uso | Tomar decisiones basadas en datos |
-| US05 | Como usuario nuevo, quiero un tutorial al iniciar la app para aprender cómo usar sus funcionalidades. | Ciudadano | Entender la app fácilmente | Usar la app sin dificultad |
-
 ---
 
 ### 8.3.2. To-Be Product Backlog
 
 | ID | Épica / Funcionalidad | Historia relacionada | Prioridad | Estimación (pts) | Sprint sugerido |
 |----|------------------------|----------------------|-----------|------------------|------------------|
-| PB01 | Reporte de incidentes vía mapa | US01 | Alta | 8 | Sprint 1 |
-| PB02 | Notificación automática a autoridades | US02 | Alta | 13 | Sprint 2 |
-| PB03 | Dashboard de estadísticas ciudadanas | US03 | Media | 8 | Sprint 3 |
-| PB04 | Panel de administración con métricas de uso | US04 | Media | 5 | Sprint 2 |
-| PB05 | Tutorial interactivo para nuevos usuarios | US05 | Alta | 3 | Sprint 1 |
-| PB06 | Validación de formularios de reporte | US01 | Alta | 3 | Sprint 1 |
-| PB07 | Filtro de reportes por tipo e impacto | US03 | Media | 5 | Sprint 3 |
 
 ---
 
 > **Nota:** Estas historias y backlog están diseñadas para ser iteradas dentro de un proceso ágil (Scrum o Kanban), y pueden adaptarse conforme avancen los experimentos y se obtenga retroalimentación de los usuarios.
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+#### 8.3.3.6. Team Collaboration Insights
+
+### 8.3.4. To-Be Validation Interviews
+Para validar las funcionalidades y la experiencia de usuario de la aplicación PeaceApp, se diseñaron entrevistas con usuarios potenciales. Estas entrevistas se centraron en comprender las necesidades y expectativas de los usuarios, así como en obtener retroalimentación sobre el diseño y la usabilidad de la aplicación.
+
+Nuestros entrevistados serán demostrados mediante PeaceApp, una aplicación móvil y web que busca mejorar la seguridad personal y comunitaria. La aplicación permite a los usuarios crear reportes de incidentes, enviar alertas de emergencia y compartir su ubicación con otros usuarios.
+
+Preguntas hacia nuestro segmento de usuarios: 
+Ciudadanos que buscan mejorar su seguridad personal y la de su comunidad.
+
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+1. ¿Qué funcionalidades consideras más importantes en la aplicación?
+2. ¿Qué te pareció el diseño y la usabilidad de la aplicación?
+3. ¿Qué mejoras sugerirías para hacer la aplicación más útil y fácil de usar?
+4. ¿Cómo te gustaría recibir notificaciones sobre incidentes de seguridad?
+5. ¿Qué tan importante es para ti poder compartir tu ubicación con otros usuarios?
+6. ¿Te gustaría ver a la aplicación como publicidad en redes sociales, como Instagram o Facebook, para que de esta manera puedas conocer más sobre la aplicación?
+7. ¿Cómo te sentirías atraido hacia la aplicación si se hiciera publicidad en redes sociales?
+8. ¿Crees que esta aplicación ayudará a mejorar la seguridad en tu comunidad?
+9. ¿Recomendarías esta aplicación a tus amigos y familiares? ¿Por qué?
+10. ¿Qué otras funcionalidades te gustaría ver en futuras versiones de la aplicación?
+
+#### 8.3.4.2. Registro de Entrevistas
+
+#### Entrevista N° 1: Maricarmen Tejada
+<img src="./assets/img/interviews/leoMari.png" alt="Entrevista2" width="100%" /> 
+<a href="https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FExperimentos%2Fvalidation%2Dinterviews%2FEntrevista%20Leonardo%2DMaricarmen%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed235f4f9%2D3970%2D422e%2D80cd%2D336f58c85948" target="_blank">Enlace a la entrevista de validación - Leonardo Linares</a>
+</br>
+Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESRO-Ectm51Boy1NZ_SDZdYBtEWvVVQlFdHmVxFGKBTzEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zwt7Rc<br><br>
+Nombre: Maricarmen Tejada
+Edad: 59 años
+Pasatiempos: Cocinar, cuidar de sus hijos y conversar con sus vecinas.
+Ocupación: Ama de casa
+
+Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se siente insegura al salir a hacer compras, sobre todo al anochecer. Ha sido testigo de robos en su zona y le preocupa la seguridad de sus hijos. Le pareció muy útil la idea de PeaceApp, especialmente por el mapa de zonas peligrosas y la opción de compartir su ubicación en tiempo real. Comentó que la aplicación es fácil de usar y que recibir alertas le daría más tranquilidad. También dijo que sí la recomendaría a otras madres de familia en su barrio, ya que la seguridad es una preocupación diaria.
+
+</br></br>
+
+#### Entrevista N° 2: Jose Gutierrez
+<img src="./assets/img/interviews/jose-gutierrez.png" alt="Entrevista" width="100%" /> 
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219422_upc_edu_pe/ET2oNX5k7qtLvtyInegnIZIBKWscwPTl1nPI--SSoz8AiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QwfLlU" target="_blank">Enlace a la entrevista de validación - Fabia Herrera</a>
+
+
+**Nombre:** Jose Gutierrez
+**Edad:** 25 años
+**Pasatiempos:** Leer, ver películas, escribir
+**Ocupación:** Estudiante universitario
+
+En general, Jose nos comenta que le agradó bastante el diseño de nuestra landing page, le inspira confianza que exista una sección que liste las organizaciones con las que trabajamos. Mencionó como aspecto de mejora el agregado de más imágenes que describan las funciones de PeaceApp. Con respecto a la aplicación móvil, le encantó el contraste entre los colores que componen nuestra paleta de colores; asimismo, consideró que los elementos en el bottom navigation bar son pertinentes ya que le ayuda a ubicar los features más característicos de forma rápida. Como única sugerencia, nos recomendó aumentar el tamaño de la tipografía en la pantalla del mapa, o que intentemos colocando las letras de un color más oscuro para que este sea más legible. Con respecto a la aplicación web, Jose comentó que le gustaría que la sección de reportes tuviera un filtro para buscar reportes específicos por ubicación o tipo de incidente. También sugirió que se agregue una sección de preguntas frecuentes para ayudar a los usuarios a resolver dudas comunes.
+
+</br></br>
+
+#### Entrevista N° 3: Paolo Cisneros
+<img src="./assets/img/interviews/paolo-validation.png" alt="Entrevista" width="100%" /> 
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERjDR0CCepdOix_m7APjpGIB24W3CurS6cvCjClveYKWsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8mxEGd" target="_blank">Enlace a la entrevista de validación - Arian Rodriguez</a>
+
+
+**Nombre:** Paolo Cisneros
+**Edad:** 22 años
+**Pasatiempos:** Programar, aprender nuevas tecnologías de código.
+**Ocupación:** Estudiante universitario (Ingeniería de Software)
+
+Paolo nos comenta que encuentra la landing page muy sencilla de utilizar y adaptable para cualquier usuario que ingrese y no conozca el contenido que se ofrece en la aplicación, además que, las secciones agregadas en especial la de los testimonios, le aseguran la confianza necesaria para probar el aplicativos. Con respecto a la aplicación móvil, le pareció muy interesante toda la información que este contenía, como por ejemplo el mapa principal en el que podía observar los reportes, le parece fácil el registro de una nueva cuenta, como a su vez el inicio de sesión. Indicó que los reportes están fáciles de realizar sin embargo, resultaría mejor que los íconos de estos reportes sean un poco más grandes ya que se pueden llegar a confundir con los otros íconos por defecto del mapa. De la misma manera, indicó que sería bueno que se pueda conocer el nombre de los usuarios que han reportado, junto con algunos comentarios que sean posible redactar a cada uno.
+
+</br>
+
+#### Entrevista N° 4: Anatoly Noriega
+<img src="./assets/auditoria/entrevista_jesus.png" alt="Entrevista" width="100%" /> 
+
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/EXR-Xp1lIHRAuDUl53YLeWgBloiu6jCu0kPgvSWdmxsjFg?e=ygGGky&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+**Nombre:** Anatoly Noriega
+**Edad:** 25 años
+**Pasatiempos:** Programar videojuegos, crear arte y música
+**Ocupación:** Estudiante universitario (Ingeniería de Software)
+
+Anatoly señala que la landing page le resulta muy intuitiva y accesible, incluso para usuarios que ingresen por primera vez y no estén familiarizados con el contenido de la aplicación. Destaca que secciones como la de testimonios le generan confianza y lo motivan a probar la plataforma. En cuanto a la aplicación móvil, le pareció muy interesante la información presentada, en especial el mapa principal donde se visualizan los reportes. Considera que tanto el registro de una nueva cuenta como el inicio de sesión son procesos simples. Respecto a los reportes, mencionó que son fáciles de realizar, aunque sugiere que los íconos podrían tener un mayor tamaño para evitar confusiones con los íconos predeterminados del mapa. Además, considera que sería útil mostrar el nombre del usuario que realizó el reporte, así como permitir añadir comentarios a cada uno.
+
+</br>
+
+#### Entrevista N° 5: Romina Fernandez
+<img src="./assets/interviews/romina-fernandez.png" alt="Entrevista 5" width="100%" /> 
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/Ec8Tg9xWY71ClI5NqCvRvsAB2tf9xGDUZ28moIW3hmfd4Q?e=6xPOjm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Enlace a la entrevista - Ramón Jorge</a>
+
+**Nombre:** Romina Fernandez
+**Edad:** 27 años
+**Pasatiempos:** Leer, jugar con sus gatos, ver series
+**Ocupación:** Veterinaria
+
+Romina señala que la Aplicación Web le resulta agradable e intuitiva, pero explica que le gustaría que los botones sean un poco más grandes y tengan un color que haga un poco más de contraste, pues no los pudo ver con claridad al inicio. Le parecieron muy interesantes las funcionalidades de visualizar los reportes realizados en el mapa, y la facilidad con la cual generar y subir un reporte. Destacó que era muy sencillo y esto definitivamente influiría positivamente en su disposición a utilizar activamente la aplicación. En cuanto a sugerencias de mejora, cree que sería útil poder compartir tu ubicación con contactos a su elección dentro de la aplicación, y también sugirió una funcionalidad para registrar varios dispositivos, de forma que pueden rastrear su ubicación en caso de robo y también podrían reportar el delito desde cualquier plataforma.
+
+</br>
+
+
+## 8.4. Experiment Aftermath & Analysis
+### 8.4.1. Analysis and Interpretation of Results
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+## 8.6. To-Be Software Platform Pre-launch
+### 8.6.1. About-the-Product Intro Video
 
 
 # Conclusiones
