@@ -3224,6 +3224,40 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+A continuación se presentan las evidencias de la implementación de la aplicación móvil PeaceApp, que incluye las pantallas principales y funcionalidades clave. Esta aplicación está diseñada para ser intuitiva y fácil de usar, permitiendo a los usuarios reportar incidentes de seguridad y recibir alertas en tiempo real.
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/sign-in.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla de inicio de sesión de la aplicación móvil PeaceApp. Esta pantalla permite a los usuarios ingresar sus credenciales para acceder a la aplicación y comenzar a interactuar con las funcionalidades disponibles.
+<br><br>
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/map.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla principal de la aplicación móvil PeaceApp, que incluye un mapa interactivo. Los usuarios pueden ver su ubicación actual y los incidentes reportados en su área, lo que les permite estar informados sobre la seguridad en tiempo real.
+<br><br>
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/new-report.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla para crear un nuevo reporte de incidente. Los usuarios pueden seleccionar el tipo de incidente, agregar una descripción y enviar el reporte, lo que permite alertar a otros usuarios sobre situaciones de seguridad en su área.
+
+<br><br>
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/location.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla donde los usuarios pueden enviar su ubicación actual junto con el reporte. Esta funcionalidad es crucial para que otros usuarios y las autoridades puedan conocer la ubicación exacta del incidente reportado.
+<br><br>
+
+
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 A continuación se presentan las evidencias de la implementación del backend de PeaceApp, que incluye los endpoints necesarios para el funcionamiento de la aplicación. Estos endpoints permiten a los usuarios interactuar con la aplicación, enviar reportes, obtener información sobre alertas y gestionar su perfil.
