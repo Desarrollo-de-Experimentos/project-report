@@ -3146,16 +3146,75 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 
 ### 8.3.1. To-Be User Stories
 
-| ID | Historia de Usuario | Rol | Necesidad | Beneficio |
-|----|----------------------|-----|-----------|-----------|
----
+| ID    | Historia de Usuario                                                                                                      | Criterios de Aceptación                                                                                          | Tareas Asociadas                     |
+|-------|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+| HU001 | Como persona usuaria, quiero poder reportar un incidente desde el mapa de la aplicación web, para alertar a otros.       | Dado que estoy en el mapa web,<br>Cuando selecciono una ubicación y completo el formulario de reporte,<br>Entonces el reporte se guarda correctamente. | TASK0001, TASK0002, TASK0015         |
+| HU002 | Como persona usuaria, quiero que la app móvil envíe mi ubicación junto con información útil del lugar en el que estoy.   | Dado que abro la app móvil,<br>Cuando permito el acceso a mi ubicación,<br>Entonces el reporte incluirá el nombre del lugar y referencias cercanas. | TASK0003, TASK0004, TASK0016         |
+| HU003 | Como persona usuaria, quiero ver nuevos reportes apenas ocurren, para estar al tanto en tiempo real.                     | Dado que estoy usando la aplicación,<br>Cuando se publica un nuevo reporte cercano,<br>Entonces se muestra automáticamente en otro dispositivo. | TASK0005, TASK0006, TASK0017         |
+| HU004 | Como persona usuaria, quiero buscar una dirección para hacer un reporte desde otro lugar, como mi casa o por alguien más.| Dado que estoy en la pantalla del mapa,<br>Cuando busco y selecciono una dirección,<br>Entonces puedo generar un reporte para esa ubicación. | TASK0007, TASK0008                   |
+| HU005 | Como persona usuaria, quiero poder editar mi perfil, para que los demás me identifiquen y podamos interactuar.           | Dado que accedo a la sección de perfil,<br>Cuando edito mis datos personales,<br>Entonces los cambios se guardan y se muestran en mi cuenta. | TASK0009, TASK0010, TASK0018         |
+| HU006 | Como persona usuaria, quiero ver los reportes previos con información sobre cuándo ocurrieron.                           | Dado que estoy revisando el historial de reportes,<br>Cuando visualizo la lista,<br>Entonces puedo ver la antigüedad de cada incidente y distinguirlos por colores. | TASK0011, TASK0012, TASK0019         |
+| HU007 | Como analista, quiero una herramienta externa que analice los reportes enviados, para conocer zonas con más incidentes.  | Dado que accedo a la aplicación de análisis,<br>Cuando se conectan los datos de reportes,<br>Entonces puedo generar estadísticas y gráficas sobre los incidentes. | TASK0013, TASK0014, TASK0020         |
+
+
+##### Tareas asociadas a las Historias de Usuario
+| Task ID   | Descripción                                                                                          | Pertenece a HU |
+|-----------|------------------------------------------------------------------------------------------------------|----------------|
+| TASK0001  | Crear la interfaz de mapa interactivo en la aplicación web.                                          | HU001          |
+| TASK0002  | Agregar formulario para seleccionar tipo de incidente y descripción del evento.                      | HU001          |
+| TASK0003  | Obtener ubicación actual del dispositivo móvil con permisos del sistema.                             | HU002          |
+| TASK0004  | Obtener nombre del lugar y referencias usando un servicio de geolocalización.                        | HU002          |
+| TASK0005  | Implementar actualización automática de reportes en la interfaz sin recargar.                        | HU003          |
+| TASK0006  | Mostrar notificación visual o sonora cuando aparezca un nuevo reporte cercano.                       | HU003          |
+| TASK0007  | Agregar barra de búsqueda de direcciones con autocompletado.                                         | HU004          |
+| TASK0008  | Permitir al usuario generar reporte desde la dirección buscada.                                      | HU004          |
+| TASK0009  | Diseñar pantalla de edición de perfil con campos de nombre, foto y contacto.                         | HU005          |
+| TASK0010  | Guardar cambios del perfil del usuario y mostrar los datos actualizados en la app.                   | HU005          |
+| TASK0011  | Mostrar lista de reportes con fecha y hora de creación.                                               | HU006          |
+| TASK0012  | Aplicar colores o etiquetas según la antigüedad de los incidentes.                                   | HU006          |
+| TASK0013  | Conectar una aplicación Python a la base de datos de reportes con acceso seguro.                     | HU007          |
+| TASK0014  | Generar gráficos e informes de zonas más reportadas y tipos de incidentes más frecuentes.            | HU007          |
+| TASK0015  | Crear endpoint POST `/api/reports` para guardar un nuevo incidente con ubicación y descripción.       | HU001          |
+| TASK0016  | Crear endpoint GET `/api/reports/` para recibir ubicación enriquecida desde la app móvil.     | HU002          |
+| TASK0017  | Implementar endpoint WebSocket `/ws/reports` para emitir nuevos reportes en tiempo real.             | HU003          |
+| TASK0018  | Crear endpoint PUT `/api/users/{id}` para actualizar datos del perfil.                            | HU005          |
+| TASK0019  | Crear endpoint GET `/api/reports/user/{userId}` para listar reportes con tiempo desde su creación por usuario.         | HU006          |
+| TASK0020  | Crear endpoint GET `/api/reports/metrics` para entregar datos estructurados para análisis externo.   | HU007          |
+
+
 
 ### 8.3.2. To-Be Product Backlog
 
-| ID | Épica / Funcionalidad | Historia relacionada | Prioridad | Estimación (pts) | Sprint sugerido |
-|----|------------------------|----------------------|-----------|------------------|------------------|
+| ID       | Épica / Funcionalidad                     | Historia relacionada | Prioridad | Estimación (pts) | Dependencias |
+|----------|-------------------------------------------|----------------------|-----------|------------------|--------------|
+| PBK001   | Reporte desde mapa web                    | HU001                | Alta      | 3                | -            |
+| PBK002   | Formulario de detalles del incidente      | HU001                | Alta      | 2                | PBK001       |
+| PBK003   | Endpoint para guardar incidentes          | HU001                | Alta      | 2                | PBK002       |
+| PBK004   | Envío de ubicación móvil                  | HU002                | Alta      | 3                | -            |
+| PBK005   | Obtener nombre del lugar y referencias    | HU002                | Alta      | 2                | PBK004       |
+| PBK006   | Endpoint para ubicación enriquecida       | HU002                | Alta      | 2                | PBK005       |
+| PBK007   | Visualización en tiempo real              | HU003                | Alta      | 3                | -            |
+| PBK008   | Notificación de reportes cercanos         | HU003                | Alta      | 2                | PBK007       |
+| PBK009   | Endpoint WebSocket para nuevos reportes   | HU003                | Alta      | 2                | PBK008       |
+| PBK010   | Búsqueda de dirección en app móvil        | HU004                | Media     | 3                | -            |
+| PBK011   | Reportar desde dirección buscada          | HU004                | Media     | 2                | PBK010       |
+| PBK012   | Edición del perfil del usuario            | HU005                | Media     | 2                | -            |
+| PBK013   | Visualización de perfil editado           | HU005                | Media     | 1                | PBK012       |
+| PBK014   | Endpoint para actualización de perfil     | HU005                | Media     | 2                | PBK013       |
+| PBK015   | Historial de reportes                     | HU006                | Baja      | 3                | -            |
+| PBK016   | Indicadores visuales por antigüedad       | HU006                | Baja      | 2                | PBK015       |
+| PBK017   | Endpoint para obtener historial           | HU006                | Baja      | 2                | PBK016       |
+| PBK018   | Extracción de datos desde app externa     | HU007                | Media     | 3                | -            |
+| PBK019   | Gráficos y análisis desde app externa     | HU007                | Media     | 2                | PBK018       |
+| PBK020   | Endpoint para análisis de reportes        | HU007                | Media     | 2                | PBK018       |
 
----
+| Prioridad | Total de ítems | Total Story Points |
+|-----------|----------------|--------------------|
+| Alta      | 9              | 21                 |
+| Media     | 7              | 16                 |
+| Baja      | 4              | 9                  |
+| **Total** | **20**         | **46**             |
+
 
 > **Nota:** Estas historias y backlog están diseñadas para ser iteradas dentro de un proceso ágil (Scrum o Kanban), y pueden adaptarse conforme avancen los experimentos y se obtenga retroalimentación de los usuarios.
 
@@ -3165,7 +3224,85 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+A continuación se presentan las evidencias de la implementación de la aplicación móvil PeaceApp, que incluye las pantallas principales y funcionalidades clave. Esta aplicación está diseñada para ser intuitiva y fácil de usar, permitiendo a los usuarios reportar incidentes de seguridad y recibir alertas en tiempo real.
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/sign-in.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla de inicio de sesión de la aplicación móvil PeaceApp. Esta pantalla permite a los usuarios ingresar sus credenciales para acceder a la aplicación y comenzar a interactuar con las funcionalidades disponibles.
+<br><br>
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/map.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla principal de la aplicación móvil PeaceApp, que incluye un mapa interactivo. Los usuarios pueden ver su ubicación actual y los incidentes reportados en su área, lo que les permite estar informados sobre la seguridad en tiempo real.
+<br><br>
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/new-report.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla para crear un nuevo reporte de incidente. Los usuarios pueden seleccionar el tipo de incidente, agregar una descripción y enviar el reporte, lo que permite alertar a otros usuarios sobre situaciones de seguridad en su área.
+
+<br><br>
+
+<div style="text-align: center;">
+<img src="./assets/mobile-evidence/location.jpg" alt="PeaceApp Mobile" width="60%" />
+</div>
+
+En la imagen anterior se muestra la pantalla donde los usuarios pueden enviar su ubicación actual junto con el reporte. Esta funcionalidad es crucial para que otros usuarios y las autoridades puedan conocer la ubicación exacta del incidente reportado.
+<br><br>
+
+
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+A continuación se presentan las evidencias de la implementación del backend de PeaceApp, que incluye los endpoints necesarios para el funcionamiento de la aplicación. Estos endpoints permiten a los usuarios interactuar con la aplicación, enviar reportes, obtener información sobre alertas y gestionar su perfil.
+
+Nuestro RESTful API está diseñado para ser eficiente y fácil de usar, permitiendo a los desarrolladores integrar fácilmente las funcionalidades de PeaceApp en sus aplicaciones. Este se encuentra desplegado en el servicio de **Render** y se puede acceder a través de la URL: [https://peaceapp-latest.onrender.com/swagger-ui/index.html](https://peaceapp-latest.onrender.com/swagger-ui/index.html).
+
+<div>
+<img src="./assets/implemented-backend-evidence/reports-new.PNG" alt="PeaceApp Backend" width="100%" />
+</div>
+
+En la anterior imagen se muestra la evidencia de la implementación del backend de PeaceApp, donde se puede observar el endpoint para crear nuevos reportes. Este endpoint permite a los usuarios enviar información sobre incidentes de seguridad, incluyendo la ubicación y descripción del evento.
+
+<br><br>
+<div>
+<img src="./assets/implemented-backend-evidence/reports-user.PNG" alt="PeaceApp Backend" width="100%" />
+</div>
+
+En la imagen anterior se muestra la evidencia de la implementación del backend de PeaceApp, donde se puede observar el endpoint para obtener los reportes de un usuario específico. Este endpoint permite a los usuarios acceder a su historial de reportes y ver información sobre incidentes pasados.
+
+<br><br>
+
+<div> 
+<img src="./assets/implemented-backend-evidence/reports.PNG" alt="PeaceApp Backend" width="100%" />
+</div>
+En la imagen anterior se muestra la evidencia de la implementación del backend de PeaceApp, donde se puede observar el endpoint para obtener todos los reportes. Este endpoint permite a los usuarios y administradores acceder a una lista completa de incidentes reportados en la aplicación, facilitando el análisis y seguimiento de la seguridad en la comunidad.
+
+
+<br><br>
+<div>
+<img src="./assets/implemented-backend-evidence/user-profile.PNG" alt="PeaceApp Backend" width="100%" />
+</div>
+En la imagen anterior se muestra la evidencia de la implementación del backend de PeaceApp, donde se puede observar el endpoint para actualizar el perfil de un usuario. Este endpoint permite a los usuarios modificar su información personal, como nombre, foto y datos de contacto, asegurando que su perfil esté siempre actualizado y refleje su identidad en la aplicación.
+
+<br><br>
+<div>
+<img src="./assets/implemented-backend-evidence/alerts.PNG" alt="PeaceApp Backend" width="100%" />
+</div>
+En la imagen anterior se muestra la evidencia de la implementación del backend de PeaceApp, donde se puede observar el endpoint para obtener las alertas de seguridad. Este endpoint permite a los usuarios recibir notificaciones sobre incidentes recientes en su área, mejorando la comunicación y la respuesta ante situaciones de emergencia.
+
+<br><br>
+<div>
+<img src="./assets/implemented-backend-evidence/sign-in.PNG" alt="PeaceApp Backend" width="100%" />
+</div>
+En la imagen anterior se muestra la evidencia de la implementación del backend de PeaceApp, donde se puede observar el endpoint para iniciar sesión. Este endpoint permite a los usuarios autenticarse en la aplicación, asegurando que solo las personas autorizadas puedan acceder a sus datos y funcionalidades.
+
 #### 8.3.3.6. Team Collaboration Insights
 
 ### 8.3.4. To-Be Validation Interviews
