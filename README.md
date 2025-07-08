@@ -3146,16 +3146,62 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 
 ### 8.3.1. To-Be User Stories
 
-| ID | Historia de Usuario | Rol | Necesidad | Beneficio |
-|----|----------------------|-----|-----------|-----------|
----
+| ID    | Historia de Usuario                                                                                                      | Criterios de Aceptación                                                                                          | Tareas Asociadas        |
+|-------|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| HU001 | Como persona usuaria, quiero poder reportar un incidente desde el mapa de la aplicación web, para alertar a otros.       | Dado que estoy en el mapa web, <br>Cuando selecciono una ubicación y completo el formulario de reporte, <br>Entonces el reporte se guarda correctamente.                  | TASK0001, TASK0002      |
+| HU002 | Como persona usuaria, quiero que la app móvil envíe mi ubicación junto con información útil del lugar en el que estoy.   | Dado que abro la app móvil, <br>Cuando permito el acceso a mi ubicación, <br>Entonces el reporte incluirá el nombre del lugar y referencias cercanas.                     | TASK0003, TASK0004      |
+| HU003 | Como persona usuaria, quiero ver nuevos reportes apenas ocurren, para estar al tanto en tiempo real.                     | Dado que estoy usando la aplicación, <br>Cuando se publica un nuevo reporte cercano, <br>Entonces se muestra automáticamente en otro dispositivo                        | TASK0005, TASK0006      |
+| HU004 | Como persona usuaria, quiero buscar una dirección para hacer un reporte desde otro lugar, como mi casa o por alguien más.| Dado que estoy en la pantalla del mapa, <br>Cuando busco y selecciono una dirección, <br>Entonces puedo generar un reporte para esa ubicación.                           | TASK0007, TASK0008      |
+| HU005 | Como persona usuaria, quiero poder editar mi perfil, para que los demás me identifiquen y podamos interactuar.           | Dado que accedo a la sección de perfil, <br>Cuando edito mis datos personales, <br>Entonces los cambios se guardan y se muestran en mi cuenta.                            | TASK0009, TASK0010      |
+| HU006 | Como persona usuaria, quiero ver los reportes previos con información sobre cuándo ocurrieron.                           | Dado que estoy revisando el historial de reportes, <br>Cuando visualizo la lista, <br>Entonces puedo ver la antigüedad de cada incidente y distinguirlos por colores.     | TASK0011, TASK0012      |
+| HU007 | Como analista, quiero una herramienta externa que analice los reportes enviados, para conocer zonas con más incidentes.  | Dado que accedo a la aplicación de análisis, <br>Cuando se conectan los datos de reportes, <br>Entonces puedo generar estadísticas y gráficas sobre los incidentes.      | TASK0013, TASK0014      |
+
+##### Tareas asociadas a las Historias de Usuario
+| Task ID   | Descripción                                                                                       | Pertenece a HU |
+|-----------|---------------------------------------------------------------------------------------------------|----------------|
+| TASK0001  | Crear la interfaz de mapa interactivo en la aplicación web.                                       | HU001          |
+| TASK0002  | Agregar formulario para seleccionar tipo de incidente y descripción del evento.                   | HU001          |
+| TASK0003  | Obtener ubicación actual del dispositivo móvil con permisos del sistema.                          | HU002          |
+| TASK0004  | Obtener nombre del lugar y referencias usando un servicio de geolocalización.                     | HU002          |
+| TASK0005  | Implementar actualización automática de reportes en la interfaz sin recargar.                     | HU003          |
+| TASK0006  | Mostrar notificación visual o sonora cuando aparezca un nuevo reporte cercano.                    | HU003          |
+| TASK0007  | Agregar barra de búsqueda de direcciones con autocompletado.                                      | HU004          |
+| TASK0008  | Permitir al usuario generar reporte desde la dirección buscada.                                   | HU004          |
+| TASK0009  | Diseñar pantalla de edición de perfil con campos de nombre, foto y contacto.                      | HU005          |
+| TASK0010  | Guardar cambios del perfil del usuario y mostrar los datos actualizados en la app.                | HU005          |
+| TASK0011  | Mostrar lista de reportes con fecha y hora de creación.                                            | HU006          |
+| TASK0012  | Aplicar colores o etiquetas según la antigüedad de los incidentes.                                | HU006          |
+| TASK0013  | Conectar una aplicación Python a la base de datos de reportes con acceso seguro.                  | HU007          |
+| TASK0014  | Generar gráficos e informes de zonas más reportadas y tipos de incidentes más frecuentes.         | HU007          |
+
 
 ### 8.3.2. To-Be Product Backlog
 
-| ID | Épica / Funcionalidad | Historia relacionada | Prioridad | Estimación (pts) | Sprint sugerido |
-|----|------------------------|----------------------|-----------|------------------|------------------|
+| ID       | Épica / Funcionalidad                     | Historia relacionada | Prioridad | Estimación (pts) | Dependencias |
+|----------|-------------------------------------------|----------------------|-----------|------------------|--------------|
+| PBK001   | Reporte desde mapa web                    | HU001                | Alta      | 3                | -            |
+| PBK002   | Formulario de detalles del incidente      | HU001                | Alta      | 2                | PBK001       |
+| PBK003   | Envío de ubicación móvil                  | HU002                | Alta      | 3                | -            |
+| PBK004   | Contextualización de ubicación móvil      | HU002                | Alta      | 2                | PBK003       |
+| PBK005   | Visualización en tiempo real              | HU003                | Alta      | 3                | -            |
+| PBK006   | Notificación de reportes cercanos         | HU003                | Alta      | 2                | PBK005       |
+| PBK007   | Búsqueda de dirección en app móvil        | HU004                | Media     | 3                | -            |
+| PBK008   | Reportar desde dirección buscada          | HU004                | Media     | 2                | PBK007       |
+| PBK009   | Edición del perfil del usuario            | HU005                | Media     | 2                | -            |
+| PBK010   | Visualización de perfil editado           | HU005                | Media     | 1                | PBK009       |
+| PBK011   | Historial de reportes                     | HU006                | Baja      | 3                | -            |
+| PBK012   | Indicadores visuales por antigüedad       | HU006                | Baja      | 2                | PBK011       |
+| PBK013   | Extracción de datos desde app externa     | HU007                | Media     | 3                | -            |
+| PBK014   | Gráficos y análisis desde app externa     | HU007                | Media     | 2                | PBK013       |
 
----
+| Prioridad | Total de ítems | Total Story Points |
+|-----------|----------------|--------------------|
+| Alta      | 6              | 15                 |
+| Media     | 6              | 13                 |
+| Baja      | 2              | 5                  |
+| **Total** | **14**         | **33**             |
+
+
 
 > **Nota:** Estas historias y backlog están diseñadas para ser iteradas dentro de un proceso ágil (Scrum o Kanban), y pueden adaptarse conforme avancen los experimentos y se obtenga retroalimentación de los usuarios.
 
