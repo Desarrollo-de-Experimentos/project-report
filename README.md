@@ -3437,9 +3437,17 @@ En la imagen anterior se muestra la evidencia de la implementación del backend 
 
 #### 8.3.3.6. Team Collaboration Insights
 - **Backend:**
+<img src="./assets/collaboration-insights/backendInsights.png" alt="PeaceApp Backend" width="75%" />
+
 - **Mobile:**
+<img src="./assets/collaboration-insights/mobileInsights.png" alt="PeaceApp Mobile" width="75%" />
+
 - **Web-Application:**
-- **Report:**
+<img src="./assets/collaboration-insights/webAppInsights.png" alt="PeaceApp WebApp" width="75%" />
+
+- **Bug-Fixing:**
+<img src="./assets/collaboration-insights/Insights1.png" alt="PeaceApp BugFix" width="75%" />
+<img src="./assets/collaboration-insights/Insights2.png" alt="PeaceApp BugFix2" width="75%" />
 
 ### 8.3.4. To-Be Validation Interviews
 Para validar las funcionalidades y la experiencia de usuario de la aplicación PeaceApp, se diseñaron entrevistas con usuarios potenciales. Estas entrevistas se centraron en comprender las necesidades y expectativas de los usuarios, así como en obtener retroalimentación sobre el diseño y la usabilidad de la aplicación.
