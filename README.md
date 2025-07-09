@@ -169,6 +169,121 @@
         </ul>
         </td>
     </tr>
+    <tr>
+        <td rowspan="1">TB2</td>
+        <td rowspan="1">18/06/2025</td>
+        <td>Mauricio Abraham Rivo Rojas Sánchez</td>
+        <td>
+        <ul>
+        <li> Validation Interviews </li>
+        <li> Experiment Design </li>
+        <li> Auditoria </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TB2</td>
+        <td rowspan="1">18/06/2025</td>
+        <td>Arian Martín Rodriguez Vargas</td>
+        <td>
+        <ul>
+        <li> Validation Interviews </li>
+        <li> Experiment Design </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TB2</td>
+        <td rowspan="1">18/06/2025</td>
+        <td>Ramón Alejandro Jorge Arévalo</td>
+        <td>
+        <ul>
+        <li> Validation Interviews </li>
+        <li> Experiment Planning </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TB2</td>
+        <td rowspan="1">18/06/2025</td>
+        <td>Fabia Alejandra Herrera Aguirre</td>
+        <td>
+        <ul>
+        <li> Validation Interviews </li>
+        <li> Static Testing & Verification </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TB2</td>
+        <td rowspan="1">18/06/2025</td>
+        <td>Leonardo Félix Jesús Lineares Tejada</td>
+        <td>
+        <ul>
+        <li> Validation Interviews </li>
+        <li> Continuous Monitoring </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TF1</td>
+        <td rowspan="1">09/07/2025</td>
+        <td>Mauricio Abraham Rivo Rojas Sánchez</td>
+        <td>
+        <ul>
+        <li> To-Be Sprint Backlogs </li>
+        <li> Implemented To-Be Landing Page Evidence </li>
+        <li> Implemented To-Be Frontend Web Application Evidence </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TF1</td>
+        <td rowspan="1">09/07/2025</td>
+        <td>Arian Martín Rodriguez Vargas</td>
+        <td>
+        <ul>
+        <li> Experimentation </li>
+        <li> To-Be User stories </li>
+        <li> To-Be Product Backlog </li>
+        <li> Implemented To-Be Restful API and Serverless Backend Evidence </li>
+        <li> Native Mobile Application Evidence </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TF1</td>
+        <td rowspan="1">09/07/2025</td>
+        <td>Ramón Alejandro Jorge Arévalo</td>
+        <td>
+        <ul>
+        <li> Experiment Aftermath & Analysis </li>
+        <li> Re scored and Re priorized Question Backlog </li>
+        <li> Shareback Session Artifacts: Learning Workflow </li>
+        </ul>
+        </td>
+    </tr>
+        <td rowspan="1">TF1</td>
+        <td rowspan="1">09/07/2025</td>
+        <td>Fabia Alejandra Herrera Aguirre</td>
+        <td>
+        <ul>
+        <li> Pipeline supported, Experiment-Driven To-Be Software Platform Lifecycle </li>
+        <li> About-the-Product Intro Video </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1">TF1</td>
+        <td rowspan="1">09/07/2025</td>
+        <td>Leonardo Félix Jesús Lineares Tejada</td>
+        <td>
+        <ul>
+        <li> Team Collaboration Insights </li>
+        <li> Analysis and Interpretation of Results </li>
+        </ul>
+        </td>
+    </tr>
     </tbody>
 </table>
 
@@ -379,6 +494,23 @@ conventional commits para las colaboraciones en los repositorios, al igual que l
    * [8.3. Experimentation](#83-experimentation)
       + [8.3.1. To-Be User Stories](#831-to-be-user-stories)
       + [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+      + [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+         - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+         - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+         - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+         - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+         - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+         - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+      + [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+         - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+         - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+   * [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+      + [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+      + [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+   * [8.5. Continuous Learning](#85-continuous-learning)
+      + [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+   * [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+      + [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 - [Conclusiones](#conclusiones)
    * [Recomendaciones](#recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
@@ -390,7 +522,7 @@ En Ingeniería de Software, el logro de curso contribuye a alcanzar el:
 
 ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-<table> <tr> <th>Criterio Específico</th> <th>Acciones Realizadas</th> <th>Conclusiones</th> </tr> <tr> <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: En este entregable, trabajé responsablemente con mi equipo y mantuve constante comunicación para avanzar de la mejor manera. Así, reconozco responsabilidad ética y profesional en situaciones de ingeniería de software.<br/> Ramon Jorge: Me enfoqué en apoyar a mi grupo con los puntos necesarios, en especial el StartUp Profile y todos los puntos del Solution Profile, incluyendo el Lean UX Process.<br/> Arian Rodriguez: Cumplí con todos los puntos asignados, realicé análisis de competidores y del mercado objetivo, así como la definición de segmentos y necesidades del usuario.<br/> Fabia Herrera: Apoyé con el diseño de la interfaz de usuario, asegurando que fuera intuitiva, además de definir la arquitectura de la información y el diseño de la página de inicio.<br/> Leonardo Linares: Reconocí la responsabilidad ética y profesional mediante el desarrollo de User Stories, To-Be Scenario Mapping y los wireframes de la aplicación.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Trabajé en conjunto con mi grupo para realizar los testing suites, centrándome en los tests de integración y comportamiento (BDD).<br/> Ramon Jorge: Ayudé a mejorar secciones del informe, como los wireframes.<br/> Arian Rodriguez: Realicé pruebas unitarias con JUnit a partir de investigación propia.<br/> Fabia Herrera: Apoyé en la mejora continua de la interfaz de usuario y arquitectura de la información.<br/> Leonardo Linares: Contribuí en el capítulo de DevOps Practices, asegurando la validez de la información sobre integración, entrega y despliegue continuo.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Contribuí activamente en la validación final de funcionalidades y documentación técnica, asegurando calidad y cumplimiento de estándares.<br/> Ramon Jorge: Apoyé en la integración final del sistema, manteniendo comunicación continua con el equipo.<br/> Arian Rodriguez: Revisé y validé funcionalidades implementadas y ayudé en la documentación de cierre del proyecto.<br/> Fabia Herrera: Revisé la experiencia de usuario final e hice ajustes para mejorar la usabilidad antes de la entrega.<br/> Leonardo Linares: Apoyé con el capítulo de monitoreo continuo, describiendo herramientas y prácticas utilizadas. </td> <td> <strong>TB1:</strong> Se reconoció la responsabilidad ética y profesional mediante el cumplimiento de tareas asignadas, la colaboración activa y la contribución en diseño, análisis y planificación del sistema. Cada integrante asumió compromisos claves para asegurar el avance responsable del proyecto.<br/><br/> <strong>TP1:</strong> Se reflejó compromiso profesional al aplicar pruebas de diversos niveles (unitarias, integración, sistema, BDD) siguiendo buenas prácticas y documentando el proceso DevOps. La ética profesional se evidenció en la validación y mejora de funcionalidades.<br/><br/> <strong>TB2:</strong> El equipo mostró responsabilidad ética y profesional en las validaciones finales, documentación, revisión de calidad y preparación para el cierre del proyecto. La comunicación constante y el compromiso con la calidad evidencian una práctica ética sólida. </td> </tr> <tr> <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: Emití juicios sobre el impacto de nuestra solución para proponer mejoras y añadidos al sistema.<br/> Ramon Jorge: Identificamos detalles del problema y potenciales mejoras traducidas en User Stories. También colaboré en identificar segmentos objetivos y desarrollar Wireflows.<br/> Arian Rodriguez: Analicé cómo PeaceApp puede contribuir a mejorar la seguridad ciudadana en Lima. También identifiqué oportunidades de diferenciación en el mercado.<br/> Fabia Herrera: Consideré el impacto de la interfaz en la percepción de seguridad del usuario.<br/> Leonardo Linares: Tomé decisiones informadas considerando el impacto del sistema mediante User Stories, Impact Mapping y wireframes.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Validé los impactos funcionales mediante pruebas de integración y comportamiento sobre clases clave.<br/> Ramon Jorge: Realicé la sección de integración continua considerando el contexto de pruebas anteriores.<br/> Arian Rodriguez: Integré pruebas de sistema con Selenium IDE para evaluar posibles comportamientos reales del usuario.<br/> Fabia Herrera: Documenté el proceso de Continuous Deployment, considerando la usabilidad e impacto en la vida diaria.<br/> Leonardo Linares: Contribuí al desarrollo de Continuous Delivery, destacando herramientas clave y automatización.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Reflexioné sobre los impactos futuros de la aplicación en seguridad ciudadana y su escalabilidad.<br/> Ramon Jorge: Analicé la adaptabilidad de la solución a otros distritos y contextos socioeconómicos.<br/> Arian Rodriguez: Evalué el impacto del sistema final en la comunidad respecto a los objetivos iniciales.<br/> Fabia Herrera: Analicé cómo el diseño de interfaz influye en la adopción por parte de distintos grupos sociales.<br/> Leonardo Linares: Contribuí en la documentación del monitoreo continuo y apoyé en entrevistas para comprender el impacto real del sistema. </td> <td> <strong>TB1:</strong> Se emitieron juicios informados sobre el impacto del sistema en contextos reales, identificando claramente los problemas sociales a resolver, los usuarios objetivo y los beneficios esperados de la aplicación.<br/><br/> <strong>TP1:</strong> Se evaluaron los impactos de las funcionalidades implementadas mediante pruebas orientadas a validar los requerimientos definidos. Se identificaron mejoras antes del despliegue y se garantizó que la solución esté alineada con las necesidades sociales.<br/><br/> <strong>TB2:</strong> Se profundizó el análisis del impacto de la solución en el entorno social, económico y tecnológico. Se reflexionó sobre la escalabilidad, adaptabilidad e impacto positivo a largo plazo, y se propusieron mejoras finales alineadas con el contexto real de uso. </td> </tr> </table>
+<table> <tr> <th>Criterio Específico</th> <th>Acciones Realizadas</th> <th>Conclusiones</th> </tr> <tr> <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: En este entregable, trabajé responsablemente con mi equipo y mantuve constante comunicación para avanzar de la mejor manera. Así, reconozco responsabilidad ética y profesional en situaciones de ingeniería de software.<br/> Ramon Jorge: Me enfoqué en apoyar a mi grupo con los puntos necesarios, en especial el StartUp Profile y todos los puntos del Solution Profile, incluyendo el Lean UX Process.<br/> Arian Rodriguez: Cumplí con todos los puntos asignados, realicé análisis de competidores y del mercado objetivo, así como la definición de segmentos y necesidades del usuario.<br/> Fabia Herrera: Apoyé con el diseño de la interfaz de usuario, asegurando que fuera intuitiva, además de definir la arquitectura de la información y el diseño de la página de inicio.<br/> Leonardo Linares: Reconocí la responsabilidad ética y profesional mediante el desarrollo de User Stories, To-Be Scenario Mapping y los wireframes de la aplicación.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Trabajé en conjunto con mi grupo para realizar los testing suites, centrándome en los tests de integración y comportamiento (BDD).<br/> Ramon Jorge: Ayudé a mejorar secciones del informe, como los wireframes.<br/> Arian Rodriguez: Realicé pruebas unitarias con JUnit a partir de investigación propia.<br/> Fabia Herrera: Apoyé en la mejora continua de la interfaz de usuario y arquitectura de la información.<br/> Leonardo Linares: Contribuí en el capítulo de DevOps Practices, asegurando la validez de la información sobre integración, entrega y despliegue continuo.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Contribuí activamente en la validación final de funcionalidades y documentación técnica, asegurando calidad y cumplimiento de estándares.<br/> Ramon Jorge: Apoyé en la integración final del sistema, manteniendo comunicación continua con el equipo.<br/> Arian Rodriguez: Revisé y validé funcionalidades implementadas y ayudé en la documentación de cierre del proyecto.<br/> Fabia Herrera: Revisé la experiencia de usuario final e hice ajustes para mejorar la usabilidad antes de la entrega.<br/> Leonardo Linares: Apoyé con el capítulo de monitoreo continuo, describiendo herramientas y prácticas utilizadas. <br/><br/> <strong>TF1:</strong><br/> Mauricio Rojas: <br/> Ramon Jorge: Apoyé <br/> Arian Rodriguez: <br/> Fabia Herrera: <br/> Leonardo Linares: Apoyé en la documentación de los insights del equipo, y el analisis e interpretación de los resultados de los experimentos realizados.</td> <td> <strong>TB1:</strong> Se reconoció la responsabilidad ética y profesional mediante el cumplimiento de tareas asignadas, la colaboración activa y la contribución en diseño, análisis y planificación del sistema. Cada integrante asumió compromisos claves para asegurar el avance responsable del proyecto.<br/><br/> <strong>TP1:</strong> Se reflejó compromiso profesional al aplicar pruebas de diversos niveles (unitarias, integración, sistema, BDD) siguiendo buenas prácticas y documentando el proceso DevOps. La ética profesional se evidenció en la validación y mejora de funcionalidades.<br/><br/> <strong>TB2:</strong> El equipo mostró responsabilidad ética y profesional en las validaciones finales, documentación, revisión de calidad y preparación para el cierre del proyecto. La comunicación constante y el compromiso con la calidad evidencian una práctica ética sólida. <br/><br/> <strong>TF1:</strong> El equipo . </td> </tr> <tr> <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: Emití juicios sobre el impacto de nuestra solución para proponer mejoras y añadidos al sistema.<br/> Ramon Jorge: Identificamos detalles del problema y potenciales mejoras traducidas en User Stories. También colaboré en identificar segmentos objetivos y desarrollar Wireflows.<br/> Arian Rodriguez: Analicé cómo PeaceApp puede contribuir a mejorar la seguridad ciudadana en Lima. También identifiqué oportunidades de diferenciación en el mercado.<br/> Fabia Herrera: Consideré el impacto de la interfaz en la percepción de seguridad del usuario.<br/> Leonardo Linares: Tomé decisiones informadas considerando el impacto del sistema mediante User Stories, Impact Mapping y wireframes.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Validé los impactos funcionales mediante pruebas de integración y comportamiento sobre clases clave.<br/> Ramon Jorge: Realicé la sección de integración continua considerando el contexto de pruebas anteriores.<br/> Arian Rodriguez: Integré pruebas de sistema con Selenium IDE para evaluar posibles comportamientos reales del usuario.<br/> Fabia Herrera: Documenté el proceso de Continuous Deployment, considerando la usabilidad e impacto en la vida diaria.<br/> Leonardo Linares: Contribuí al desarrollo de Continuous Delivery, destacando herramientas clave y automatización.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Reflexioné sobre los impactos futuros de la aplicación en seguridad ciudadana y su escalabilidad.<br/> Ramon Jorge: Analicé la adaptabilidad de la solución a otros distritos y contextos socioeconómicos.<br/> Arian Rodriguez: Evalué el impacto del sistema final en la comunidad respecto a los objetivos iniciales.<br/> Fabia Herrera: Analicé cómo el diseño de interfaz influye en la adopción por parte de distintos grupos sociales.<br/> Leonardo Linares: Contribuí en la documentación del monitoreo continuo y apoyé en entrevistas para comprender el impacto real del sistema.<br/><br/> <strong>TF1:</strong><br/> Mauricio Rojas: <br/> Ramon Jorge: Apoyé <br/> Arian Rodriguez: <br/> Fabia Herrera: <br/> Leonardo Linares: Contribuí documentando los insights del equipo con respecto al proyecto, y los resultados de los experimentos, analizando el disfrute del cliente.</td> <td> <strong>TB1:</strong> Se emitieron juicios informados sobre el impacto del sistema en contextos reales, identificando claramente los problemas sociales a resolver, los usuarios objetivo y los beneficios esperados de la aplicación.<br/><br/> <strong>TP1:</strong> Se evaluaron los impactos de las funcionalidades implementadas mediante pruebas orientadas a validar los requerimientos definidos. Se identificaron mejoras antes del despliegue y se garantizó que la solución esté alineada con las necesidades sociales.<br/><br/> <strong>TB2:</strong> Se profundizó el análisis del impacto de la solución en el entorno social, económico y tecnológico. Se reflexionó sobre la escalabilidad, adaptabilidad e impacto positivo a largo plazo, y se propusieron mejoras finales alineadas con el contexto real de uso. <br/><br/> <strong>TF1:</strong> El equipo .</td> </tr> </table>
 
 
 ---
