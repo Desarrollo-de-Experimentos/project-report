@@ -334,11 +334,11 @@ La entrega TB2 finalizó con éxito y los avances están documentados. Adicional
 </div><br>
 
 <div style="text-align: center;">
-  <img src="./assets/collaboration-insights/contributors_tb2.png" alt="Network Graph" width="90%" />
+  <img src="/collaboration-insights/contributors_tb2.png" alt="Network Graph" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="./assets/collaboration-insights/network_graph_tb2.png" alt="Network Graph" width="90%" />
+  <img src="/collaboration-insights/network_graph_tb2.png" alt="Network Graph" width="90%" />
 </div><br>
 
 Todos hemos trabajado bajo GitFlow, en base a features y 
@@ -544,23 +544,23 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <div style="text-align: center;">
-  <img src="./assets/presentation/mauricio.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="/presentation/mauricio.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="./assets/presentation/ramon.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="/presentation/ramon.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="./assets/presentation/fabia.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="/presentation/fabia.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="./assets/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="./assets/presentation/leonardo.png" alt="Perfil de integrante" width="90%" />
+  <img src="/presentation/leonardo.png" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 ## 1.2. Solution Profile
@@ -660,7 +660,7 @@ Sabremos que hemos tenido éxito cuando una cantidad significativa de usuarios u
 
 
 #### 1.2.2.4. Lean UX Canvas
-<img src="./assets/img/lean-ux/lean-ux-canvas.jpg" alt="Lean UX Canvas" width="100%"/>
+<img src="/img/lean-ux/lean-ux-canvas.jpg" alt="Lean UX Canvas" width="100%"/>
 
 **Enlace al esquema hecho en Miro: https://tinyurl.com/ymmmjj7t**
 
@@ -699,9 +699,9 @@ Sabremos que hemos tenido éxito cuando una cantidad significativa de usuarios u
     <tbody>
         <tr style="text-align: center;">
             <td colspan="2">Empresas</td>
-            <td><strong>SafeCity</strong><br><img src="./assets/competitive-analysis/competitor.png"></td>
-            <td><strong>NextDoor</strong><br><img src="./assets/competitive-analysis/competitor2.png"></td>
-            <td><strong>Waze</strong><br><img src="./assets/competitive-analysis/competitor3.png"></td>
+            <td><strong>SafeCity</strong><br><img src="/competitive-analysis/competitor.png"></td>
+            <td><strong>NextDoor</strong><br><img src="/competitive-analysis/competitor2.png"></td>
+            <td><strong>Waze</strong><br><img src="/competitive-analysis/competitor3.png"></td>
             <td><strong>PeaceaApp</strong><br><img src=""></td>
         </tr>
         <tr>
@@ -1000,7 +1000,7 @@ Objetivo: Identificar los requisitos esenciales para que la aplicación sea adop
 ### 2.2.2. Registro de entrevistas
 
 #### Entrevista N°1: Mauricio Rojas
-<img src="./assets/img/interviews/mauricio.png" alt="Entrevista" width="100%" />
+<img src="/img/interviews/mauricio.png" alt="Entrevista" width="100%" />
 Enlace de la entrevista: https://drive.google.com/file/d/1REsuCUqFDAdWCagLSZQ4V-vY_ATyK34o/view?usp=sharing 
 <br><br>
 
@@ -1011,7 +1011,7 @@ Enlace de la entrevista: https://drive.google.com/file/d/1REsuCUqFDAdWCagLSZQ4V-
 Mauricio se siente inseguro en zonas congestionadas cerca de su universidad, especialmente después de presenciar un robo que generó tensión entre los transeúntes. Para protegerse, se mantiene cauteloso y evita zonas peligrosas cuando es posible, prestando atención a su entorno. La falta de iluminación y vigilancia en las calles aumenta su sensación de inseguridad. Ante un incidente, su reacción sería grabarlo y difundirlo para garantizar que se realice una denuncia. Aunque no ha usado aplicaciones de seguridad ciudadana, le gustaría recibir alertas sobre zonas peligrosas y se siente cómodo usando tecnología para mantenerse informado. Considera útil compartir su ubicación en zonas desconocidas y valora la inclusión de foros en una app donde los usuarios puedan compartir experiencias. También le interesa que la aplicación sea confiable, especialmente en la protección de datos y en la actualización de información basada en los reportes de los usuarios.
 
 #### Entrevista N°2: Renzo Castañeda
-<img src="./assets/img/interviews/gloglo.jpg" alt="Entrevista" width="100%" />
+<img src="/img/interviews/gloglo.jpg" alt="Entrevista" width="100%" />
 Enlace de la entrevista: https://youtu.be/aGVoMGzdqlE 
 <br><br>
 
@@ -1022,7 +1022,7 @@ Enlace de la entrevista: https://youtu.be/aGVoMGzdqlE
 El entrevistado se siente inseguro en espacios públicos, especialmente en parques, y toma medidas como evitar zonas oscuras y caminar acompañado. Le preocupa la falta de vigilancia y la iluminación deficiente en estos lugares. Ante situaciones peligrosas, prefiere no resistirse y buscaría ayuda para contactar a las autoridades. Valora recibir alertas sobre robos o zonas peligrosas a través de una aplicación móvil, aunque no ha usado una app de seguridad antes, conoce su potencial y está interesado en funciones como alarmas y mapas de riesgo. Además, considera útil compartir su ubicación en tiempo real, pero prefiere hacerlo de forma anónima para evitar posibles represalias.
 
 #### Entrevista N° 3: Pilar Ubillus
-<img src="./assets/img/interviews/pilar.png" alt="Entrevista" width="100%" /> 
+<img src="/img/interviews/pilar.png" alt="Entrevista" width="100%" /> 
 Enlace de la entrevista: https://youtu.be/ELc5lbcRJCM
 <br><br>
 
@@ -1033,7 +1033,7 @@ Enlace de la entrevista: https://youtu.be/ELc5lbcRJCM
 Pilar se sintió insegura al salir de noche debido a la falta de iluminación en las calles. Para sentirse más segura, guarda sus objetos de valor en su ropa y evita caminar sola. La escasa iluminación y la falta de vigilancia son sus principales preocupaciones en cuanto a la seguridad en espacios públicos. En caso de un robo, no opondría resistencia para evitar un daño mayor, y si fuera testigo, ayudaría a la víctima. Le gustaría recibir información a través de una aplicación móvil sobre la proximidad de puestos de serenazgo, comisarías y zonas peligrosas, y se siente cómoda usando aplicaciones de seguridad. Aunque no ha utilizado una app de seguridad ciudadana, considera útil compartir su ubicación en tiempo real con su familia y valora la inclusión de botones de pánico y mapas de zonas peligrosas en la aplicación. Para confiar en una app de este tipo, destaca la importancia de que sea intuitiva y proteja sus datos personales.
 
 #### Entrevista N° 4: Paolo Cisneros
-<img src="./assets/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
+<img src="/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
 Enlace de la entrevista: https://youtu.be/Ufd3r_rPLV4
 <br><br>
 
@@ -1059,7 +1059,7 @@ Intereses y Requerimientos Principales:
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
-<img src="./assets/img/needfinding/persona.jpg" alt="Needfinding" width="100%" /> 
+<img src="/img/needfinding/persona.jpg" alt="Needfinding" width="100%" /> 
 
 ### 2.3.2. User Task Matrix
 
@@ -1075,11 +1075,11 @@ Intereses y Requerimientos Principales:
 
 
 ### 2.3.3. User Journey Mapping
-<img src="./assets/img/needfinding/journey-mapping.jpg" alt="Needfinding" width="100%" /> 
+<img src="/img/needfinding/journey-mapping.jpg" alt="Needfinding" width="100%" /> 
 
 
 ### 2.3.4. Empathy Mapping
-<img src="./assets/img/needfinding/empathy.png" alt="Needfinding" width="100%" /> 
+<img src="/img/needfinding/empathy.png" alt="Needfinding" width="100%" /> 
 Con ayuda del gráfico Empathy Mapping podemos conocer las necesidades, frustraciones de nuestro segmento objetivo: Ciudadanos preocupados por su seguridad en espacios públicos. Esto nos ofrece una comprensión más profunda de cómo se siente nuestro usuario y abordar una solución que realmente los ayuden.
 
 ### 2.3.5. As-is Scenario Mapping
@@ -1209,7 +1209,7 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 
 ## 3.4. Impact Mapping
 
-<img src="./assets/img/needfinding/impact.png" alt="Needfinding" width="100%" /> 
+<img src="/img/needfinding/impact.png" alt="Needfinding" width="100%" /> 
 
 ---
 
@@ -1971,7 +1971,7 @@ A continuación, se observan las capturas de pantalla que muestra el despliegue 
 Para el despliegue de nuestra aplicación móvil, se utilizó Github Releases para crear una versión de la aplicación que se puede instalar en dispositivos Android. Esta versión incluye todas las funcionalidades implementadas hasta el momento, como la creación de reportes, la visualización de alertas y la gestión del perfil de usuario.
 El archivo APK generado se encuentra disponible en el siguiente enlace y se puede descargar de manera directa en un Android Mobile (peaceapp.apk): https://github.com/Desarrollo-de-Experimentos/peaceapp-mobile/releases/tag/1.0.0
 <br>
-<img src="./assets/mobile-deploy/github-release.PNG"    />
+<img src="/mobile-deploy/github-release.PNG"    />
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 Link del Swagger UI: https://peaceapp-latest.onrender.com/swagger-ui/index.html
@@ -2023,35 +2023,35 @@ Estas pruebas unitarias se centran en verificar el comportamiento esperado de lo
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EXPkQ_Qk3QBBmsMH-P6DhloBiwOVZLMCIL84tMcEGHzQYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J53NMp" target="_blank">Video de pruebas unitarias</a>
 
 <div style="text-align: center;">
-<img src="./assets/unit-test/alert-test.PNG"/>
+<img src="/unit-test/alert-test.PNG"/>
 </div>
 <br>
 
 Este es un ejemplo de prueba unitaria para la clase `Alert`, que verifica la correcta creación de una alerta y la obtención de su título y detalle.
 
 <div style="text-align: center;">
-<img src="./assets/unit-test/alert-test-error.PNG"/>
+<img src="/unit-test/alert-test-error.PNG"/>
 </div>
 <br>
 
 En este caso, se muestra un error en la prueba unitaria, lo que indica que la implementación de la clase `Alert` no cumple con el comportamiento esperado. Esto resalta la importancia de las pruebas unitarias para identificar y corregir errores en el código.
 
 <div style="text-align: center;">
-<img src="./assets/unit-test/location-tests.PNG"/>
+<img src="/unit-test/location-tests.PNG"/>
 </div>
 <br>
 
 Este es un ejemplo de prueba unitaria para la clase `Location`, que verifica la correcta creación de una ubicación y la obtención de sus coordenadas.   
 
 <div style="text-align: center;">
-<img src="./assets/unit-test/report-tests.PNG"/>
+<img src="/unit-test/report-tests.PNG"/>
 </div>
 <br>
 
 Este es un ejemplo de prueba unitaria para la clase `Report`, que verifica la correcta creación de un reporte y la obtención de su título y detalle.
 
 <div style="text-align: center;">
-<img src="./assets/unit-test/user-profile-tests.PNG"/>
+<img src="/unit-test/user-profile-tests.PNG"/>
 </div>
 <br>
 
@@ -2112,31 +2112,31 @@ A continuación se muestran los casos de prueba que se podrían realizar utiliza
 En este caso de prueba, se valida la funcionalidad de visualizar los reportes de otros usuarios en la aplicación. Se espera que el usuario pueda acceder a una lista de reportes y ver los detalles de cada uno.
 
 <div style="text-align: center;">
-<img src="./assets/bdd/us13.PNG" alt="US13" width="600"/>
+<img src="/bdd/us13.PNG" alt="US13" width="600"/>
 </div>
 
 #### US14
 En este caso de prueba, se espera poder recibir notificaciones sobre los reportes de otros usuarios. Esto permite al usuario estar al tanto de las alertas y novedades en su área.
 <div style="text-align: center;">
-<img src="./assets/bdd/us14.PNG" alt="US14" width="600"/>
+<img src="/bdd/us14.PNG" alt="US14" width="600"/>
 </div>
 
 #### US15
 En este caso de prueba, se espera poder recibir alertas de zonas de riesgo en la aplicación. Esto permite al usuario estar informado sobre áreas peligrosas y tomar precauciones adecuadas.
 <div style="text-align: center;">
-<img src="./assets/bdd/us15.PNG" alt="US15" width="600"/>
+<img src="/bdd/us15.PNG" alt="US15" width="600"/>
 </div>
 
 #### US16
 En este caso de prueba, se valida y se espera que se comparta la ubicación del usuario con otros usuarios. Esto permite a los usuarios estar al tanto de la ubicación de sus contactos y mejorar la seguridad en situaciones de riesgo.
 <div style="text-align: center;">
-<img src="./assets/bdd/us16.PNG" alt="US16" width="600"/>
+<img src="/bdd/us16.PNG" alt="US16" width="600"/>
 </div>
 
 #### US17
 Durante este caso de prueba, se espera que el usuario pueda acceder al mapa interactivo de la aplicación. Esto permite al usuario visualizar su ubicación y las zonas de riesgo en su área.
 <div style="text-align: center;">
-<img src="./assets/bdd/us17.PNG" alt="US17" width="600"/>
+<img src="/bdd/us17.PNG" alt="US17" width="600"/>
 </div>
 
 
@@ -2178,42 +2178,42 @@ Asimismo se elaboró un breve video demostrativo de estos test demo: <a href="ht
 #### US01
 Como visitante de la Landing Page, quiero encontrar un formulario de contacto funcional y accesible, para poder comunicarme con el startup.
 
-<img src="./assets/system-tests/landing-page.PNG" alt="System Test"/>
+<img src="/system-tests/landing-page.PNG" alt="System Test"/>
 <br>
 Durante este test, se verifica que el formulario de contacto en la Landing Page esté presente y funcione correctamente. Se espera que al enviar el formulario, se muestre un mensaje de éxito y que los datos se envíen correctamente al backend.
 
 #### US06
 Como usuario, quiero poder registrarme en la aplicación, para acceder a las funcionalidades de PeaceApp.
 
-<img src="./assets/system-tests/sign-up-test.PNG" alt="System Test"/>
+<img src="/system-tests/sign-up-test.PNG" alt="System Test"/>
 <br>
 Durante este test, se verifica que el proceso de registro funcione correctamente. Se espera que al completar el formulario de registro y hacer clic en "Registrarse", el usuario sea redirigido a la página de inicio de sesión y reciba un mensaje de éxito.
 
 #### US07
 Como usuario registrado, quiero poder iniciar sesión con mi correo y contraseña, para acceder a mi cuenta.
 
-<img src="./assets/system-tests/sign-in-test.PNG" alt="System Test"/>
+<img src="/system-tests/sign-in-test.PNG" alt="System Test"/>
 <br>
 Durante este test, se verifica que el proceso de inicio de sesión funcione correctamente. Se espera que al ingresar las credenciales correctas y hacer clic en "Iniciar sesión", el usuario sea redirigido a la página principal de la aplicación.
 
 #### US09
 Como usuario, quiero poder generar reportes de incidentes de seguridad, para contribuir a la actualización del mapa de calor.
 
-<img src="./assets/system-tests/new-report.PNG" alt="System Test"/>
+<img src="/system-tests/new-report.PNG" alt="System Test"/>
 <br>
 Durante este test, se verifica que el proceso de creación de un nuevo reporte funcione correctamente. Se espera que al completar el formulario de reporte y hacer clic en "Enviar", el usuario reciba un mensaje de éxito y el reporte se guarde en la base de datos.
 
 #### US10
 Como usuario, quiero poder adjuntar fotos o videos al reporte, para dar mayor credibilidad y detalle al incidente reportado.
 
-<img src="./assets/system-tests/evidence-image-report-test.PNG" alt="System Test"/>
+<img src="/system-tests/evidence-image-report-test.PNG" alt="System Test"/>
 <br>
 Durante este test, se verifica que el proceso de adjuntar evidencia al reporte funcione correctamente. Se espera que al seleccionar una imagen o video y hacer clic en "Adjuntar", el archivo se guarde correctamente y esté disponible en el reporte.
 
 #### US13
 Como ciudadano, quiero poder ver los reportes de otros usuarios sobre incidentes ocurridos en la zona, para estar al tanto de los eventos de seguridad.
 
-<img src="./assets/system-tests/see-reports-test.PNG" alt="System Test"/>
+<img src="/system-tests/see-reports-test.PNG" alt="System Test"/>
 <br>
 Durante este test, se verifica que la funcionalidad de ver reportes de otros usuarios funcione correctamente. Se espera que al hacer clic en "Reports", el usuario sea redirigido a una nueva vista del sidebar donde pueda ver una lista de reportes recientes y sus detalles.
 
@@ -2303,7 +2303,7 @@ Ciudadanos que buscan mejorar su seguridad personal y la de su comunidad.
 ### 6.3.2. Registro de Entrevistas.
 
 #### Entrevista N° 1: Maricarmen Tejada
-<img src="./assets/img/interviews/leoMari.png" alt="Entrevista2" width="100%" /> 
+<img src="/img/interviews/leoMari.png" alt="Entrevista2" width="100%" /> 
 <a href="https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FExperimentos%2Fvalidation%2Dinterviews%2FEntrevista%20Leonardo%2DMaricarmen%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed235f4f9%2D3970%2D422e%2D80cd%2D336f58c85948" target="_blank">Enlace a la entrevista de validación - Leonardo Linares</a>
 </br>
 Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESRO-Ectm51Boy1NZ_SDZdYBtEWvVVQlFdHmVxFGKBTzEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zwt7Rc<br><br>
@@ -3436,6 +3436,10 @@ En la imagen anterior se muestra la evidencia de la implementación del backend 
 En la imagen anterior se muestra la evidencia de la implementación del backend de PeaceApp, donde se puede observar el endpoint para iniciar sesión. Este endpoint permite a los usuarios autenticarse en la aplicación, asegurando que solo las personas autorizadas puedan acceder a sus datos y funcionalidades.
 
 #### 8.3.3.6. Team Collaboration Insights
+- **Backend:**
+- **Mobile:**
+- **Web-Application:**
+- **Report:**
 
 ### 8.3.4. To-Be Validation Interviews
 Para validar las funcionalidades y la experiencia de usuario de la aplicación PeaceApp, se diseñaron entrevistas con usuarios potenciales. Estas entrevistas se centraron en comprender las necesidades y expectativas de los usuarios, así como en obtener retroalimentación sobre el diseño y la usabilidad de la aplicación.
@@ -3533,10 +3537,67 @@ Romina señala que la Aplicación Web le resulta agradable e intuitiva, pero exp
 
 </br>
 
-
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
-### 8.4.2. Re-scored and Re-prioritized Question Backlog
+Las preguntas originales planteadas en las entrevistas iniciales fueron reformuladas y estructuradas con el objetivo de evaluar con mayor precisión la percepción del usuario sobre la utilidad, accesibilidad y efectividad de PeaceApp. Este enfoque permitió comprender de forma más concreta las expectativas y necesidades reales de los ciudadanos con respecto a las funcionalidades del sistema y su impacto en la seguridad cotidiana.
+
+### Preguntas Formuladas
+Se aplicó el siguiente cuestionario a una muestra representativa de usuarios pertenecientes al segmento objetivo definido (ciudadanos de Lima Metropolitana):
+
+1. ¿Qué tan útil considera el mapa de calor para identificar zonas peligrosas?
+2. ¿Con qué frecuencia consultaría la información de seguridad antes de salir?
+3. ¿Le resulta útil la opción para reportar incidentes en tiempo real?
+4. ¿Considera útil compartir su ubicación con contactos de confianza?
+5. ¿Qué tan intuitiva considera la interfaz de la aplicación?
+6. ¿Qué tan rápido puede acceder a funciones clave como alertas o reportes?
+7. ¿Le inspira confianza el uso de PeaceApp para su seguridad diaria?
+8. ¿Qué tan útil le parece la funcionalidad de alertas inmediatas?
+9. ¿Considera que las opciones de privacidad son adecuadas?
+10. ¿Qué tan dispuesto estaría a recomendar PeaceApp a otras personas?
+
+### Análisis Demográfico
+- **Edad de los participantes:** Las edades oscilan entre 18 y 30 años, con un promedio en el rango de 20–26 años.
+
+- **Ocupación:** El 60% son estudiantes universitarios, mientras que el 40% restante se divide entre trabajadores dependientes, independientes y emprendedores. Esto indica una muestra joven, urbana y con alta exposición a situaciones de movilidad pública.
+### Evaluación de Funcionalidades
+- **Mapa de Calor:**
+El 48% de los participantes calificó esta función como muy útil, y un 40% como útil, consolidando un 88% de aprobación. Solo un 12% la consideró poco útil, lo que demuestra su alto valor percibido para la toma de decisiones seguras.
+
+- **Frecuencia de Consulta de Seguridad:**
+Un 40% dijo que la consultaría frecuentemente, mientras que un 36% lo haría ocasionalmente y un 20% siempre. Este dato sugiere que la funcionalidad del mapa de calor puede integrarse bien en la rutina diaria del usuario.
+
+- **Reporte de Incidentes:**
+El 44% indicó que usaría esta función en algunos casos, y un 32% sí, totalmente. Sin embargo, el 16% aún tiene dudas, y un pequeño porcentaje (4%) no le encuentra utilidad o no la ha probado. Esto sugiere la necesidad de mayor educación sobre esta funcionalidad.
+
+- **Compartir Ubicación en Tiempo Real:**
+El 68% considera esta función útil o muy útil, mientras que el 32% restante expresó reservas (24% poco útil y 8% nada útil). Esto indica una oportunidad para mejorar la percepción de seguridad en el uso de esta funcionalidad.
+
+- **Interfaz Intuitiva:**
+Un 84% de los usuarios la calificó como intuitiva o muy intuitiva, lo cual valida las decisiones de diseño. Sin embargo, un 16% restante señaló dificultades o falta de interacción suficiente con la interfaz, destacando áreas de mejora.
+
+- **Acceso a Funciones Clave:**
+El 48% calificó el acceso como rápido, mientras que un 32% lo consideró normal. Sólo un 16% lo percibió como lento, lo que indica una buena percepción general, pero que puede optimizarse.
+
+- **Confianza en el Uso Diario:**
+El 76% de los participantes respondió sí, completamente o en general sí, mostrando una buena aceptación. El 24% restante mostró dudas o preferencia por otras soluciones, lo que requiere reforzar la percepción de seguridad.
+
+- **Alertas Inmediatas:**
+El 52% valoró esta función como muy útil y el 36% como útil, totalizando un 88% de aprobación. Esto respalda su rol clave en la estrategia de notificaciones de PeaceApp.
+
+- **Privacidad:**
+El 40% se siente seguro con las políticas actuales, y un 32% piensa que podrían mejorarse. Un 16% expresó dudas, y el resto no revisó las opciones. Esto evidencia la necesidad de reforzar la comunicación sobre privacidad y protección de datos.
+
+- **Recomendación del Producto:**
+El 44% estaría dispuesto a recomendar la app, y un 40% muy dispuesto, sumando un 84% de usuarios promotores. El 16% restante expresó indiferencia o baja disposición.
+
+### Recomendaciones de los Usuarios
+Entre las principales sugerencias cualitativas de los usuarios, destacan:
+
+- Implementar un modo de reporte anónimo reforzado.
+- Incorporar más tipos de incidentes y filtros específicos.
+- Añadir una funcionalidad de “ruta segura recomendada” basada en datos.
+- Mejorar la visualización nocturna de la aplicación.
+- Incluir tutoriales breves para usuarios nuevos.
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
