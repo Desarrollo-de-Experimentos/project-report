@@ -3557,38 +3557,51 @@ Se aplicó el siguiente cuestionario a una muestra representativa de usuarios pe
 
 ### Análisis Demográfico
 - **Edad de los participantes:** Las edades oscilan entre 18 y 30 años, con un promedio en el rango de 20–26 años.
+<img src="./assets/img/analysis/edad.png" alt="EdadParticipantes" width="100%" />
 
 - **Ocupación:** El 60% son estudiantes universitarios, mientras que el 40% restante se divide entre trabajadores dependientes, independientes y emprendedores. Esto indica una muestra joven, urbana y con alta exposición a situaciones de movilidad pública.
+<img src="./assets/img/analysis/ocupacion.png" alt="OcupacionParticipantes" width="100%" />
+
 ### Evaluación de Funcionalidades
 - **Mapa de Calor:**
 El 48% de los participantes calificó esta función como muy útil, y un 40% como útil, consolidando un 88% de aprobación. Solo un 12% la consideró poco útil, lo que demuestra su alto valor percibido para la toma de decisiones seguras.
+<img src="./assets/img/analysis/1Utilidad.png" alt="Utilidad" width="100%" />
 
 - **Frecuencia de Consulta de Seguridad:**
 Un 40% dijo que la consultaría frecuentemente, mientras que un 36% lo haría ocasionalmente y un 20% siempre. Este dato sugiere que la funcionalidad del mapa de calor puede integrarse bien en la rutina diaria del usuario.
+<img src="./assets/img/analysis/2Seguridad.png" alt="Seguridad" width="100%" />
 
 - **Reporte de Incidentes:**
 El 44% indicó que usaría esta función en algunos casos, y un 32% sí, totalmente. Sin embargo, el 16% aún tiene dudas, y un pequeño porcentaje (4%) no le encuentra utilidad o no la ha probado. Esto sugiere la necesidad de mayor educación sobre esta funcionalidad.
+<img src="./assets/img/analysis/3Reporte.png" alt="Reporte" width="100%" />
 
 - **Compartir Ubicación en Tiempo Real:**
 El 68% considera esta función útil o muy útil, mientras que el 32% restante expresó reservas (24% poco útil y 8% nada útil). Esto indica una oportunidad para mejorar la percepción de seguridad en el uso de esta funcionalidad.
+<img src="./assets/img/analysis/4Ubicacion.png" alt="Ubicacion" width="100%" />
 
 - **Interfaz Intuitiva:**
 Un 84% de los usuarios la calificó como intuitiva o muy intuitiva, lo cual valida las decisiones de diseño. Sin embargo, un 16% restante señaló dificultades o falta de interacción suficiente con la interfaz, destacando áreas de mejora.
+<img src="./assets/img/analysis/5Intuitividad.png" alt="Intuitividad" width="100%" />
 
 - **Acceso a Funciones Clave:**
 El 48% calificó el acceso como rápido, mientras que un 32% lo consideró normal. Sólo un 16% lo percibió como lento, lo que indica una buena percepción general, pero que puede optimizarse.
+<img src="./assets/img/analysis/6Rapidez.png" alt="Rapidez" width="100%" />
 
 - **Confianza en el Uso Diario:**
 El 76% de los participantes respondió sí, completamente o en general sí, mostrando una buena aceptación. El 24% restante mostró dudas o preferencia por otras soluciones, lo que requiere reforzar la percepción de seguridad.
+<img src="./assets/img/analysis/7Confianza.png" alt="Confianza" width="100%" />
 
 - **Alertas Inmediatas:**
 El 52% valoró esta función como muy útil y el 36% como útil, totalizando un 88% de aprobación. Esto respalda su rol clave en la estrategia de notificaciones de PeaceApp.
+<img src="./assets/img/analysis/8Alertas.png" alt="Alertas" width="100%" />
 
 - **Privacidad:**
 El 40% se siente seguro con las políticas actuales, y un 32% piensa que podrían mejorarse. Un 16% expresó dudas, y el resto no revisó las opciones. Esto evidencia la necesidad de reforzar la comunicación sobre privacidad y protección de datos.
+<img src="./assets/img/analysis/9Privacidad.png" alt="Privacidad" width="100%" />
 
 - **Recomendación del Producto:**
 El 44% estaría dispuesto a recomendar la app, y un 40% muy dispuesto, sumando un 84% de usuarios promotores. El 16% restante expresó indiferencia o baja disposición.
+<img src="./assets/img/analysis/10Recomendar.png" alt="Recomendar" width="100%" />
 
 ### Recomendaciones de los Usuarios
 Entre las principales sugerencias cualitativas de los usuarios, destacan:
@@ -3598,6 +3611,7 @@ Entre las principales sugerencias cualitativas de los usuarios, destacan:
 - Añadir una funcionalidad de “ruta segura recomendada” basada en datos.
 - Mejorar la visualización nocturna de la aplicación.
 - Incluir tutoriales breves para usuarios nuevos.
+<img src="./assets/img/analysis/11Mejoras.png" alt="Mejoras" width="100%" />
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
