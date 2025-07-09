@@ -3406,8 +3406,28 @@ Romina señala que la Aplicación Web le resulta agradable e intuitiva, pero exp
 ### 8.4.1. Analysis and Interpretation of Results
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
+| Prioridad (1,2,3,5,8) |                                                    Pregunta                                                             |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+|           3           |                                 ¿La feature de enviar ubicación será utilizada por los usuarios?                        |
+|           3           |              ¿Mejorará la experiencia de los usuarios visualizar cómo los reportes aparecen en tiempo real?             |
+|           5           | ¿Mejorará la experiencia de los usuarios la alternativa de buscar y seleccionar una ubicación para realizar el reporte? |
+|           2           |           ¿Aumentaría la participación de los usuarios si se da la posibilidad de editar y mostrar su perfil?           |
+|           5           | ¿Se conseguiría información relevante sobre la actividad de los usuarios con una feature para obtener métricas de uso?  |
+
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Prototipo en Figma: El prototipo interactivo realizado en la plataforma figma, el cual refleja las páginas y vistas de nuestras aplicaciones web y móvil. El artefacto muestra las funcionalidades que el equipo implementó y mejoró a lo largo del ciclo de vida del proyecto, ajustando los elementos visuales y mejorando la funcionalidad.
+
+Enlace Figma: <https://www.figma.com/proto/8DgmjI75neBW1YtOROURw8/PeaceApp-Web-Application?node-id=0-1&t=PFUkutXdPPpI8XSz-1>
+
+<img src="./assets/web-application/prototype.PNG" alt="Prototipo Web" width="100%" /> 
+
+Encuesta en Google Forms: Se utilizó una encuesta en Google Forms para recopilar información acerca del uso y la opinión general de la aplicación y sus funcionalidades. Esta encuesta permite evaluar la experiencia actual del usuario y respaldar la decisión de implementar las nuevas funcionalidades.
+
+Enlace Google Forms: <https://docs.google.com/forms/d/e/1FAIpQLSfYRzOnemrSvOV5r4fDoeRFD4aUTOWzzv8hzbVkl7L4rb9kQA/viewform>
+
+<img src="./assets/img/googleforms.png" alt="Prototipo Web" width="100%" /> 
 
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
