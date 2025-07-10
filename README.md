@@ -3474,11 +3474,12 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
             </tr>
         </thead>
         <tbody>
+            <!-- Sprint 1 -->
             <tr>
                 <td rowspan="9" class="sprint-header">1</td>
                 <td rowspan="3" class="user-story-cell">HU001</td>
                 <td rowspan="3" class="user-story-cell">Reporte desde mapa web</td>
-                <td class="task-cell">TK01</td>
+                <td class="task-cell">TK1</td>
                 <td class="task-cell">Implementar interfaz de mapa web</td>
                 <td class="task-cell">Crear interfaz interactiva de mapa para seleccionar ubicación del incidente</td>
                 <td class="estimation">2</td>
@@ -3486,7 +3487,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK02</td>
+                <td class="task-cell">TK2</td>
                 <td class="task-cell">Desarrollar formulario de detalles</td>
                 <td class="task-cell">Implementar formulario para capturar información detallada del incidente</td>
                 <td class="estimation">2</td>
@@ -3494,7 +3495,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK03</td>
+                <td class="task-cell">TK3</td>
                 <td class="task-cell">Crear endpoint para guardar incidentes</td>
                 <td class="task-cell">Desarrollar API REST para almacenar información de incidentes reportados</td>
                 <td class="estimation">2</td>
@@ -3504,7 +3505,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
             <tr>
                 <td rowspan="3" class="user-story-cell">HU002</td>
                 <td rowspan="3" class="user-story-cell">Envío de ubicación móvil</td>
-                <td class="task-cell">TK04</td>
+                <td class="task-cell">TK4</td>
                 <td class="task-cell">Implementar captura de ubicación GPS</td>
                 <td class="task-cell">Desarrollar funcionalidad para obtener coordenadas GPS del dispositivo móvil</td>
                 <td class="estimation">2</td>
@@ -3512,28 +3513,53 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
+                <td class="task-cell">TK5</td>
+                <td class="task-cell">Desarrollar enriquecimiento de ubicación</td>
+                <td class="task-cell">Implementar servicio para obtener nombre del lugar y referencias de la ubicación</td>
+                <td class="estimation">2</td>
+                <td>Fabia</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK6</td>
+                <td class="task-cell">Crear endpoint para ubicación enriquecida</td>
+                <td class="task-cell">Desarrollar API para procesar y almacenar información de ubicación enriquecida</td>
+                <td class="estimation">2</td>
+                <td>Mauricio</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
                 <td rowspan="3" class="user-story-cell">HU003</td>
                 <td rowspan="3" class="user-story-cell">Visualización en tiempo real</td>
-                <td class="task-cell">TK05</td>
-                <td class="task-cell">Implementar visualización de reportes en tiempo real</td>
+                <td class="task-cell">TK7</td>
+                <td class="task-cell">Implementar dashboard en tiempo real</td>
                 <td class="task-cell">Crear interfaz para mostrar reportes de incidentes en tiempo real</td>
                 <td class="estimation">2</td>
                 <td>Mauricio</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK06</td>
+                <td class="task-cell">TK8</td>
+                <td class="task-cell">Desarrollar sistema de notificaciones</td>
+                <td class="task-cell">Implementar funcionalidad para notificar reportes cercanos a la ubicación del usuario</td>
+                <td class="estimation">2</td>
+                <td>Arian</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK9</td>
                 <td class="task-cell">Crear WebSocket para actualizaciones</td>
                 <td class="task-cell">Desarrollar endpoint WebSocket para transmitir nuevos reportes en tiempo real</td>
                 <td class="estimation">2</td>
                 <td>Arian</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
+            <!-- Sprint 2 -->
             <tr>
                 <td rowspan="9" class="sprint-header">2</td>
                 <td rowspan="3" class="user-story-cell">HU004</td>
                 <td rowspan="3" class="user-story-cell">Búsqueda de dirección en app móvil</td>
-                <td class="task-cell">TK07</td>
+                <td class="task-cell">TK10</td>
                 <td class="task-cell">Implementar buscador de direcciones</td>
                 <td class="task-cell">Desarrollar funcionalidad de búsqueda y autocompletado de direcciones</td>
                 <td class="estimation">2</td>
@@ -3541,7 +3567,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK08</td>
+                <td class="task-cell">TK11</td>
                 <td class="task-cell">Integrar servicio de geocodificación</td>
                 <td class="task-cell">Implementar integración con API de mapas para convertir direcciones a coordenadas</td>
                 <td class="estimation">2</td>
@@ -3549,7 +3575,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK09</td>
+                <td class="task-cell">TK12</td>
                 <td class="task-cell">Crear funcionalidad de reporte desde dirección</td>
                 <td class="task-cell">Desarrollar capacidad para reportar incidentes desde una dirección buscada</td>
                 <td class="estimation">2</td>
@@ -3559,7 +3585,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
             <tr>
                 <td rowspan="3" class="user-story-cell">HU005</td>
                 <td rowspan="3" class="user-story-cell">Edición del perfil del usuario</td>
-                <td class="task-cell">TK10</td>
+                <td class="task-cell">TK13</td>
                 <td class="task-cell">Implementar formulario de edición de perfil</td>
                 <td class="task-cell">Crear interfaz para que el usuario pueda modificar su información personal</td>
                 <td class="estimation">2</td>
@@ -3567,7 +3593,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK11</td>
+                <td class="task-cell">TK14</td>
                 <td class="task-cell">Desarrollar validación de datos de perfil</td>
                 <td class="task-cell">Implementar validaciones para asegurar la integridad de los datos del perfil</td>
                 <td class="estimation">1</td>
@@ -3575,7 +3601,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK12</td>
+                <td class="task-cell">TK15</td>
                 <td class="task-cell">Crear endpoint para actualización de perfil</td>
                 <td class="task-cell">Desarrollar API para actualizar información del perfil de usuario</td>
                 <td class="estimation">2</td>
@@ -3585,7 +3611,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
             <tr>
                 <td rowspan="3" class="user-story-cell">HU007</td>
                 <td rowspan="3" class="user-story-cell">Extracción de datos desde app externa</td>
-                <td class="task-cell">TK13</td>
+                <td class="task-cell">TK16</td>
                 <td class="task-cell">Implementar extractor de datos externos</td>
                 <td class="task-cell">Desarrollar funcionalidad para extraer datos de reportes desde aplicaciones externas</td>
                 <td class="estimation">2</td>
@@ -3593,7 +3619,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK14</td>
+                <td class="task-cell">TK17</td>
                 <td class="task-cell">Crear módulo de análisis de datos</td>
                 <td class="task-cell">Implementar generación de gráficos y análisis estadísticos de reportes</td>
                 <td class="estimation">2</td>
@@ -3601,18 +3627,19 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK15</td>
+                <td class="task-cell">TK18</td>
                 <td class="task-cell">Desarrollar endpoint para análisis</td>
                 <td class="task-cell">Crear API para proporcionar datos de análisis a aplicaciones externas</td>
                 <td class="estimation">2</td>
                 <td>Mauricio</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
+            <!-- Sprint 3 -->
             <tr>
                 <td rowspan="6" class="sprint-header">3</td>
                 <td rowspan="3" class="user-story-cell">HU006</td>
                 <td rowspan="3" class="user-story-cell">Historial de reportes</td>
-                <td class="task-cell">TK16</td>
+                <td class="task-cell">TK19</td>
                 <td class="task-cell">Implementar vista de historial de reportes</td>
                 <td class="task-cell">Crear interfaz para mostrar el historial completo de reportes del usuario</td>
                 <td class="estimation">2</td>
@@ -3620,7 +3647,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK17</td>
+                <td class="task-cell">TK20</td>
                 <td class="task-cell">Desarrollar indicadores visuales por antigüedad</td>
                 <td class="task-cell">Implementar código de colores y símbolos para distinguir reportes por antigüedad</td>
                 <td class="estimation">2</td>
@@ -3628,7 +3655,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK18</td>
+                <td class="task-cell">TK21</td>
                 <td class="task-cell">Crear endpoint para obtener historial</td>
                 <td class="task-cell">Desarrollar API para recuperar el historial de reportes con filtros y paginación</td>
                 <td class="estimation">2</td>
@@ -3638,7 +3665,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
             <tr>
                 <td rowspan="3" class="user-story-cell">-</td>
                 <td rowspan="3" class="user-story-cell">Mejoras y optimizaciones</td>
-                <td class="task-cell">TK19</td>
+                <td class="task-cell">TK22</td>
                 <td class="task-cell">Implementar pruebas de integración</td>
                 <td class="task-cell">Desarrollar suite de pruebas automatizadas para validar la funcionalidad completa</td>
                 <td class="estimation">3</td>
@@ -3646,7 +3673,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK20</td>
+                <td class="task-cell">TK23</td>
                 <td class="task-cell">Optimizar rendimiento del sistema</td>
                 <td class="task-cell">Realizar optimizaciones de base de datos y rendimiento de APIs</td>
                 <td class="estimation">3</td>
@@ -3654,7 +3681,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
-                <td class="task-cell">TK21</td>
+                <td class="task-cell">TK24</td>
                 <td class="task-cell">Documentar APIs y funcionalidades</td>
                 <td class="task-cell">Crear documentación completa de APIs y manual de usuario</td>
                 <td class="estimation">2</td>
