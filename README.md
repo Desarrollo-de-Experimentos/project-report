@@ -522,7 +522,9 @@ En Ingeniería de Software, el logro de curso contribuye a alcanzar el:
 
 ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-<table> <tr> <th>Criterio Específico</th> <th>Acciones Realizadas</th> <th>Conclusiones</th> </tr> <tr> <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: En este entregable, trabajé responsablemente con mi equipo y mantuve constante comunicación para avanzar de la mejor manera. Así, reconozco responsabilidad ética y profesional en situaciones de ingeniería de software.<br/> Ramon Jorge: Me enfoqué en apoyar a mi grupo con los puntos necesarios, en especial el StartUp Profile y todos los puntos del Solution Profile, incluyendo el Lean UX Process.<br/> Arian Rodriguez: Cumplí con todos los puntos asignados, realicé análisis de competidores y del mercado objetivo, así como la definición de segmentos y necesidades del usuario.<br/> Fabia Herrera: Apoyé con el diseño de la interfaz de usuario, asegurando que fuera intuitiva, además de definir la arquitectura de la información y el diseño de la página de inicio.<br/> Leonardo Linares: Reconocí la responsabilidad ética y profesional mediante el desarrollo de User Stories, To-Be Scenario Mapping y los wireframes de la aplicación.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Trabajé en conjunto con mi grupo para realizar los testing suites, centrándome en los tests de integración y comportamiento (BDD).<br/> Ramon Jorge: Ayudé a mejorar secciones del informe, como los wireframes.<br/> Arian Rodriguez: Realicé pruebas unitarias con JUnit a partir de investigación propia.<br/> Fabia Herrera: Apoyé en la mejora continua de la interfaz de usuario y arquitectura de la información.<br/> Leonardo Linares: Contribuí en el capítulo de DevOps Practices, asegurando la validez de la información sobre integración, entrega y despliegue continuo.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Contribuí activamente en la validación final de funcionalidades y documentación técnica, asegurando calidad y cumplimiento de estándares.<br/> Ramon Jorge: Apoyé en la integración final del sistema, manteniendo comunicación continua con el equipo.<br/> Arian Rodriguez: Revisé y validé funcionalidades implementadas y ayudé en la documentación de cierre del proyecto.<br/> Fabia Herrera: Revisé la experiencia de usuario final e hice ajustes para mejorar la usabilidad antes de la entrega.<br/> Leonardo Linares: Apoyé con el capítulo de monitoreo continuo, describiendo herramientas y prácticas utilizadas. <br/><br/> <strong>TF1:</strong><br/> Mauricio Rojas: <br/> Ramon Jorge: Apoyé <br/> Arian Rodriguez: <br/> Fabia Herrera: <br/> Leonardo Linares: Apoyé en la documentación de los insights del equipo, y el analisis e interpretación de los resultados de los experimentos realizados.</td> <td> <strong>TB1:</strong> Se reconoció la responsabilidad ética y profesional mediante el cumplimiento de tareas asignadas, la colaboración activa y la contribución en diseño, análisis y planificación del sistema. Cada integrante asumió compromisos claves para asegurar el avance responsable del proyecto.<br/><br/> <strong>TP1:</strong> Se reflejó compromiso profesional al aplicar pruebas de diversos niveles (unitarias, integración, sistema, BDD) siguiendo buenas prácticas y documentando el proceso DevOps. La ética profesional se evidenció en la validación y mejora de funcionalidades.<br/><br/> <strong>TB2:</strong> El equipo mostró responsabilidad ética y profesional en las validaciones finales, documentación, revisión de calidad y preparación para el cierre del proyecto. La comunicación constante y el compromiso con la calidad evidencian una práctica ética sólida. <br/><br/> <strong>TF1:</strong> El equipo . </td> </tr> <tr> <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: Emití juicios sobre el impacto de nuestra solución para proponer mejoras y añadidos al sistema.<br/> Ramon Jorge: Identificamos detalles del problema y potenciales mejoras traducidas en User Stories. También colaboré en identificar segmentos objetivos y desarrollar Wireflows.<br/> Arian Rodriguez: Analicé cómo PeaceApp puede contribuir a mejorar la seguridad ciudadana en Lima. También identifiqué oportunidades de diferenciación en el mercado.<br/> Fabia Herrera: Consideré el impacto de la interfaz en la percepción de seguridad del usuario.<br/> Leonardo Linares: Tomé decisiones informadas considerando el impacto del sistema mediante User Stories, Impact Mapping y wireframes.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Validé los impactos funcionales mediante pruebas de integración y comportamiento sobre clases clave.<br/> Ramon Jorge: Realicé la sección de integración continua considerando el contexto de pruebas anteriores.<br/> Arian Rodriguez: Integré pruebas de sistema con Selenium IDE para evaluar posibles comportamientos reales del usuario.<br/> Fabia Herrera: Documenté el proceso de Continuous Deployment, considerando la usabilidad e impacto en la vida diaria.<br/> Leonardo Linares: Contribuí al desarrollo de Continuous Delivery, destacando herramientas clave y automatización.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Reflexioné sobre los impactos futuros de la aplicación en seguridad ciudadana y su escalabilidad.<br/> Ramon Jorge: Analicé la adaptabilidad de la solución a otros distritos y contextos socioeconómicos.<br/> Arian Rodriguez: Evalué el impacto del sistema final en la comunidad respecto a los objetivos iniciales.<br/> Fabia Herrera: Analicé cómo el diseño de interfaz influye en la adopción por parte de distintos grupos sociales.<br/> Leonardo Linares: Contribuí en la documentación del monitoreo continuo y apoyé en entrevistas para comprender el impacto real del sistema.<br/><br/> <strong>TF1:</strong><br/> Mauricio Rojas: <br/> Ramon Jorge: Apoyé <br/> Arian Rodriguez: <br/> Fabia Herrera: <br/> Leonardo Linares: Contribuí documentando los insights del equipo con respecto al proyecto, y los resultados de los experimentos, analizando el disfrute del cliente.</td> <td> <strong>TB1:</strong> Se emitieron juicios informados sobre el impacto del sistema en contextos reales, identificando claramente los problemas sociales a resolver, los usuarios objetivo y los beneficios esperados de la aplicación.<br/><br/> <strong>TP1:</strong> Se evaluaron los impactos de las funcionalidades implementadas mediante pruebas orientadas a validar los requerimientos definidos. Se identificaron mejoras antes del despliegue y se garantizó que la solución esté alineada con las necesidades sociales.<br/><br/> <strong>TB2:</strong> Se profundizó el análisis del impacto de la solución en el entorno social, económico y tecnológico. Se reflexionó sobre la escalabilidad, adaptabilidad e impacto positivo a largo plazo, y se propusieron mejoras finales alineadas con el contexto real de uso. <br/><br/> <strong>TF1:</strong> El equipo .</td> </tr> </table>
+<table> <tr> <th>Criterio Específico</th> <th>Acciones Realizadas</th> <th>Conclusiones</th> </tr> <tr> <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: En este entregable, trabajé responsablemente con mi equipo y mantuve constante comunicación para avanzar de la mejor manera. Así, reconozco responsabilidad ética y profesional en situaciones de ingeniería de software.<br/> Ramon Jorge: Me enfoqué en apoyar a mi grupo con los puntos necesarios, en especial el StartUp Profile y todos los puntos del Solution Profile, incluyendo el Lean UX Process.<br/> Arian Rodriguez: Cumplí con todos los puntos asignados, realicé análisis de competidores y del mercado objetivo, así como la definición de segmentos y necesidades del usuario.<br/> Fabia Herrera: Apoyé con el diseño de la interfaz de usuario, asegurando que fuera intuitiva, además de definir la arquitectura de la información y el diseño de la página de inicio.<br/> Leonardo Linares: Reconocí la responsabilidad ética y profesional mediante el desarrollo de User Stories, To-Be Scenario Mapping y los wireframes de la aplicación.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Trabajé en conjunto con mi grupo para realizar los testing suites, centrándome en los tests de integración y comportamiento (BDD).<br/> Ramon Jorge: Ayudé a mejorar secciones del informe, como los wireframes.<br/> Arian Rodriguez: Realicé pruebas unitarias con JUnit a partir de investigación propia.<br/> Fabia Herrera: Apoyé en la mejora continua de la interfaz de usuario y arquitectura de la información.<br/> Leonardo Linares: Contribuí en el capítulo de DevOps Practices, asegurando la validez de la información sobre integración, entrega y despliegue continuo.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Contribuí activamente en la validación final de funcionalidades y documentación técnica, asegurando calidad y cumplimiento de estándares.<br/> Ramon Jorge: Apoyé en la integración final del sistema, manteniendo comunicación continua con el equipo.<br/> Arian Rodriguez: Revisé y validé funcionalidades implementadas y ayudé en la documentación de cierre del proyecto.<br/> Fabia Herrera: Revisé la experiencia de usuario final e hice ajustes para mejorar la usabilidad antes de la entrega.<br/> Leonardo Linares: Apoyé con el capítulo de monitoreo continuo, describiendo herramientas y prácticas utilizadas. <br/><br/> <strong>TF1:</strong><br/> Mauricio Rojas: <br/> Ramon Jorge: Apoyé <br/> Arian Rodriguez: En esta entrega apoyé a la documentación debida siguiendo el proceso de ciclo de vida de ingeniería de software mediante los diferentes productos proporcionados <br/> Fabia Herrera: En esta entrega, participé activamente en la elaboración de la documentación correspondiente, aplicando los principios del ciclo de vida del software y desarrollando los distintos entregables requeridos en cada etapa del proceso.
+<br/> Leonardo Linares: Apoyé en la documentación de los insights del equipo, y el analisis e interpretación de los resultados de los experimentos realizados.</td> <td> <strong>TB1:</strong> Se reconoció la responsabilidad ética y profesional mediante el cumplimiento de tareas asignadas, la colaboración activa y la contribución en diseño, análisis y planificación del sistema. Cada integrante asumió compromisos claves para asegurar el avance responsable del proyecto.<br/><br/> <strong>TP1:</strong> Se reflejó compromiso profesional al aplicar pruebas de diversos niveles (unitarias, integración, sistema, BDD) siguiendo buenas prácticas y documentando el proceso DevOps. La ética profesional se evidenció en la validación y mejora de funcionalidades.<br/><br/> <strong>TB2:</strong> El equipo mostró responsabilidad ética y profesional en las validaciones finales, documentación, revisión de calidad y preparación para el cierre del proyecto. La comunicación constante y el compromiso con la calidad evidencian una práctica ética sólida. <br/><br/> <strong>TF1:</strong> El equipo . </td> </tr> <tr> <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td> <td> <strong>TB1:</strong><br/> Mauricio Rojas: Emití juicios sobre el impacto de nuestra solución para proponer mejoras y añadidos al sistema.<br/> Ramon Jorge: Identificamos detalles del problema y potenciales mejoras traducidas en User Stories. También colaboré en identificar segmentos objetivos y desarrollar Wireflows.<br/> Arian Rodriguez: Analicé cómo PeaceApp puede contribuir a mejorar la seguridad ciudadana en Lima. También identifiqué oportunidades de diferenciación en el mercado.<br/> Fabia Herrera: Consideré el impacto de la interfaz en la percepción de seguridad del usuario.<br/> Leonardo Linares: Tomé decisiones informadas considerando el impacto del sistema mediante User Stories, Impact Mapping y wireframes.<br/><br/> <strong>TP1:</strong><br/> Mauricio Rojas: Validé los impactos funcionales mediante pruebas de integración y comportamiento sobre clases clave.<br/> Ramon Jorge: Realicé la sección de integración continua considerando el contexto de pruebas anteriores.<br/> Arian Rodriguez: Integré pruebas de sistema con Selenium IDE para evaluar posibles comportamientos reales del usuario.<br/> Fabia Herrera: Documenté el proceso de Continuous Deployment, considerando la usabilidad e impacto en la vida diaria.<br/> Leonardo Linares: Contribuí al desarrollo de Continuous Delivery, destacando herramientas clave y automatización.<br/><br/> <strong>TB2:</strong><br/> Mauricio Rojas: Reflexioné sobre los impactos futuros de la aplicación en seguridad ciudadana y su escalabilidad.<br/> Ramon Jorge: Analicé la adaptabilidad de la solución a otros distritos y contextos socioeconómicos.<br/> Arian Rodriguez: Evalué el impacto del sistema final en la comunidad respecto a los objetivos iniciales.<br/> Fabia Herrera: Analicé cómo el diseño de interfaz influye en la adopción por parte de distintos grupos sociales.<br/> Leonardo Linares: Contribuí en la documentación del monitoreo continuo y apoyé en entrevistas para comprender el impacto real del sistema.<br/><br/> <strong>TF1:</strong><br/> Mauricio Rojas: <br/> Ramon Jorge: Apoyé <br/> Arian Rodriguez: En esta entrega, participé activamente en la elaboración de la documentación correspondiente, aplicando los principios del ciclo de vida del software y desarrollando los distintos entregables requeridos en cada etapa del proceso.
+<br/> Fabia Herrera: En esta entrega apoyé a la documentación debida siguiendo el proceso de ciclo de vida de ingeniería de software mediante los diferentes productos proporcionados<br/> Leonardo Linares: Contribuí documentando los insights del equipo con respecto al proyecto, y los resultados de los experimentos, analizando el disfrute del cliente.</td> <td> <strong>TB1:</strong> Se emitieron juicios informados sobre el impacto del sistema en contextos reales, identificando claramente los problemas sociales a resolver, los usuarios objetivo y los beneficios esperados de la aplicación.<br/><br/> <strong>TP1:</strong> Se evaluaron los impactos de las funcionalidades implementadas mediante pruebas orientadas a validar los requerimientos definidos. Se identificaron mejoras antes del despliegue y se garantizó que la solución esté alineada con las necesidades sociales.<br/><br/> <strong>TB2:</strong> Se profundizó el análisis del impacto de la solución en el entorno social, económico y tecnológico. Se reflexionó sobre la escalabilidad, adaptabilidad e impacto positivo a largo plazo, y se propusieron mejoras finales alineadas con el contexto real de uso. <br/><br/> <strong>TF1:</strong> El equipo .</td> </tr> </table>
 
 
 ---
@@ -544,23 +546,23 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <div style="text-align: center;">
-  <img src="/presentation/mauricio.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="./assets/presentation/mauricio.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="/presentation/ramon.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="./assets/presentation/ramon.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="/presentation/fabia.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="./assets/presentation/fabia.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
+  <img src="./assets/presentation/arian.jpg" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 <div style="text-align: center;">
-  <img src="/presentation/leonardo.png" alt="Perfil de integrante" width="90%" />
+  <img src="./assets/presentation/leonardo.png" alt="Perfil de integrante" width="90%" />
 </div><br>
 
 ## 1.2. Solution Profile
@@ -660,7 +662,7 @@ Sabremos que hemos tenido éxito cuando una cantidad significativa de usuarios u
 
 
 #### 1.2.2.4. Lean UX Canvas
-<img src="/img/lean-ux/lean-ux-canvas.jpg" alt="Lean UX Canvas" width="100%"/>
+<img src="./assets/img/lean-ux/lean-ux-canvas.jpg" alt="Lean UX Canvas" width="100%"/>
 
 **Enlace al esquema hecho en Miro: https://tinyurl.com/ymmmjj7t**
 
@@ -1033,7 +1035,7 @@ Enlace de la entrevista: https://youtu.be/ELc5lbcRJCM
 Pilar se sintió insegura al salir de noche debido a la falta de iluminación en las calles. Para sentirse más segura, guarda sus objetos de valor en su ropa y evita caminar sola. La escasa iluminación y la falta de vigilancia son sus principales preocupaciones en cuanto a la seguridad en espacios públicos. En caso de un robo, no opondría resistencia para evitar un daño mayor, y si fuera testigo, ayudaría a la víctima. Le gustaría recibir información a través de una aplicación móvil sobre la proximidad de puestos de serenazgo, comisarías y zonas peligrosas, y se siente cómoda usando aplicaciones de seguridad. Aunque no ha utilizado una app de seguridad ciudadana, considera útil compartir su ubicación en tiempo real con su familia y valora la inclusión de botones de pánico y mapas de zonas peligrosas en la aplicación. Para confiar en una app de este tipo, destaca la importancia de que sea intuitiva y proteja sus datos personales.
 
 #### Entrevista N° 4: Paolo Cisneros
-<img src="/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
+<img src="./assets/img/interviews/paolo.png" alt="Entrevista" width="100%" /> 
 Enlace de la entrevista: https://youtu.be/Ufd3r_rPLV4
 <br><br>
 
@@ -1059,7 +1061,7 @@ Intereses y Requerimientos Principales:
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
-<img src="/img/needfinding/persona.jpg" alt="Needfinding" width="100%" /> 
+<img src="./assets/img/needfinding/persona.jpg" alt="Needfinding" width="100%" /> 
 
 ### 2.3.2. User Task Matrix
 
@@ -1075,11 +1077,11 @@ Intereses y Requerimientos Principales:
 
 
 ### 2.3.3. User Journey Mapping
-<img src="/img/needfinding/journey-mapping.jpg" alt="Needfinding" width="100%" /> 
+<img src="./assets/img/needfinding/journey-mapping.jpg" alt="Needfinding" width="100%" /> 
 
 
 ### 2.3.4. Empathy Mapping
-<img src="/img/needfinding/empathy.png" alt="Needfinding" width="100%" /> 
+<img src="./assets/img/needfinding/empathy.png" alt="Needfinding" width="100%" /> 
 Con ayuda del gráfico Empathy Mapping podemos conocer las necesidades, frustraciones de nuestro segmento objetivo: Ciudadanos preocupados por su seguridad en espacios públicos. Esto nos ofrece una comprensión más profunda de cómo se siente nuestro usuario y abordar una solución que realmente los ayuden.
 
 ### 2.3.5. As-is Scenario Mapping
@@ -1218,7 +1220,7 @@ Se implementa el siguiente producto backlog a partir de las historias de usuario
 ### 4.1.1. General Style Guidelines
 **Branding:** Nuestro logo refleja de manera sencilla y memorable el espíritu de PeaceApp. Con el nombre de la aplicación acompañado por un símbolo que evoca un camino seguro y la inicial de "PeaceApp", buscamos que los usuarios asocien rápidamente nuestra marca con su propósito: guiarlos hacia un entorno más seguro. Queremos que nuestro logo sea fácil de recordar, al igual que la seguridad que ofrecemos en cada trayecto.
 <div style="text-align: center;">
-<img src="assets/peaceapp/logo.png" alt="logo"/>
+<img src="./assets/peaceapp/logo.png" alt="logo"/>
 </div>
 <br>
 
@@ -3121,19 +3123,19 @@ PeaceApp es una aplicación web y móvil que permite a los ciudadanos reportar i
 
 | Objetivo Clave | Descripción |
 |----------------|-------------|
-| 📍 Aumentar la participación ciudadana | Incrementar el número de reportes enviados por usuarios en un 30% durante los primeros 3 meses. |
-| 🛡️ Mejorar la percepción de seguridad | Evaluar si PeaceApp genera una sensación de mayor seguridad en zonas donde se reportan incidencias. |
-| 🕒 Reducir el tiempo de respuesta | Determinar si las autoridades locales responden más rápido tras implementar PeaceApp. |
+| Aumentar la participación ciudadana | Incrementar el número de reportes enviados por usuarios en un 30% durante los primeros 3 meses. |
+| Mejorar la percepción de seguridad | Evaluar si PeaceApp genera una sensación de mayor seguridad en zonas donde se reportan incidencias. |
+| Reducir el tiempo de respuesta | Determinar si las autoridades locales responden más rápido tras implementar PeaceApp. |
 
 ##### KPIs Seleccionados
 
 | KPI | Métrica | Herramienta | Frecuencia |
 |-----|---------|-------------|------------|
-| 🧍‍♂️ Usuarios activos diarios (DAU) | Usuarios únicos que abren la app | Firebase / GA4 | Diario |
-| 📝 Reportes enviados | Cantidad de reportes por día | Firebase Events | Diario |
-| ⏱️ Tiempo promedio de respuesta | Desde reporte hasta acción | Backend + Autoridades | Semanal |
-| 🌍 Reportes geolocalizados | Incidencias por distrito | GA4 + Map SDK | Mensual |
-| 📈 Tasa de conversión | % de usuarios que reportan | GA4 Events | Diario |
+| Usuarios activos diarios (DAU) | Usuarios únicos que abren la app | Firebase / GA4 | Diario |
+| Reportes enviados | Cantidad de reportes por día | Firebase Events | Diario |
+| Tiempo promedio de respuesta | Desde reporte hasta acción | Backend + Autoridades | Semanal |
+| Reportes geolocalizados | Incidencias por distrito | GA4 + Map SDK | Mensual |
+| Tasa de conversión | % de usuarios que reportan | GA4 Events | Diario |
 
 
 ##### Métricas de Comportamiento Adicionales
@@ -3823,9 +3825,7 @@ Ciudadanos que buscan mejorar su seguridad personal y la de su comunidad.
 
 #### Entrevista N° 1: Maricarmen Tejada
 <img src="./assets/img/interviews/leoMari.png" alt="Entrevista2" width="100%" /> 
-<a href="https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FExperimentos%2Fvalidation%2Dinterviews%2FEntrevista%20Leonardo%2DMaricarmen%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed235f4f9%2D3970%2D422e%2D80cd%2D336f58c85948" target="_blank">Enlace a la entrevista de validación - Leonardo Linares</a>
-</br>
-Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESRO-Ectm51Boy1NZ_SDZdYBtEWvVVQlFdHmVxFGKBTzEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zwt7Rc<br><br>
+Enlace de la entrevista: https://acortar.link/yyBCaY<br><br>
 Nombre: Maricarmen Tejada
 Edad: 59 años
 Pasatiempos: Cocinar, cuidar de sus hijos y conversar con sus vecinas.
@@ -3838,7 +3838,7 @@ Maricarmen vive en Sebastián Barranca, Bellavista, y nos cuenta que a menudo se
 #### Entrevista N° 2: Jose Gutierrez
 <img src="./assets/img/interviews/jose-gutierrez.png" alt="Entrevista" width="100%" /> 
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219422_upc_edu_pe/ET2oNX5k7qtLvtyInegnIZIBKWscwPTl1nPI--SSoz8AiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QwfLlU" target="_blank">Enlace a la entrevista de validación - Fabia Herrera</a>
+Enlace a la entrevista de validación - Fabia Herrera: https://acortar.link/jD60m1<br><br>
 
 
 **Nombre:** Jose Gutierrez
@@ -3853,7 +3853,7 @@ En general, Jose nos comenta que le agradó bastante el diseño de nuestra landi
 #### Entrevista N° 3: Paolo Cisneros
 <img src="./assets/img/interviews/paolo-validation.png" alt="Entrevista" width="100%" /> 
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ERjDR0CCepdOix_m7APjpGIB24W3CurS6cvCjClveYKWsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8mxEGd" target="_blank">Enlace a la entrevista de validación - Arian Rodriguez</a>
+Enlace a la entrevista de validación - Arian Rodriguez: https://acortar.link/V1AX9R<br><br>
 
 
 **Nombre:** Paolo Cisneros
@@ -3868,7 +3868,7 @@ Paolo nos comenta que encuentra la landing page muy sencilla de utilizar y adapt
 #### Entrevista N° 4: Anatoly Noriega
 <img src="./assets/auditoria/entrevista_jesus.png" alt="Entrevista" width="100%" /> 
 
-<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/EXR-Xp1lIHRAuDUl53YLeWgBloiu6jCu0kPgvSWdmxsjFg?e=ygGGky&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+Enlace a la entrevista de validación - Anatoly Noriega: https://acortar.link/jfj1QP<br><br>
 
 **Nombre:** Anatoly Noriega
 **Edad:** 25 años
@@ -3880,12 +3880,12 @@ Anatoly señala que la landing page le resulta muy intuitiva y accesible, inclus
 </br>
 
 #### Entrevista N° 5: Romina Fernandez
-<img src="./assets/interviews/romina-fernandez.png" alt="Entrevista 5" width="100%" /> 
+<img src="./assets/img/interviews/romina-fernandez.jpg" alt="Entrevista 5" width="100%" /> 
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/Ec8Tg9xWY71ClI5NqCvRvsAB2tf9xGDUZ28moIW3hmfd4Q?e=6xPOjm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Enlace a la entrevista - Ramón Jorge</a>
+Enlace a la entrevista - Ramón Jorge: https://acortar.link/9VqYxj<br><br>
 
 **Nombre:** Romina Fernandez
-**Edad:** 27 años
+**Edad:** 27 años 
 **Pasatiempos:** Leer, jugar con sus gatos, ver series
 **Ocupación:** Veterinaria
 
@@ -4013,6 +4013,10 @@ Para dar a conocer PeaceApp y sus funcionalidades, se ha creado un video introdu
 
 - La aplicación PeaceApp no solo busca mejorar la seguridad ciudadana, sino también fomentar la confianza y la colaboración entre los ciudadanos y las autoridades, creando un entorno más seguro y cohesionado.
 
+- La implementación de PeaceApp debe ser acompañada de campañas de concientización y educación para maximizar su efectividad y garantizar que los usuarios comprendan su importancia y funcionalidad.
+
+- La aplicación debe ser diseñada con un enfoque en la usabilidad y accesibilidad, asegurando que sea fácil de usar para todos los segmentos de la población, independientemente de su nivel de habilidad tecnológica.
+
 # Recomendaciones
 
 - Realizar campañas de concientización sobre el uso de la aplicación y su importancia en la mejora de la seguridad ciudadana.
@@ -4024,6 +4028,10 @@ Para dar a conocer PeaceApp y sus funcionalidades, se ha creado un video introdu
 - PeaceApp debe ser actualizada regularmente para incorporar nuevas funcionalidades y mejoras basadas en la retroalimentación de los usuarios.
 
 - Considerar la posibilidad de integrar la aplicación con otras plataformas y servicios relacionados con la seguridad ciudadana para ampliar su alcance y efectividad.
+
+- La aplicación debe ser diseñada con un enfoque en la privacidad y seguridad de los datos de los usuarios, garantizando que la información personal sea protegida adecuadamente.
+
+- La implementación de PeaceApp debe ser acompañada de un plan de monitoreo y evaluación para medir su impacto en la seguridad ciudadana y realizar ajustes según sea necesario.
 
 # Bibliografía
 - El 27,7% de los peruanos ha sido víctima de un hecho delictivo en ciudades en los últimos seis meses. (2024, August 26). Forbes. https://forbes.pe/actualidad/2024-08-26/el-277-de-los-peruanos-ha-sido-victima-de-un-hecho-delictivo-en-ciudades-en-los-ultimos-seis-meses
@@ -4037,6 +4045,14 @@ Para dar a conocer PeaceApp y sus funcionalidades, se ha creado un video introdu
 - Human Rights Watch. (2024). World Report 2024: Peru. Recuperado de https://www.hrw.org/world-report/2024/country-chapters/peru. Este informe detalla la corrupción, desafíos sociales y los derechos humanos en el contexto de la inseguridad en Perú.
 
 - International Crisis Group. (2023). Rage and Repression in Peru: Restoring Citizen Trust and Public Order. Recuperado de https://www.crisisgroup.org. Este análisis aborda las protestas sociales, la represión y las reformas necesarias para mitigar la inseguridad ciudadana y restaurar la confianza en el país.
+
+- Ministerio del Interior. (2024). Informe de Seguridad Ciudadana 2024. Recuperado de https://www.gob.pe/mininter/informes/seguridad-ciudadana-2024. Este informe proporciona estadísticas y análisis sobre la situación de la seguridad ciudadana en Perú, incluyendo datos sobre delitos y medidas implementadas.
+
+- Ministerio de Justicia y Derechos Humanos. (2024). Plan Nacional de Seguridad Ciudadana 2024-2026. Recuperado de https://www.gob.pe/minjus/planes/seguridad-ciudadana-2024-2026. Este plan establece las estrategias y acciones del gobierno para mejorar la seguridad ciudadana en Perú.
+
+- Ministerio de Transportes y Comunicaciones. (2024). Estadísticas de Transporte Urbano y Seguridad Vial. Recuperado de https://www.gob.pe/mtc/estadisticas/transporte-urbano-seguridad-vial. Este documento proporciona datos sobre la seguridad vial y el transporte urbano, aspectos relevantes para la seguridad ciudadana.
+
+- Organización de Estados Americanos (OEA). (2024). Informe sobre la Seguridad Ciudadana en América Latina y el Caribe. Recuperado de https://www.oas.org/es/sap/dil/documents/Informe_Seguridad_Ciudadana_2024.pdf. Este informe analiza la situación de la seguridad ciudadana en la región, incluyendo Perú, y propone recomendaciones para mejorar la seguridad y fortalecer las instituciones.
 
 # Anexos
 
