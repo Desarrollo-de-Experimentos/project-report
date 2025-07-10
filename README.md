@@ -383,7 +383,7 @@ conventional commits para las colaboraciones en los repositorios, al igual que l
    * [Recomendaciones](#recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
-
+- [Anexos](#anexos)
 
 # Student Outcome
 En Ingeniería de Software, el logro de curso contribuye a alcanzar el:
