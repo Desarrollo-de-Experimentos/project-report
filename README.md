@@ -3642,10 +3642,16 @@ Encuesta en Google Forms: Se utilizó una encuesta en Google Forms para recopila
 
 Enlace Google Forms: <https://docs.google.com/forms/d/e/1FAIpQLSfYRzOnemrSvOV5r4fDoeRFD4aUTOWzzv8hzbVkl7L4rb9kQA/viewform>
 
-<img src="./assets/img/googleforms.png" alt="Prototipo Web" width="100%" /> 
+<img src="./assets/img/googleforms.png" alt="Prototipo Web" width="70%" /> 
 
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
+Para dar a conocer PeaceApp y sus funcionalidades, se ha creado un video introductorio que explica cómo utilizar la aplicación y los beneficios que ofrece para mejorar la seguridad ciudadana. Este video está diseñado para ser informativo y atractivo, destacando las características clave de PeaceApp.
+
+
+<img src="./assets/video-abt-the-product/about-the-product.png" alt="" width="70%" /> 
+
+**Enlace al video about-the-product:** https://shorturl.at/VSZQ4
 
 
 # Conclusiones
