@@ -3518,7 +3518,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Implementar visualización de reportes en tiempo real</td>
                 <td class="task-cell">Crear interfaz para mostrar reportes de incidentes en tiempo real</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Mauricio</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3526,7 +3526,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Crear WebSocket para actualizaciones</td>
                 <td class="task-cell">Desarrollar endpoint WebSocket para transmitir nuevos reportes en tiempo real</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Arian</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3537,7 +3537,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Implementar buscador de direcciones</td>
                 <td class="task-cell">Desarrollar funcionalidad de búsqueda y autocompletado de direcciones</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Fabia</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3545,7 +3545,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Integrar servicio de geocodificación</td>
                 <td class="task-cell">Implementar integración con API de mapas para convertir direcciones a coordenadas</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Ramón</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3553,7 +3553,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Crear funcionalidad de reporte desde dirección</td>
                 <td class="task-cell">Desarrollar capacidad para reportar incidentes desde una dirección buscada</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Leonardo</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3563,7 +3563,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Implementar formulario de edición de perfil</td>
                 <td class="task-cell">Crear interfaz para que el usuario pueda modificar su información personal</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Leonardo</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3571,7 +3571,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Desarrollar validación de datos de perfil</td>
                 <td class="task-cell">Implementar validaciones para asegurar la integridad de los datos del perfil</td>
                 <td class="estimation">1</td>
-                <td>Ray</td>
+                <td>Ramón</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3579,7 +3579,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Crear endpoint para actualización de perfil</td>
                 <td class="task-cell">Desarrollar API para actualizar información del perfil de usuario</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Fabia</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3589,7 +3589,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Implementar extractor de datos externos</td>
                 <td class="task-cell">Desarrollar funcionalidad para extraer datos de reportes desde aplicaciones externas</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Arian</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3597,7 +3597,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Crear módulo de análisis de datos</td>
                 <td class="task-cell">Implementar generación de gráficos y análisis estadísticos de reportes</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Mauricio</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3605,7 +3605,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Desarrollar endpoint para análisis</td>
                 <td class="task-cell">Crear API para proporcionar datos de análisis a aplicaciones externas</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Mauricio</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3616,7 +3616,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Implementar vista de historial de reportes</td>
                 <td class="task-cell">Crear interfaz para mostrar el historial completo de reportes del usuario</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Ramón</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3624,7 +3624,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Desarrollar indicadores visuales por antigüedad</td>
                 <td class="task-cell">Implementar código de colores y símbolos para distinguir reportes por antigüedad</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Arian</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3632,7 +3632,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Crear endpoint para obtener historial</td>
                 <td class="task-cell">Desarrollar API para recuperar el historial de reportes con filtros y paginación</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Ramón</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3642,7 +3642,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Implementar pruebas de integración</td>
                 <td class="task-cell">Desarrollar suite de pruebas automatizadas para validar la funcionalidad completa</td>
                 <td class="estimation">3</td>
-                <td>Ray</td>
+                <td>Fabia</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3650,7 +3650,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Optimizar rendimiento del sistema</td>
                 <td class="task-cell">Realizar optimizaciones de base de datos y rendimiento de APIs</td>
                 <td class="estimation">3</td>
-                <td>Ray</td>
+                <td>Mauricio</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
             <tr>
@@ -3658,7 +3658,7 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
                 <td class="task-cell">Documentar APIs y funcionalidades</td>
                 <td class="task-cell">Crear documentación completa de APIs y manual de usuario</td>
                 <td class="estimation">2</td>
-                <td>Ray</td>
+                <td>Leonardo</td>
                 <td><span class="status-todo">Done</span></td>
             </tr>
         </tbody>
@@ -3684,9 +3684,24 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+![alt text](assets/landing-page/to-be-landing-evidence.png)
 
+La Historia de Usuario HU005 'Edición del perfil del usuario' se encuentra exitosamente implementada en la landing page de PeaceApp. Como se puede observar en la imagen, el formulario de contacto presenta una interfaz intuitiva y completa que permite a los usuarios ingresar y modificar su información personal, incluyendo campos para nombre, apellido, email, número de teléfono y una sección de mensaje personalizable.
+La implementación incluye validación en tiempo real de los datos ingresados (como se evidencia en los campos obligatorios marcados con asterisco), asegurando la integridad de la información antes de ser enviada al backend. El diseño responsivo y la disposición clara de los campos facilitan la experiencia del usuario, cumpliendo con los criterios de aceptación establecidos para esta historia de usuario. El botón 'SUBMIT' confirma la funcionalidad completa de envío de datos al sistema backend para su procesamiento y almacenamiento.
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+![alt text](assets/web-application/image.png)
+
+La Historia de Usuario HU001 'Reporte desde mapa web' ha sido implementada exitosamente en la aplicación web de PeaceApp. Como se puede observar en la captura de pantalla, la interfaz presenta un mapa interactivo completamente funcional que permite a los usuarios navegar por diferentes ubicaciones del mundo. La implementación incluye un servicio externo de mapas que tiene características clave como la visualización detallada del mapa con calles, parques, instituciones educativas y puntos de referencia claramente identificados.
+
+![alt text](assets/web-application/image-1.png)
+
+La Historia de Usuario HU006 "Historial de reportes" ha sido implementada exitosamente en la aplicación PeaceApp. Como se puede observar en la captura de pantalla, el panel lateral izquierdo muestra una funcionalidad completa de historial de reportes bajo la sección "Reports". Se muestra una lista organizada cronológicamente de incidentes reportados, incluyendo todo tipo de reportes. Cada uno de los reporte  muestra información contextual importante como: el tiempo transcurrido y título.
+
+![alt text](assets/web-application/image-2.png)
+
+La Historia de Usuario HU003 'Visualización en tiempo real' ha sido implementada exitosamente en la aplicación PeaceApp. Como se puede observar en la captura de pantalla, la interfaz presenta una visualización dinámica y en tiempo real de los reportes de incidentes sobre el mapa interactivo. La implementación muestra múltiples marcadores de alerta distribuidos en las ubicaciones registradas en los reportes. Los reportes aparecen en tiempo real conforme los usuarios registran reportes en sus ubicaciones.
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
