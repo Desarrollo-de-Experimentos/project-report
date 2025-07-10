@@ -3649,7 +3649,7 @@ Enlace Google Forms: <https://docs.google.com/forms/d/e/1FAIpQLSfYRzOnemrSvOV5r4
 Para dar a conocer PeaceApp y sus funcionalidades, se ha creado un video introductorio que explica cómo utilizar la aplicación y los beneficios que ofrece para mejorar la seguridad ciudadana. Este video está diseñado para ser informativo y atractivo, destacando las características clave de PeaceApp.
 
 
-<img src="./assets/video abt-the-product/about-the-product.png" alt="" width="70%" /> 
+<img src="./assets/video-abt-the-product/about-the-product.png" alt="" width="70%" /> 
 
 **Enlace al video about-the-product:** https://shorturl.at/VSZQ4
 
