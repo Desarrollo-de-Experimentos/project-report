@@ -3353,8 +3353,341 @@ Durante esta fase se define el estado futuro del producto (To-Be) a través de h
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 #### 8.3.3.1. To-Be Sprint Backlogs
+
+##### Complete To Be Sprint Backlog - All Sprints
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete To Be Sprint Backlog - All Sprints</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #495057;
+        }
+        .sprint-header {
+            background-color: #e9ecef;
+            font-weight: bold;
+            text-align: center;
+        }
+        .user-story-cell {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #495057;
+        }
+        .task-cell {
+            background-color: #ffffff;
+        }
+        .status-todo {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .estimation {
+            text-align: center;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .summary {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        .summary h2 {
+            color: #495057;
+            margin-bottom: 15px;
+        }
+        .summary h3 {
+            color: #6c757d;
+            margin: 10px 0;
+        }
+        .summary p {
+            margin: 5px 0;
+        }
+        .total-effort {
+            font-weight: bold;
+            color: #007bff;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+        <thead>
+            <tr>
+                <th>Sprint #</th>
+                <th colspan="2">User Story</th>
+                <th colspan="3">WorkItem/Task</th>
+                <th>Estimation (Story Points)</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="9" class="sprint-header">1</td>
+                <td rowspan="3" class="user-story-cell">HU001</td>
+                <td rowspan="3" class="user-story-cell">Reporte desde mapa web</td>
+                <td class="task-cell">TK01</td>
+                <td class="task-cell">Implementar interfaz de mapa web</td>
+                <td class="task-cell">Crear interfaz interactiva de mapa para seleccionar ubicación del incidente</td>
+                <td class="estimation">2</td>
+                <td>Arian</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK02</td>
+                <td class="task-cell">Desarrollar formulario de detalles</td>
+                <td class="task-cell">Implementar formulario para capturar información detallada del incidente</td>
+                <td class="estimation">2</td>
+                <td>Fabia</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK03</td>
+                <td class="task-cell">Crear endpoint para guardar incidentes</td>
+                <td class="task-cell">Desarrollar API REST para almacenar información de incidentes reportados</td>
+                <td class="estimation">2</td>
+                <td>Mauricio</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="user-story-cell">HU002</td>
+                <td rowspan="3" class="user-story-cell">Envío de ubicación móvil</td>
+                <td class="task-cell">TK04</td>
+                <td class="task-cell">Implementar captura de ubicación GPS</td>
+                <td class="task-cell">Desarrollar funcionalidad para obtener coordenadas GPS del dispositivo móvil</td>
+                <td class="estimation">2</td>
+                <td>Ramón</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="user-story-cell">HU003</td>
+                <td rowspan="3" class="user-story-cell">Visualización en tiempo real</td>
+                <td class="task-cell">TK05</td>
+                <td class="task-cell">Implementar visualización de reportes en tiempo real</td>
+                <td class="task-cell">Crear interfaz para mostrar reportes de incidentes en tiempo real</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK06</td>
+                <td class="task-cell">Crear WebSocket para actualizaciones</td>
+                <td class="task-cell">Desarrollar endpoint WebSocket para transmitir nuevos reportes en tiempo real</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td rowspan="9" class="sprint-header">2</td>
+                <td rowspan="3" class="user-story-cell">HU004</td>
+                <td rowspan="3" class="user-story-cell">Búsqueda de dirección en app móvil</td>
+                <td class="task-cell">TK07</td>
+                <td class="task-cell">Implementar buscador de direcciones</td>
+                <td class="task-cell">Desarrollar funcionalidad de búsqueda y autocompletado de direcciones</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK08</td>
+                <td class="task-cell">Integrar servicio de geocodificación</td>
+                <td class="task-cell">Implementar integración con API de mapas para convertir direcciones a coordenadas</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK09</td>
+                <td class="task-cell">Crear funcionalidad de reporte desde dirección</td>
+                <td class="task-cell">Desarrollar capacidad para reportar incidentes desde una dirección buscada</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="user-story-cell">HU005</td>
+                <td rowspan="3" class="user-story-cell">Edición del perfil del usuario</td>
+                <td class="task-cell">TK10</td>
+                <td class="task-cell">Implementar formulario de edición de perfil</td>
+                <td class="task-cell">Crear interfaz para que el usuario pueda modificar su información personal</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK11</td>
+                <td class="task-cell">Desarrollar validación de datos de perfil</td>
+                <td class="task-cell">Implementar validaciones para asegurar la integridad de los datos del perfil</td>
+                <td class="estimation">1</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK12</td>
+                <td class="task-cell">Crear endpoint para actualización de perfil</td>
+                <td class="task-cell">Desarrollar API para actualizar información del perfil de usuario</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="user-story-cell">HU007</td>
+                <td rowspan="3" class="user-story-cell">Extracción de datos desde app externa</td>
+                <td class="task-cell">TK13</td>
+                <td class="task-cell">Implementar extractor de datos externos</td>
+                <td class="task-cell">Desarrollar funcionalidad para extraer datos de reportes desde aplicaciones externas</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK14</td>
+                <td class="task-cell">Crear módulo de análisis de datos</td>
+                <td class="task-cell">Implementar generación de gráficos y análisis estadísticos de reportes</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK15</td>
+                <td class="task-cell">Desarrollar endpoint para análisis</td>
+                <td class="task-cell">Crear API para proporcionar datos de análisis a aplicaciones externas</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td rowspan="6" class="sprint-header">3</td>
+                <td rowspan="3" class="user-story-cell">HU006</td>
+                <td rowspan="3" class="user-story-cell">Historial de reportes</td>
+                <td class="task-cell">TK16</td>
+                <td class="task-cell">Implementar vista de historial de reportes</td>
+                <td class="task-cell">Crear interfaz para mostrar el historial completo de reportes del usuario</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK17</td>
+                <td class="task-cell">Desarrollar indicadores visuales por antigüedad</td>
+                <td class="task-cell">Implementar código de colores y símbolos para distinguir reportes por antigüedad</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK18</td>
+                <td class="task-cell">Crear endpoint para obtener historial</td>
+                <td class="task-cell">Desarrollar API para recuperar el historial de reportes con filtros y paginación</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="user-story-cell">-</td>
+                <td rowspan="3" class="user-story-cell">Mejoras y optimizaciones</td>
+                <td class="task-cell">TK19</td>
+                <td class="task-cell">Implementar pruebas de integración</td>
+                <td class="task-cell">Desarrollar suite de pruebas automatizadas para validar la funcionalidad completa</td>
+                <td class="estimation">3</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK20</td>
+                <td class="task-cell">Optimizar rendimiento del sistema</td>
+                <td class="task-cell">Realizar optimizaciones de base de datos y rendimiento de APIs</td>
+                <td class="estimation">3</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+            <tr>
+                <td class="task-cell">TK21</td>
+                <td class="task-cell">Documentar APIs y funcionalidades</td>
+                <td class="task-cell">Crear documentación completa de APIs y manual de usuario</td>
+                <td class="estimation">2</td>
+                <td>Ray</td>
+                <td><span class="status-todo">Done</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="summary">
+        <h2>Sprint Summary</h2>
+        <h3>Sprint 1 (Total: 18 Story Points)</h3>
+        <p><strong>HU001</strong>: Reporte desde mapa web (6 pts)</p>
+        <p><strong>HU002</strong>: Envío de ubicación móvil (6 pts)</p>
+        <p><strong>HU003</strong>: Visualización en tiempo real (6 pts)</p>
+        <h3>Sprint 2 (Total: 17 Story Points)</h3>
+        <p><strong>HU004</strong>: Búsqueda de dirección en app móvil (6 pts)</p>
+        <p><strong>HU005</strong>: Edición del perfil del usuario (5 pts)</p>
+        <p><strong>HU007</strong>: Extracción de datos desde app externa (6 pts)</p>
+        <h3>Sprint 3 (Total: 14 Story Points)</h3>
+        <p><strong>HU006</strong>: Historial de reportes (6 pts)</p>
+        <p><strong>Mejoras y optimizaciones</strong>: Testing, optimización y documentación (8 pts)</p>
+        <div class="total-effort">
+            <strong>Total Project Effort: 49 Story Points</strong>
+        </div>
+    </div>
+</div>
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 A continuación se presentan las evidencias de la implementación de la aplicación móvil PeaceApp, que incluye las pantallas principales y funcionalidades clave. Esta aplicación está diseñada para ser intuitiva y fácil de usar, permitiendo a los usuarios reportar incidentes de seguridad y recibir alertas en tiempo real.
